@@ -1,0 +1,692 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="04c07f68-0b0a-4f6a-b6a3-18b71b43dda0"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="K8ValidateRecord_PP"
+	namespace="K8_UK_PP_Regression">
+	</codegen>
+	<variables>
+		<var
+		id="506d5a92-a232-4191-8b1e-a50cea0fa571"
+		name="ValidateMapping">
+			DCK5541
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="Exists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="e01f4963-3bee-42f9-831e-17787a82fce6">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6a62eae3-516d-4735-b23c-bda6a144b3ce"
+			sourcename="ElementTree">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="1"
+				prefcap="cell"
+				rect="1719,268,79,16"
+				role="cell"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="isheader"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Product Code
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Cell
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						ReadOnly, Focusable, Selectable
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^K8UKPPD1\ sl1071\ K8UKPPD\ -']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[@accessiblename='Product Code']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="59c99fd2-0fbc-4f59-812e-b0c10aa2e173">
+				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
+			</helperscreenshot>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d0c4aaf6-bd7b-49de-9c56-031d6c4e0785"
+		sx="1753"
+		sy="277"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="6a62eae3-516d-4735-b23c-bda6a144b3ce"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="1"
+				prefcap="cell"
+				rect="1719,268,79,16"
+				role="cell"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="isheader"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Product Code
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Cell
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						ReadOnly, Focusable, Selectable
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^K8UKPPD1\ sl1071\ K8UKPPD\ -']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[@accessiblename='Product Code']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="5a874269-5805-43d7-8b56-61e6bf58719b">
+				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
+KKACiiigAooooA//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="Exists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="96fb2464-a55e-40a1-9919-ad1e2857f957">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4d56d79f-d07a-4d3a-a43a-4e54992c888e"
+			sourcename="ElementTree">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="1720,270,61,14"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^K8UKPPD1\ sl1071\ K8UKPPD\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid~'[d]*']//text[@accessiblerole='Text']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="d0bbdb6f-824a-49ae-8ef8-879bb71d7951">
+				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
+			</helperscreenshot>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d5f8a9c7-9952-49c6-92f4-9a86593220ba"
+		sx="1754"
+		sy="277"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4d56d79f-d07a-4d3a-a43a-4e54992c888e"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="1720,270,61,14"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^K8UKPPD1\ sl1071\ K8UKPPD\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid~'[d]*']//text[@accessiblerole='Text']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="bc47b5f5-9fa1-4818-8229-ab7bebf134bc">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="DCK5541"
+		duration="300ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="bf4ec377-6d3d-418a-ae08-f59232b8b450">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="ValidateMapping">
+				</binding>
+			</bindings>
+			<info
+			id="4d56d79f-d07a-4d3a-a43a-4e54992c888e"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^K8UKPPD1\ sl1071\ K8UKPPD\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid~'[d]*']//text[@accessiblerole='Text']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Tab}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="12d5e0e7-5af9-4dc9-a01e-aeb5a22d88ff">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4d56d79f-d07a-4d3a-a43a-4e54992c888e"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^K8UKPPD1\ sl1071\ K8UKPPD\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid~'[d]*']//text[@accessiblerole='Text']
+				</path>
+			</info>
+		</keysequenceitem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<loggingrecorditem
+		action="Screenshot"
+		category="User"
+		enabled="True"
+		message="View the mapping (if any)"
+		optional="False"
+		reportlevel="Success;110"
+		searchpropertyid="3076154c-6844-425e-a6a7-525757cf4fe4">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="f037d951-23f1-45b7-992d-98ea557dd93d"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="10"
+				prefcap="form"
+				rect="1592,-8,1936,1216"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="appicon"
+					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Maximized
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						K8UKPPD1 sl1071 K8UKPPD - Sales Order Processing - Sales Order (SL) 152198 (HJ Enfield) abubakarn
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						KCMLMasterForm_32
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						722838
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						3
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						5996
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						kclient
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, WindowEdge, ControlParent, ApplicationWindow
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, TiledWindow, Maximize, ClipChildren, ClipSiblings, Visible
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						K8UKPPD1 sl1071 K8UKPPD - Sales Order Processing - Sales Order (SL) 152198 (HJ Enfield) abubakarn
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title~'^K8UKPPD1\ sl1071\ K8UKPPD\ -\ Sales\ Orde']
+				</path>
+			</info>
+		</loggingrecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<userrecorditem
+		classname="K8ValidateRecord_PP"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="SupersedeWindowExists"
+		namespace="K8_UK_PP_Regression"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="500d4426-0161-4a4f-aca9-aa582d78fe71">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="1adcd73d-acba-446e-a5d5-c5a16120c7ec"
+	name="K8_UK_SOP_RegressionRepository"
+	relativepath="K8_UK_SOP_RegressionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="K8_UK_SOP_RegressionRepository"
+		namespace="K8_UK_PP_Regression">
+		</codegen>
+		<rootfolder
+		id="2b5dd7ef-5e90-4f11-a335-72c4f1a3e29d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		K8ValidateRecord_PP.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

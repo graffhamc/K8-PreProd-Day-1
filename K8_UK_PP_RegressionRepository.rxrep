@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+id="a0a885a7-5526-41c9-94f8-abd52ce9e6e4"
+name="K8_UK_PP_RegressionRepository"
+rxversion="9.0">
+	<codegen
+	classname="K8_UK_PP_RegressionRepository"
+	namespace="K8_UK_PP_Regression">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="776172c2-4aae-411a-8036-439c171a2339"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="48d36da5-341d-4406-9533-acc3fcaf48a6"
+		isrooted="True"
+		name="Sl1071K8UKPPD1HowdensK8HJ09v3"
+		refpath="/form[@title='sl1071 K8UKPPD 1    - Howdens K8-HJ09v3 (HJ Ilford) d961manager']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="3f50e26d-6d36-4013-a694-25ce89fdb9f8"
+			name="HowdensHistory"
+			refimgid="08552b37-cd19-44c4-b837-a9795056e1de"
+			refpath="/form[@title='sl1071 K8UKPPD 1    - Howdens K8-HJ09v3 (HJ Ilford) d961manager']/element[@controlid='62']/element[@controlid='66']/toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Howdens History']"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\ \ \ \ -\ How']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Howdens History']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="05658b66-65ca-4b8f-b430-8d7966980e83"
+			name="PushButton"
+			refimgid="e73c7dbd-943a-4023-b827-de502bc8a11e"
+			refpath="/form[@title='sl1071 K8UKPPD 1    - Howdens K8-HJ09v3 (HJ Ilford) d961manager']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26955']/element[@class='KCMLDlgWndClass_32' and @instance='0']/element[@controlid='27466']/button[@accessiblerole='PushButton']"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\ \ \ \ -\ How']/?/?/element[@controlid='26955']/?/?/element[@controlid='27466']/button[@accessiblerole='PushButton']
+			</item>
+			<basepath>
+				/form[@title~'^sl1071\ K8UKPPD\ 1\ \ \ \ -\ How']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="5628cac3-5c50-405d-8573-14290d476a0a"
+		isrooted="True"
+		name="Filter"
+		refpath="/form[@title='Filter']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="eb3c2deb-102b-4a33-a79e-4f618895cd61"
+			name="Between"
+			refimgid="a34e389d-a0cd-485e-9601-a6b1ab6ba742"
+			refpath="/form[@title='Filter']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26698']/text[@accessiblename='Between:']"
+			searchtimeout="30000ms">
+				/form[@title='Filter']/?/?/element[@controlid='26683']/?/?/element[@controlid='26698']/text[@accessiblename='Between:']
+			</item>
+			<basepath>
+				/form[@title='Filter']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

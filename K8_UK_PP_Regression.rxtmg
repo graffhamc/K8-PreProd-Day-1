@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="9.0">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="e47ceafd-d30f-48b7-8ace-300ead5d58c2"
+			name="K8_UK_PP_Regression">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="e47ceafd-d30f-48b7-8ace-300ead5d58c2"
+			name="K8_UK_PP_Regression">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

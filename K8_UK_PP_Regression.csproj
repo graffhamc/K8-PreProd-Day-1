@@ -1,0 +1,1468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{E5225D8D-26B8-41E7-AF90-188BE182C5C6}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>K8_UK_PP_Regression</RootNamespace>
+    <AssemblyName>K8_UK_PP_Regression</AssemblyName>
+    <RanorexVersion>9.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <projectdefaultrepository>44cfe1e9-7d33-40ad-9953-a0cb29712d35</projectdefaultrepository>
+    <TargetFrameworkProfile />
+    <StartAction>Project</StartAction>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.Targets" />
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=1.0.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.12.1\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>8487e8f3-0370-4ae6-9101-929a31b8ab4e</id>
+    </Compile>
+    <Compile Include="K8AccountPaymentReversal_PP.cs">
+      <BoundTo>f8003b84-f384-4265-b03a-c29073e51efc</BoundTo>
+      <DependentUpon>K8AccountPaymentReversal_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f0c9f94d-8190-4411-9865-87cca4673dd1</id>
+    </Compile>
+    <Compile Include="K8AccountPaymentReversal_PP.UserCode.cs">
+      <BoundTo>f8003b84-f384-4265-b03a-c29073e51efc</BoundTo>
+      <DependentUpon>K8AccountPaymentReversal_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9ed41764-d0e4-43d9-a594-602aaa6f77bd</id>
+    </Compile>
+    <Compile Include="K8AmendAssociateRecord_PP.cs">
+      <BoundTo>25191c7f-6282-4c08-b4c0-37aa546fbafb</BoundTo>
+      <DependentUpon>K8AmendAssociateRecord_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>af646a00-6bf4-43c9-9071-7adc7b7e5107</id>
+    </Compile>
+    <Compile Include="K8AmendAssociateRecord_PP.UserCode.cs">
+      <BoundTo>25191c7f-6282-4c08-b4c0-37aa546fbafb</BoundTo>
+      <DependentUpon>K8AmendAssociateRecord_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>dd5ab7b6-5764-429d-b273-cbb8e25a940d</id>
+    </Compile>
+    <Compile Include="K8AmendQuotation_PP.cs">
+      <BoundTo>7a4fa973-f1e5-4716-8330-d796b82ed92e</BoundTo>
+      <DependentUpon>K8AmendQuotation_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9555e02a-d28e-4aca-a5d1-420124044035</id>
+    </Compile>
+    <Compile Include="K8AmendQuotation_PP.UserCode.cs">
+      <BoundTo>7a4fa973-f1e5-4716-8330-d796b82ed92e</BoundTo>
+      <DependentUpon>K8AmendQuotation_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ab611c0c-a0c8-4b96-8149-a6fedc775dbc</id>
+    </Compile>
+    <Compile Include="K8AmendSalesOrder_PP.cs">
+      <BoundTo>93eb9504-30ae-4b25-b0f7-22c8e31ecc23</BoundTo>
+      <DependentUpon>K8AmendSalesOrder_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bfe36b25-5e1c-4aab-b08b-751b2091dfab</id>
+    </Compile>
+    <Compile Include="K8AmendSalesOrder_PP.UserCode.cs">
+      <BoundTo>93eb9504-30ae-4b25-b0f7-22c8e31ecc23</BoundTo>
+      <DependentUpon>K8AmendSalesOrder_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>81bcc00b-34d3-47a2-bc4d-adf509f7461f</id>
+    </Compile>
+    <Compile Include="K8BookInStock_PP.cs">
+      <BoundTo>b4841e35-aa25-4996-9fd6-5781a5ffbb23</BoundTo>
+      <DependentUpon>K8BookInStock_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4ff59bb1-71b7-4191-af3f-ce771170c4b5</id>
+    </Compile>
+    <Compile Include="K8BookInStock_PP.UserCode.cs">
+      <BoundTo>b4841e35-aa25-4996-9fd6-5781a5ffbb23</BoundTo>
+      <DependentUpon>K8BookInStock_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4d66eb86-0065-4524-b325-0ec8ec2c788e</id>
+    </Compile>
+    <Compile Include="K8CreateAssociateRecord_PP.cs">
+      <BoundTo>cba9b974-0d05-4b52-9013-f3a895a9f53e</BoundTo>
+      <DependentUpon>K8CreateAssociateRecord_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0830c007-fb41-41e6-a2a5-4933f5539b74</id>
+    </Compile>
+    <Compile Include="K8CreateAssociateRecord_PP.UserCode.cs">
+      <BoundTo>cba9b974-0d05-4b52-9013-f3a895a9f53e</BoundTo>
+      <DependentUpon>K8CreateAssociateRecord_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f0d43b56-e22b-41e9-83c6-78523770a9dd</id>
+    </Compile>
+    <Compile Include="K8CreateQuotationHeader_PP.cs">
+      <BoundTo>6ce41e15-6aff-4c0c-8c8d-d2a2a692db60</BoundTo>
+      <DependentUpon>K8CreateQuotationHeader_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>090a06b8-044a-45ab-9451-307aac0853fc</id>
+    </Compile>
+    <Compile Include="K8CreateQuotationHeader_PP.UserCode.cs">
+      <BoundTo>6ce41e15-6aff-4c0c-8c8d-d2a2a692db60</BoundTo>
+      <DependentUpon>K8CreateQuotationHeader_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>73eabe70-15af-4fcd-b655-11c39a9d0163</id>
+    </Compile>
+    <Compile Include="K8CreateSalesOrderLinesPartSupplied_PP.cs">
+      <BoundTo>943c8bae-a554-4a13-9685-1d1a252331ce</BoundTo>
+      <DependentUpon>K8CreateSalesOrderLinesPartSupplied_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>14435897-0c92-442e-bddb-c4d5c0404991</id>
+    </Compile>
+    <Compile Include="K8CreateSalesOrderLinesPartSupplied_PP.UserCode.cs">
+      <BoundTo>943c8bae-a554-4a13-9685-1d1a252331ce</BoundTo>
+      <DependentUpon>K8CreateSalesOrderLinesPartSupplied_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2e249493-d6f9-4efb-8419-6b96a07929a1</id>
+    </Compile>
+    <Compile Include="K8DeleteAssociateRecord_PP.cs">
+      <BoundTo>35c194a4-a4af-4296-8b8e-0009792fddfd</BoundTo>
+      <DependentUpon>K8DeleteAssociateRecord_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>27821c75-3d4c-4f5b-8216-e76f0c80431a</id>
+    </Compile>
+    <Compile Include="K8DeleteAssociateRecord_PP.UserCode.cs">
+      <BoundTo>35c194a4-a4af-4296-8b8e-0009792fddfd</BoundTo>
+      <DependentUpon>K8DeleteAssociateRecord_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1b2c085d-9f6d-469b-848d-6b6582ccf62c</id>
+    </Compile>
+    <Compile Include="K8DeleteQuotationLines_PP.cs">
+      <BoundTo>2392efee-3c91-4966-84e2-0c16bf5a220b</BoundTo>
+      <DependentUpon>K8DeleteQuotationLines_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7024c5a3-a6f0-41a0-bec9-6e9b58ef8c95</id>
+    </Compile>
+    <Compile Include="K8DeleteQuotationLines_PP.UserCode.cs">
+      <BoundTo>2392efee-3c91-4966-84e2-0c16bf5a220b</BoundTo>
+      <DependentUpon>K8DeleteQuotationLines_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>23807c26-335d-4fa0-89fd-3a3f79af09c1</id>
+    </Compile>
+    <Compile Include="K8DeleteSalesOrderLines_PP.cs">
+      <BoundTo>f2a5f6d8-8586-4fe8-8740-9b93b4b66fce</BoundTo>
+      <DependentUpon>K8DeleteSalesOrderLines_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0edcb30a-184d-44ba-9069-80a831d838f6</id>
+    </Compile>
+    <Compile Include="K8DeleteSalesOrderLines_PP.UserCode.cs">
+      <BoundTo>f2a5f6d8-8586-4fe8-8740-9b93b4b66fce</BoundTo>
+      <DependentUpon>K8DeleteSalesOrderLines_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>96ac74ab-44dc-41ca-b131-03b537fdb9d1</id>
+    </Compile>
+    <Compile Include="K8DeleteSupersedeRecord_PP.cs">
+      <BoundTo>f42e9031-9136-4297-82af-fdccfaa7a5fd</BoundTo>
+      <DependentUpon>K8DeleteSupersedeRecord_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>56cef3cf-1bb1-4a91-a758-576061197392</id>
+    </Compile>
+    <Compile Include="K8DeleteSupersedeRecord_PP.UserCode.cs">
+      <BoundTo>f42e9031-9136-4297-82af-fdccfaa7a5fd</BoundTo>
+      <DependentUpon>K8DeleteSupersedeRecord_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4ed28491-4ad6-4793-b428-6668b4fd63b6</id>
+    </Compile>
+    <Compile Include="K8AmendSupersedeRecord_PP.cs">
+      <BoundTo>c5a5eb67-0ebf-45e7-9ca3-6a7cd4e5761a</BoundTo>
+      <DependentUpon>K8AmendSupersedeRecord_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4eeff5fd-47b9-40e8-81ac-66e20fc9c98c</id>
+    </Compile>
+    <Compile Include="K8AmendSupersedeRecord_PP.UserCode.cs">
+      <BoundTo>c5a5eb67-0ebf-45e7-9ca3-6a7cd4e5761a</BoundTo>
+      <DependentUpon>K8AmendSupersedeRecord_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9fd47627-bfd7-401a-9852-ccee6f33d62c</id>
+    </Compile>
+    <Compile Include="K8CreateSupersedeRecord_PP.cs">
+      <BoundTo>376bc780-5560-41b9-9c83-01adcc4e813c</BoundTo>
+      <DependentUpon>K8CreateSupersedeRecord_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a66501c0-0445-42fd-8ca2-ae14211c343a</id>
+    </Compile>
+    <Compile Include="K8CreateSupersedeRecord_PP.UserCode.cs">
+      <BoundTo>376bc780-5560-41b9-9c83-01adcc4e813c</BoundTo>
+      <DependentUpon>K8CreateSupersedeRecord_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f4a51c34-dfcd-4f5c-a24b-33b0018f5358</id>
+    </Compile>
+    <Compile Include="K8GetAmendedOrderInfo_PP.cs">
+      <BoundTo>dfe29a48-26af-492f-9312-584fffeeb691</BoundTo>
+      <DependentUpon>K8GetAmendedOrderInfo_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9043f7ce-50f0-4b19-8701-45fa6825994e</id>
+    </Compile>
+    <Compile Include="K8GetAmendedOrderInfo_PP.UserCode.cs">
+      <BoundTo>dfe29a48-26af-492f-9312-584fffeeb691</BoundTo>
+      <DependentUpon>K8GetAmendedOrderInfo_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>40f5b83d-ce59-4716-a30c-85f40f3babf3</id>
+    </Compile>
+    <Compile Include="K8GetFullySuppliedSalesOrderInfo_PP.cs">
+      <BoundTo>c8876f87-efe8-4052-9e44-949a2e0be6f8</BoundTo>
+      <DependentUpon>K8GetFullySuppliedSalesOrderInfo_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>51b69871-2835-4775-be92-9641802cd038</id>
+    </Compile>
+    <Compile Include="K8GetFullySuppliedSalesOrderInfo_PP.UserCode.cs">
+      <BoundTo>c8876f87-efe8-4052-9e44-949a2e0be6f8</BoundTo>
+      <DependentUpon>K8GetFullySuppliedSalesOrderInfo_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>448cf4db-9dd7-4f17-960f-4f575524a0c8</id>
+    </Compile>
+    <Compile Include="K8GetPartSuppliedFullyPaidSalesOrderInfo_PP.cs">
+      <BoundTo>05a0b556-d583-404b-a58a-cdfe22f3f6cd</BoundTo>
+      <DependentUpon>K8GetPartSuppliedFullyPaidSalesOrderInfo_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b4b2ac91-b742-406b-ab4d-9c2a5fd3d2b7</id>
+    </Compile>
+    <Compile Include="K8GetPartSuppliedFullyPaidSalesOrderInfo_PP.UserCode.cs">
+      <BoundTo>05a0b556-d583-404b-a58a-cdfe22f3f6cd</BoundTo>
+      <DependentUpon>K8GetPartSuppliedFullyPaidSalesOrderInfo_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a5c674c7-1782-4f58-a7f8-b573dd11e705</id>
+    </Compile>
+    <Compile Include="K8GetRefundOrderInfo_PP.cs">
+      <id>35931099-de0e-4f06-9d0b-382be3783d6c</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>K8GetRefundOrderInfo_PP.rxrec</DependentUpon>
+      <BoundTo>348ab2c6-f3bc-409e-aea5-0b75638f1db1</BoundTo>
+    </Compile>
+    <Compile Include="K8GetRefundOrderInfo_PP.UserCode.cs">
+      <id>a0b224be-31e7-41c6-a3ba-38c4d29633e6</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>K8GetRefundOrderInfo_PP.rxrec</DependentUpon>
+      <BoundTo>348ab2c6-f3bc-409e-aea5-0b75638f1db1</BoundTo>
+    </Compile>
+    <Compile Include="K8CreateSalesOrderHeader_PP.cs">
+      <id>a3c5be39-964f-4efb-9ea5-e34629e171c3</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>K8CreateSalesOrderHeader_PP.rxrec</DependentUpon>
+      <BoundTo>4ef4b5cd-d214-4a3d-b26a-21a957d527ec</BoundTo>
+    </Compile>
+    <Compile Include="K8CreateSalesOrderHeader_PP.UserCode.cs">
+      <id>582a3d4b-4bdd-412f-a07c-640a00bfa245</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>K8CreateSalesOrderHeader_PP.rxrec</DependentUpon>
+      <BoundTo>4ef4b5cd-d214-4a3d-b26a-21a957d527ec</BoundTo>
+    </Compile>
+    <Compile Include="K8CreateSalesOrderLines_PP.cs">
+      <id>4a4eea55-263e-4848-bfd0-3f5329347c36</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>K8CreateSalesOrderLines_PP.rxrec</DependentUpon>
+      <BoundTo>6418c6d2-1f1e-4757-9228-7f61e6743209</BoundTo>
+    </Compile>
+    <Compile Include="K8CreateSalesOrderLines_PP.UserCode.cs">
+      <id>1b012adb-d153-4790-99c1-2f0e34dea12d</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>K8CreateSalesOrderLines_PP.rxrec</DependentUpon>
+      <BoundTo>6418c6d2-1f1e-4757-9228-7f61e6743209</BoundTo>
+    </Compile>
+    <Compile Include="K8GetSalesOrderInfo2_PP.cs">
+      <BoundTo>f802bf76-4f57-47b9-9791-eb334bc67de8</BoundTo>
+      <DependentUpon>K8GetSalesOrderInfo2_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ffefd6e4-00d3-4ef2-9470-06b4d208f869</id>
+    </Compile>
+    <Compile Include="K8GetSalesOrderInfo2_PP.UserCode.cs">
+      <BoundTo>f802bf76-4f57-47b9-9791-eb334bc67de8</BoundTo>
+      <DependentUpon>K8GetSalesOrderInfo2_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8d94f6be-84b1-48ea-8ace-564e72cddbdd</id>
+    </Compile>
+    <Compile Include="K8GetSalesOrderInfo_PP.cs">
+      <id>71cef66b-8f87-48d3-b9cc-b38ec6863dbf</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>K8GetSalesOrderInfo_PP.rxrec</DependentUpon>
+      <BoundTo>1753fbec-147a-4fe2-95a7-ae293c8afa2d</BoundTo>
+    </Compile>
+    <Compile Include="K8GetSalesOrderInfo_PP.UserCode.cs">
+      <id>77b39efa-beef-4eee-8966-f021011d6afc</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>K8GetSalesOrderInfo_PP.rxrec</DependentUpon>
+      <BoundTo>1753fbec-147a-4fe2-95a7-ae293c8afa2d</BoundTo>
+    </Compile>
+    <Compile Include="K8InvokePurchaseOrder_PP.cs">
+      <BoundTo>2bf29d27-1fe7-48e6-80df-e1fab1c92905</BoundTo>
+      <DependentUpon>K8InvokePurchaseOrder_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4f151cba-7a46-4b35-9bd9-bcd8ab073db2</id>
+    </Compile>
+    <Compile Include="K8InvokePurchaseOrder_PP.UserCode.cs">
+      <BoundTo>2bf29d27-1fe7-48e6-80df-e1fab1c92905</BoundTo>
+      <DependentUpon>K8InvokePurchaseOrder_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>464d47ae-b4e9-4754-bd34-5b550505af5a</id>
+    </Compile>
+    <Compile Include="K8InvokeSOP_PP.cs">
+      <id>f684aa7f-c667-415c-a4cd-1f857b4cf3a3</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>K8InvokeSOP_PP.rxrec</DependentUpon>
+      <BoundTo>2aa9f760-a485-45bf-8424-34e9cd98d85e</BoundTo>
+    </Compile>
+    <Compile Include="K8InvokeSOP_PP.UserCode.cs">
+      <id>6c68b558-d3a0-4fc7-9307-c2a45cb1c4b9</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>K8InvokeSOP_PP.rxrec</DependentUpon>
+      <BoundTo>2aa9f760-a485-45bf-8424-34e9cd98d85e</BoundTo>
+    </Compile>
+    <Compile Include="K8Login_PP.cs">
+      <id>d958a456-8e9b-4a0a-aa5a-e1540c780ac8</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>K8Login_PP.rxrec</DependentUpon>
+      <BoundTo>f860a039-ebf3-4a7a-9c20-28b913aa0d5b</BoundTo>
+    </Compile>
+    <Compile Include="K8Login_PP.UserCode.cs">
+      <id>6ad2fcc2-ead2-4407-b0df-6ed33532c1ad</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>K8Login_PP.rxrec</DependentUpon>
+      <BoundTo>f860a039-ebf3-4a7a-9c20-28b913aa0d5b</BoundTo>
+    </Compile>
+    <Compile Include="K8Logout_PP.cs">
+      <id>abfe2b7a-82fa-4ca1-af00-89ef88b01300</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>K8Logout_PP.rxrec</DependentUpon>
+      <BoundTo>712bc312-6788-4220-8398-8a565347ecf2</BoundTo>
+    </Compile>
+    <Compile Include="K8Logout_PP.UserCode.cs">
+      <id>010aeef4-1c22-42e2-a164-435d198909af</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>K8Logout_PP.rxrec</DependentUpon>
+      <BoundTo>712bc312-6788-4220-8398-8a565347ecf2</BoundTo>
+    </Compile>
+    <Compile Include="K8MakeAccountPayment_PP.cs">
+      <id>d7e31e4c-4dcf-4aba-9304-58b9ce02dbde</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>K8MakeAccountPayment_PP.rxrec</DependentUpon>
+      <BoundTo>16323788-2970-4d6f-9d56-1b7d07f9616d</BoundTo>
+    </Compile>
+    <Compile Include="K8MakeAccountPayment_PP.UserCode.cs">
+      <id>7e943cc6-8c32-4adb-9625-53329f43c9be</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>K8MakeAccountPayment_PP.rxrec</DependentUpon>
+      <BoundTo>16323788-2970-4d6f-9d56-1b7d07f9616d</BoundTo>
+    </Compile>
+    <Compile Include="K8MakeCashAdjustmentPP.cs">
+      <id>f02e50dd-3333-4bfd-aab3-a3649bd3ab89</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>K8MakeCashAdjustmentPP.rxrec</DependentUpon>
+      <BoundTo>fed37019-7086-4f99-a538-fc76c65fc32e</BoundTo>
+    </Compile>
+    <Compile Include="K8MakeCashAdjustmentPP.UserCode.cs">
+      <id>9db11d0c-716b-47cf-bf03-b9f8e239cb86</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>K8MakeCashAdjustmentPP.rxrec</DependentUpon>
+      <BoundTo>fed37019-7086-4f99-a538-fc76c65fc32e</BoundTo>
+    </Compile>
+    <Compile Include="K8MakeCustomerAmendment.cs">
+      <BoundTo>759bf73a-4858-433b-83fc-6ee1f30cc764</BoundTo>
+      <DependentUpon>K8MakeCustomerAmendment.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9156e2e4-3843-4f40-8820-875acfc11875</id>
+    </Compile>
+    <Compile Include="K8MakeCustomerAmendment.UserCode.cs">
+      <BoundTo>759bf73a-4858-433b-83fc-6ee1f30cc764</BoundTo>
+      <DependentUpon>K8MakeCustomerAmendment.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e95a6240-0573-4ca2-b22a-35f1fac35070</id>
+    </Compile>
+    <Compile Include="K8MakeCustomerAmendment_PP.cs">
+      <BoundTo>a2e37bf7-a382-4117-a8f9-751d9fcc39f3</BoundTo>
+      <DependentUpon>K8MakeCustomerAmendment_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>215cf78b-d151-4001-9950-3103c837c798</id>
+    </Compile>
+    <Compile Include="K8MakeCustomerAmendment_PP.UserCode.cs">
+      <BoundTo>a2e37bf7-a382-4117-a8f9-751d9fcc39f3</BoundTo>
+      <DependentUpon>K8MakeCustomerAmendment_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>02413820-7277-42bf-9932-0d80766d17f9</id>
+    </Compile>
+    <Compile Include="K8OpenSalesOrder_PP.cs">
+      <BoundTo>6c6e1a0a-6f6a-442c-bdcd-c55e507b6bca</BoundTo>
+      <DependentUpon>K8OpenSalesOrder_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b9dd453e-3bab-4c4f-9b6c-1e85ebaf240e</id>
+    </Compile>
+    <Compile Include="K8OpenSalesOrder_PP.UserCode.cs">
+      <BoundTo>6c6e1a0a-6f6a-442c-bdcd-c55e507b6bca</BoundTo>
+      <DependentUpon>K8OpenSalesOrder_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eaa74679-1987-4789-a812-69dd65a2191e</id>
+    </Compile>
+    <Compile Include="K8PayByCash_PP.cs">
+      <id>c1640623-e40d-4765-9235-4fd210e07d3d</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>K8PayByCash_PP.rxrec</DependentUpon>
+      <BoundTo>4476cd3b-a72c-46f7-a217-d9c7105fe293</BoundTo>
+    </Compile>
+    <Compile Include="K8PayByCash_PP.UserCode.cs">
+      <id>c6579dad-512b-478f-8466-f50fa26f773c</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>K8PayByCash_PP.rxrec</DependentUpon>
+      <BoundTo>4476cd3b-a72c-46f7-a217-d9c7105fe293</BoundTo>
+    </Compile>
+    <Compile Include="K8ProcessAmendedOrder_PP.cs">
+      <BoundTo>17f54c1c-52a3-45c6-ba1c-23dbf7a61453</BoundTo>
+      <DependentUpon>K8ProcessAmendedOrder_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3311fd52-678d-41a3-b0d5-c0f1db8e4633</id>
+    </Compile>
+    <Compile Include="K8ProcessAmendedOrder_PP.UserCode.cs">
+      <BoundTo>17f54c1c-52a3-45c6-ba1c-23dbf7a61453</BoundTo>
+      <DependentUpon>K8ProcessAmendedOrder_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>56022024-03c9-4e58-830e-7254fe57579b</id>
+    </Compile>
+    <Compile Include="K8ProcessCreditPayment_PP.cs">
+      <id>f42b5803-c099-4e27-b73c-ed6c12c2338f</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>K8ProcessCreditPayment_PP.rxrec</DependentUpon>
+      <BoundTo>3a7a9cad-ee07-4c36-92eb-b4c982e73ea1</BoundTo>
+    </Compile>
+    <Compile Include="K8ProcessCreditPayment_PP.UserCode.cs">
+      <id>23ca1e97-2ce8-49a3-a72d-530a87e5d61a</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>K8ProcessCreditPayment_PP.rxrec</DependentUpon>
+      <BoundTo>3a7a9cad-ee07-4c36-92eb-b4c982e73ea1</BoundTo>
+    </Compile>
+    <Compile Include="K8ProcessPayment_PP.cs">
+      <id>7c842ea5-e2b1-429f-90e0-50842ca36d78</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>K8ProcessPayment_PP.rxrec</DependentUpon>
+      <BoundTo>3e5da48f-091d-4374-9fce-4794f4301b3f</BoundTo>
+    </Compile>
+    <Compile Include="K8ProcessPayment_PP.UserCode.cs">
+      <id>5dfc35e9-03e3-42d6-a810-0f69e64cac96</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>K8ProcessPayment_PP.rxrec</DependentUpon>
+      <BoundTo>3e5da48f-091d-4374-9fce-4794f4301b3f</BoundTo>
+    </Compile>
+    <Compile Include="K8ProcessSTN.cs">
+      <BoundTo>cc1e31b4-c595-44e3-82c0-bfed5885eb31</BoundTo>
+      <DependentUpon>K8ProcessSTN.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1269dfca-4631-4831-bfe5-9018816285b1</id>
+    </Compile>
+    <Compile Include="K8ProcessSTN.UserCode.cs">
+      <BoundTo>cc1e31b4-c595-44e3-82c0-bfed5885eb31</BoundTo>
+      <DependentUpon>K8ProcessSTN.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2f97fe3f-9ed8-4665-aa03-bb2a694f7322</id>
+    </Compile>
+    <Compile Include="K8ProcessSubsequentOrder_PP.cs">
+      <BoundTo>9aa7e59a-4277-4afb-923d-11f36153816f</BoundTo>
+      <DependentUpon>K8ProcessSubsequentOrder_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>73cd45ef-95ca-47ee-ae56-e8dcade44f35</id>
+    </Compile>
+    <Compile Include="K8ProcessSubsequentOrder_PP.UserCode.cs">
+      <BoundTo>9aa7e59a-4277-4afb-923d-11f36153816f</BoundTo>
+      <DependentUpon>K8ProcessSubsequentOrder_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>57823202-e15e-4bab-a3f0-d71a6618686a</id>
+    </Compile>
+    <Compile Include="K8RaiseSTN_PP.cs">
+      <BoundTo>1636d336-4623-490f-b623-828980c92342</BoundTo>
+      <DependentUpon>K8RaiseSTN_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a7f0398f-e0c1-4fa7-a89b-778521902ddd</id>
+    </Compile>
+    <Compile Include="K8RaiseSTN_PP.UserCode.cs">
+      <BoundTo>1636d336-4623-490f-b623-828980c92342</BoundTo>
+      <DependentUpon>K8RaiseSTN_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>70a2fdcf-32ba-469d-b629-583ae35c7965</id>
+    </Compile>
+    <Compile Include="K8ReceiveSTN_PP.cs">
+      <BoundTo>a01e148e-3e8f-4019-8843-0549ab13a4fb</BoundTo>
+      <DependentUpon>K8ReceiveSTN_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>68d44124-f060-49c9-8885-38e783231a11</id>
+    </Compile>
+    <Compile Include="K8ReceiveSTN_PP.UserCode.cs">
+      <BoundTo>a01e148e-3e8f-4019-8843-0549ab13a4fb</BoundTo>
+      <DependentUpon>K8ReceiveSTN_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a3a8ab0a-ba50-4b6b-881a-4090a2df3e81</id>
+    </Compile>
+    <Compile Include="K8Refund_PP.cs">
+      <id>ce0b8874-cae3-4ee2-ab0a-065c17053e15</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>K8Refund_PP.rxrec</DependentUpon>
+      <BoundTo>d9a3a011-9893-4a7c-94a6-1433f2a0dc7c</BoundTo>
+    </Compile>
+    <Compile Include="K8Refund_PP.UserCode.cs">
+      <id>da6032cc-ac55-402f-8d28-f832faf96de3</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>K8Refund_PP.rxrec</DependentUpon>
+      <BoundTo>d9a3a011-9893-4a7c-94a6-1433f2a0dc7c</BoundTo>
+    </Compile>
+    <Compile Include="K8RemoteStockLookup_PP.cs">
+      <BoundTo>b925378c-47dc-4c9b-b780-68c6d1fda2e8</BoundTo>
+      <DependentUpon>K8RemoteStockLookup_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f6ae561c-6e58-41ea-aa6d-f26a00f0a75b</id>
+    </Compile>
+    <Compile Include="K8RemoteStockLookup_PP.UserCode.cs">
+      <BoundTo>b925378c-47dc-4c9b-b780-68c6d1fda2e8</BoundTo>
+      <DependentUpon>K8RemoteStockLookup_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d70b1b4c-d690-4696-abad-d6d4485e266a</id>
+    </Compile>
+    <Compile Include="K8SaveQuotation_PP.cs">
+      <BoundTo>fa625520-fce6-49b3-9e65-1f9d44b35041</BoundTo>
+      <DependentUpon>K8SaveQuotation_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4afbc6b2-5c6a-4f73-be34-953eb6bc9e5d</id>
+    </Compile>
+    <Compile Include="K8SaveQuotation_PP.UserCode.cs">
+      <BoundTo>fa625520-fce6-49b3-9e65-1f9d44b35041</BoundTo>
+      <DependentUpon>K8SaveQuotation_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b69ea33f-88b1-47b0-b26f-4050f1fb54a8</id>
+    </Compile>
+    <Compile Include="K8SaveSalesOrder_PP.cs">
+      <BoundTo>77ad0b0a-4c8a-44d4-a724-66ee702c5dd3</BoundTo>
+      <DependentUpon>K8SaveSalesOrder_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>47eac2c6-b59c-41b9-9048-d947e29b763e</id>
+    </Compile>
+    <Compile Include="K8SaveSalesOrder_PP.UserCode.cs">
+      <BoundTo>77ad0b0a-4c8a-44d4-a724-66ee702c5dd3</BoundTo>
+      <DependentUpon>K8SaveSalesOrder_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7f7dc29b-bffc-47f1-b91a-106656dd7f3e</id>
+    </Compile>
+    <Compile Include="K8SaveSBOSalesOrder_PP.cs">
+      <BoundTo>13ff9cf5-6579-4f54-b343-4b2d933d44af</BoundTo>
+      <DependentUpon>K8SaveSBOSalesOrder_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8b668270-d1f6-4d0d-bf13-59b560e39ffe</id>
+    </Compile>
+    <Compile Include="K8SaveSBOSalesOrder_PP.UserCode.cs">
+      <BoundTo>13ff9cf5-6579-4f54-b343-4b2d933d44af</BoundTo>
+      <DependentUpon>K8SaveSBOSalesOrder_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8ce022b3-5a31-44f0-9347-fb057f2669ba</id>
+    </Compile>
+    <Compile Include="K8SetDepot_PP.cs">
+      <BoundTo>44c930f5-e8a9-488b-90a5-4e36b032089a</BoundTo>
+      <DependentUpon>K8SetDepot_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7459cea5-7844-4cae-92de-387b4c4e9d2e</id>
+    </Compile>
+    <Compile Include="K8SetDepot_PP.UserCode.cs">
+      <BoundTo>44c930f5-e8a9-488b-90a5-4e36b032089a</BoundTo>
+      <DependentUpon>K8SetDepot_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>150e5383-1db3-4b39-a986-f5b41aa3f85e</id>
+    </Compile>
+    <Compile Include="K8SetSBOStatus_PP.cs">
+      <BoundTo>da6ef653-d828-431c-840e-6004849722fd</BoundTo>
+      <DependentUpon>K8SetSBOStatus_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2c1148ad-4b8d-438a-9b9c-53c100159618</id>
+    </Compile>
+    <Compile Include="K8SetSBOStatus_PP.UserCode.cs">
+      <BoundTo>da6ef653-d828-431c-840e-6004849722fd</BoundTo>
+      <DependentUpon>K8SetSBOStatus_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0672bd46-f83e-4b88-9edd-1f24c7c79446</id>
+    </Compile>
+    <Compile Include="K8SupplyAllItems_PP.cs">
+      <BoundTo>97d00d61-2f7d-4980-bd60-bf01ebead15c</BoundTo>
+      <DependentUpon>K8SupplyAllItems_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0a8473aa-7ef4-4cfc-8b04-0b48667579d4</id>
+    </Compile>
+    <Compile Include="K8SupplyAllItems_PP.UserCode.cs">
+      <BoundTo>97d00d61-2f7d-4980-bd60-bf01ebead15c</BoundTo>
+      <DependentUpon>K8SupplyAllItems_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>82fb28cb-49a2-4368-96b6-81757817c2ec</id>
+    </Compile>
+    <Compile Include="K8TillTransfer_PP.cs">
+      <id>c54c7ad8-5389-4817-9dce-e0ffa0771431</id>
+      <RecorderCode>true</RecorderCode>
+      <DependentUpon>K8TillTransfer_PP.rxrec</DependentUpon>
+      <BoundTo>eaee2c5d-bf47-4432-90ca-13da35e786cd</BoundTo>
+    </Compile>
+    <Compile Include="K8TillTransfer_PP.UserCode.cs">
+      <id>170dc981-148b-4fd1-9481-3fa9896a9088</id>
+      <UserCode>true</UserCode>
+      <DependentUpon>K8TillTransfer_PP.rxrec</DependentUpon>
+      <BoundTo>eaee2c5d-bf47-4432-90ca-13da35e786cd</BoundTo>
+    </Compile>
+    <Compile Include="K8ValidateRecord_PP.cs">
+      <BoundTo>6be1137f-872a-4bcf-a950-4f203d595b73</BoundTo>
+      <DependentUpon>K8ValidateRecord_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>be9cc5e9-88e5-41ab-a2d4-5ac3a3cc6678</id>
+    </Compile>
+    <Compile Include="K8ValidateRecord_PP.UserCode.cs">
+      <BoundTo>6be1137f-872a-4bcf-a950-4f203d595b73</BoundTo>
+      <DependentUpon>K8ValidateRecord_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b8f75729-ec77-4bfe-abdd-933ba6fb89d7</id>
+    </Compile>
+    <Compile Include="K8ViewAccPaymentViaCRM_PP.cs">
+      <BoundTo>4d28d47a-3158-4be3-8876-de8350c6598f</BoundTo>
+      <DependentUpon>K8ViewAccPaymentViaCRM_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>153cdf7b-48e6-4497-9c6c-18fc57014c44</id>
+    </Compile>
+    <Compile Include="K8ViewAccPaymentViaCRM_PP.UserCode.cs">
+      <BoundTo>4d28d47a-3158-4be3-8876-de8350c6598f</BoundTo>
+      <DependentUpon>K8ViewAccPaymentViaCRM_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bd697406-3ac0-4b39-9b1c-37cb73b3796b</id>
+    </Compile>
+    <Compile Include="K8ViewQuotationViaCRM_PP.cs">
+      <BoundTo>4a44660e-9f4e-48d5-8302-10f98d6289bc</BoundTo>
+      <DependentUpon>K8ViewQuotationViaCRM_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2babb5c0-f2e6-4174-b25e-48e140822a96</id>
+    </Compile>
+    <Compile Include="K8ViewQuotationViaCRM_PP.UserCode.cs">
+      <BoundTo>4a44660e-9f4e-48d5-8302-10f98d6289bc</BoundTo>
+      <DependentUpon>K8ViewQuotationViaCRM_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6110633a-dd5c-43da-ada3-6984b3054093</id>
+    </Compile>
+    <Compile Include="K8ViewSalesOrderViaCRM_PP.cs">
+      <BoundTo>f120ede9-1852-4646-ad89-52d8dcef1470</BoundTo>
+      <DependentUpon>K8ViewSalesOrderViaCRM_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ec7bfeba-b86d-450c-917e-991e7c75d52c</id>
+    </Compile>
+    <Compile Include="K8ViewSalesOrderViaCRM_PP.UserCode.cs">
+      <BoundTo>f120ede9-1852-4646-ad89-52d8dcef1470</BoundTo>
+      <DependentUpon>K8ViewSalesOrderViaCRM_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a73e3b5b-f212-412b-82c5-669158afd6a1</id>
+    </Compile>
+    <Compile Include="K8SetPROStatus_PP.cs">
+      <BoundTo>1bd8561b-c30c-4fcd-b99c-7fb419e64846</BoundTo>
+      <DependentUpon>K8SetPROStatus_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>96016af4-5cea-4f60-beaf-6e9e0eea1e9e</id>
+    </Compile>
+    <Compile Include="K8SetPROStatus_PP.UserCode.cs">
+      <BoundTo>1bd8561b-c30c-4fcd-b99c-7fb419e64846</BoundTo>
+      <DependentUpon>K8SetPROStatus_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>14de8586-2d5f-4251-8491-bf5f58cc7dda</id>
+    </Compile>
+    <Compile Include="K8_UK_PP_RegressionRepository.cs">
+      <BoundTo>44cfe1e9-7d33-40ad-9953-a0cb29712d35</BoundTo>
+      <DependentUpon>K8_UK_PP_RegressionRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>4c4226ad-273e-40e0-b33e-ebb12a20818c</id>
+    </Compile>
+    <Compile Include="K8_UK_SOP_RegressionRepository.cs">
+      <RepositoryCode>true</RepositoryCode>
+      <id>dd8e52a9-8880-4ddd-9881-a8c8bd0a361e</id>
+      <DependentUpon>K8_UK_SOP_RegressionRepository.rxrep</DependentUpon>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </Compile>
+    <Compile Include="K8Logout2_PP.cs">
+      <BoundTo>d900cd3f-8a1b-4666-ad7a-a4f5a9fa17e9</BoundTo>
+      <DependentUpon>K8Logout2_PP.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>168d34d6-da08-4f30-8eef-61794525961f</id>
+    </Compile>
+    <Compile Include="K8Logout2_PP.UserCode.cs">
+      <BoundTo>d900cd3f-8a1b-4666-ad7a-a4f5a9fa17e9</BoundTo>
+      <DependentUpon>K8Logout2_PP.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>64892435-7368-4e99-aa75-14c9e2614754</id>
+    </Compile>
+    <Compile Include="OpenXML.cs">
+      <id>275fa245-29b5-4830-8f18-68dd123b2387</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>6f0b8a1f-458c-42da-9633-5d9626c95e09</id>
+    </Compile>
+    <Content Include="AccountPaymentReversalCRM_PP.xlsx">
+      <Link>AccountPaymentReversalCRM_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>5d875434-e505-4ba5-97de-3065fd802cbf</id>
+    </Content>
+    <Content Include="AmendAssociateRecord_PP.xlsx">
+      <Link>AmendAssociateRecord_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>387f122d-cd97-4279-a1ce-2082f2009d99</id>
+    </Content>
+    <Content Include="AmendQuotationCRM_PP.xlsx">
+      <Link>AmendQuotationCRM_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>7e955e82-a8d3-4116-b7f4-c49099d11a73</id>
+    </Content>
+    <Content Include="AmendSalesOrderCRM_PP.xlsx">
+      <Link>AmendSalesOrderCRM_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>f17a674a-3b46-474e-b71b-f6abc76f65af</id>
+    </Content>
+    <Content Include="AmendSupersedeRecord_PP.xlsx">
+      <Link>AmendSupersedeRecord_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>cf746b6c-3963-49b8-90e2-d4c692535b74</id>
+    </Content>
+    <Content Include="Acc_Pymnts_Data_Creation_usethis.xlsx">
+      <Link>Acc_Pymnts_Data_Creation_usethis.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>d0a5e9f1-a55d-43c9-8bd4-35c80cb5611a</id>
+    </Content>
+    <None Include="app.config">
+      <id>cd817091-313e-43fe-978f-bca59c40591b</id>
+    </None>
+    <Content Include="CashAccCustomer_PP.xlsx">
+      <Link>CashAccCustomer_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>c7115d7e-9e09-4fac-a29c-19872ddee626</id>
+    </Content>
+    <Content Include="CashAccCustomerTakeSale_PP.xlsx">
+      <Link>CashAccCustomerTakeSale_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>7d4c0795-028f-4c2a-87a2-77780fc51e24</id>
+    </Content>
+    <Content Include="CreateAccountPaymentCRM_PP.xlsx">
+      <Link>CreateAccountPaymentCRM_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>4545e9d1-b9fb-466c-aa53-0b74ff78fedd</id>
+    </Content>
+    <Content Include="CreateAssociateRecord_PP.xlsx">
+      <Link>CreateAssociateRecord_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>a2c73e37-d370-47ae-aaeb-47aba4ca4724</id>
+    </Content>
+    <Content Include="CreateQuotationCRM_PP.xlsx">
+      <Link>CreateQuotationCRM_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>b1d1867c-8f01-49e4-9ebf-ea254afcceef</id>
+    </Content>
+    <Content Include="CreateSupersedeRecord_PP.xlsx">
+      <Link>CreateSupersedeRecord_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>2df8a1f0-86cb-415d-acb5-27ee9c443e1f</id>
+    </Content>
+    <Content Include="CreditAccCustomer_PP.xlsx">
+      <Link>CreditAccCustomer_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>1eeb3f8b-87ad-425e-83e5-e04599a8c349</id>
+    </Content>
+    <Content Include="CreditAccCustomerContractSale_PP.xlsx">
+      <Link>CreditAccCustomerContractSale_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>81c1fa3c-ea55-42fe-bb02-f4574b71506e</id>
+    </Content>
+    <Content Include="CreditAccCustomerPartSuppliedFullyPaidSale_PP.xlsx">
+      <Link>CreditAccCustomerPartSuppliedFullyPaidSale_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>86c2141b-0c51-43f1-a581-59c671e6b244</id>
+    </Content>
+    <Content Include="CreditAccCustomerPayByCash_PP.xlsx">
+      <Link>CreditAccCustomerPayByCash_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>85f046b0-b7ce-44df-816c-e22f0597e1a4</id>
+    </Content>
+    <Content Include="CreditAccCustomerTakeSaleBPT154_PP.xlsx">
+      <Link>CreditAccCustomerTakeSaleBPT154_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>bec9005d-55c4-49b0-916e-b7c5ead5cd69</id>
+    </Content>
+    <Content Include="CreditAccCustomerTakeSaleBPT155_PP.xlsx">
+      <Link>CreditAccCustomerTakeSaleBPT155_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>c7a8b575-81ce-4003-b2d0-ccad472cbbb7</id>
+    </Content>
+    <Content Include="CustomerAmendment_PP.xlsx">
+      <Link>CustomerAmendment_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>e5121027-ba90-449a-abce-172128bc512d</id>
+    </Content>
+    <Content Include="DeleteAssociateRecord_PP.xlsx">
+      <Link>DeleteAssociateRecord_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>c572efab-adc9-4d0f-b7d5-099456bef847</id>
+    </Content>
+    <Content Include="DeleteQuotationLinesCRM_PP.xlsx">
+      <Link>DeleteQuotationLinesCRM_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>d8e34069-019d-4c0f-b93c-33001bb649b4</id>
+    </Content>
+    <Content Include="DeleteSalesOrderLinesCRM_PP.xlsx">
+      <Link>DeleteSalesOrderLinesCRM_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>fb873c02-65a5-4be1-a3ed-6f3f841bb01d</id>
+    </Content>
+    <Content Include="DeleteSupersedeRecord_PP.xlsx">
+      <Link>DeleteSupersedeRecord_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>69804d49-e671-4bc9-ae0c-2c20d8f05995</id>
+    </Content>
+    <Content Include="CreditAccCustomerTakeSale_PP.xlsx">
+      <Link>CreditAccCustomerTakeSale_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>281041d8-2f66-4563-a527-6ca6db07e159</id>
+    </Content>
+    <Content Include="Cash_Acc_Data_Creation.xlsx">
+      <Link>Cash_Acc_Data_Creation.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>301d6696-8a58-46d9-9f90-a2d88031081d</id>
+    </Content>
+    <Content Include="Credit_Acc_Data_Creation.xlsx">
+      <Link>Credit_Acc_Data_Creation.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>1a525034-984b-4ef7-85d9-7b8f0f3f6648</id>
+    </Content>
+    <Content Include="EPAM1101770690_InvoiceCreation.xlsx">
+      <Link>EPAM1101770690_InvoiceCreation.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>15280975-a623-4f9b-aa54-c00ed3d8551a</id>
+    </Content>
+    <Content Include="EPAM_cash_acc_data_creation.xlsx">
+      <Link>EPAM_cash_acc_data_creation.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>1f86a8a8-77c6-4687-9220-16caf0f738c4</id>
+    </Content>
+    <Content Include="EPAM1101770691_InvoiceCreation.xlsx">
+      <Link>EPAM1101770691_InvoiceCreation.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>2b51a45c-6fca-426e-905c-637534727c0c</id>
+    </Content>
+    <Content Include="EPAMcredit_acc_data_creation.xlsx">
+      <Link>EPAMcredit_acc_data_creation.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>3756cd17-4ea6-4739-af08-6fd95f0327ed</id>
+    </Content>
+    <Content Include="EPAMcredit_acc_data_creation.xlsx">
+      <Link>EPAMcredit_acc_data_creation.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>cbee4847-8047-43fe-add2-5ef0b592fe3b</id>
+    </Content>
+    <None Include="K8AccountPaymentReversal_PP.rxrec">
+      <id>f8003b84-f384-4265-b03a-c29073e51efc</id>
+      <recordtableid>349d68ca-2f59-43d4-abb9-8fba03a49acc</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8AmendAssociateRecord_PP.rxrec">
+      <id>25191c7f-6282-4c08-b4c0-37aa546fbafb</id>
+      <recordtableid>e1f59842-bcd2-48fc-864e-825a946470c4</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8AmendQuotation_PP.rxrec">
+      <id>7a4fa973-f1e5-4716-8330-d796b82ed92e</id>
+      <recordtableid>1b2a0c43-2d69-4873-ae9f-a0f9abbb4375</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8AmendSalesOrder_PP.rxrec">
+      <id>93eb9504-30ae-4b25-b0f7-22c8e31ecc23</id>
+      <recordtableid>0749ea8f-1efc-4471-a50f-7ea7f42de941</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8BookInStock_PP.rxrec">
+      <id>b4841e35-aa25-4996-9fd6-5781a5ffbb23</id>
+      <recordtableid>0944ba20-28dc-45bc-830b-7afe22fd26e9</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8CreateAssociateRecord_PP.rxrec">
+      <id>cba9b974-0d05-4b52-9013-f3a895a9f53e</id>
+      <recordtableid>05511102-f9a8-495f-bb85-db74a7c7b303</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8CreateQuotationHeader_PP.rxrec">
+      <id>6ce41e15-6aff-4c0c-8c8d-d2a2a692db60</id>
+      <recordtableid>7dc8bb6b-a7d7-4b68-add0-b9175ca6bb60</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8CreateSalesOrderLinesPartSupplied_PP.rxrec">
+      <id>943c8bae-a554-4a13-9685-1d1a252331ce</id>
+      <recordtableid>80d42227-a8b2-4640-a3ea-c57b80487ba1</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8DeleteAssociateRecord_PP.rxrec">
+      <id>35c194a4-a4af-4296-8b8e-0009792fddfd</id>
+      <recordtableid>5725dcb0-c735-42a2-a6ea-43bb75a5601b</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8DeleteQuotationLines_PP.rxrec">
+      <id>2392efee-3c91-4966-84e2-0c16bf5a220b</id>
+      <recordtableid>c83bf2f1-e76c-41cc-be21-5f4f2cb07e7a</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8DeleteSalesOrderLines_PP.rxrec">
+      <id>f2a5f6d8-8586-4fe8-8740-9b93b4b66fce</id>
+      <recordtableid>e5d6f340-ae09-4413-8b7a-b701e2228acf</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8DeleteSupersedeRecord_PP.rxrec">
+      <id>f42e9031-9136-4297-82af-fdccfaa7a5fd</id>
+      <recordtableid>19a3cb34-5174-4cb8-b581-0634bd3e217b</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8AmendSupersedeRecord_PP.rxrec">
+      <id>c5a5eb67-0ebf-45e7-9ca3-6a7cd4e5761a</id>
+      <recordtableid>c4a78523-782f-4281-a1fa-acd124afe502</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8CreateSupersedeRecord_PP.rxrec">
+      <id>376bc780-5560-41b9-9c83-01adcc4e813c</id>
+      <recordtableid>c6c05b69-cd30-4ef5-be9d-d05ffd7c2fbc</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8GetAmendedOrderInfo_PP.rxrec">
+      <id>dfe29a48-26af-492f-9312-584fffeeb691</id>
+      <recordtableid>7330b0c4-509b-4446-b18b-1a6a79ae8aea</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8GetFullySuppliedSalesOrderInfo_PP.rxrec">
+      <id>c8876f87-efe8-4052-9e44-949a2e0be6f8</id>
+      <recordtableid>2b225b85-5820-4ba9-b62e-20c0f40c429a</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8GetPartSuppliedFullyPaidSalesOrderInfo_PP.rxrec">
+      <id>05a0b556-d583-404b-a58a-cdfe22f3f6cd</id>
+      <recordtableid>385b2ef8-0f34-4ba5-81bc-70cac17faeab</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8GetRefundOrderInfo_PP.rxrec">
+      <id>348ab2c6-f3bc-409e-aea5-0b75638f1db1</id>
+      <recordtableid>5d3e2b4e-922a-4999-8bd2-2d9dcb28af9a</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8CreateSalesOrderHeader_PP.rxrec">
+      <id>4ef4b5cd-d214-4a3d-b26a-21a957d527ec</id>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+      <recordtableid>75fbd0ce-97d1-4243-823f-7d2c79979284</recordtableid>
+    </None>
+    <None Include="K8CreateSalesOrderLines_PP.rxrec">
+      <id>6418c6d2-1f1e-4757-9228-7f61e6743209</id>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+      <recordtableid>45652a13-5b59-424a-83a1-386bac45b0f9</recordtableid>
+    </None>
+    <None Include="K8GetSalesOrderInfo2_PP.rxrec">
+      <id>f802bf76-4f57-47b9-9791-eb334bc67de8</id>
+      <recordtableid>29c72b32-6843-4637-9d1d-dc9007d431f1</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8GetSalesOrderInfo_PP.rxrec">
+      <id>1753fbec-147a-4fe2-95a7-ae293c8afa2d</id>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+      <recordtableid>01c2cf13-8a85-4e68-9825-9f179acd76f6</recordtableid>
+    </None>
+    <None Include="K8InvokePurchaseOrder_PP.rxrec">
+      <id>2bf29d27-1fe7-48e6-80df-e1fab1c92905</id>
+      <recordtableid>373ef2a7-6e43-4787-af1b-11bb5331e523</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8InvokeSOP_PP.rxrec">
+      <id>2aa9f760-a485-45bf-8424-34e9cd98d85e</id>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+      <recordtableid>d038f899-7207-48e0-9e18-30e030863c53</recordtableid>
+    </None>
+    <None Include="K8Login_PP.rxrec">
+      <id>f860a039-ebf3-4a7a-9c20-28b913aa0d5b</id>
+      <recordtableid>e2b29a1c-0005-4358-a8b0-3d848d62e7ca</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8Logout_PP.rxrec">
+      <id>712bc312-6788-4220-8398-8a565347ecf2</id>
+      <recordtableid>aec1195f-ecef-4f29-8ab9-2e06421abced</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8MakeAccountPayment_PP.rxrec">
+      <id>16323788-2970-4d6f-9d56-1b7d07f9616d</id>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+      <recordtableid>5c099714-4904-4a28-a1c1-c6ccf9a97b56</recordtableid>
+    </None>
+    <None Include="K8MakeCashAdjustmentPP.rxrec">
+      <id>fed37019-7086-4f99-a538-fc76c65fc32e</id>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+      <recordtableid>8c2eb278-1a47-4d63-a917-76a46c01bc42</recordtableid>
+    </None>
+    <None Include="K8MakeCustomerAmendment.rxrec">
+      <id>759bf73a-4858-433b-83fc-6ee1f30cc764</id>
+      <recordtableid>d5e9fb49-040e-4f4c-b3a4-dc9c84d19d69</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8MakeCustomerAmendment_PP.rxrec">
+      <id>a2e37bf7-a382-4117-a8f9-751d9fcc39f3</id>
+      <recordtableid>aa75e61d-d693-4a5a-95e3-3dd219cda1bb</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8OpenSalesOrder_PP.rxrec">
+      <id>6c6e1a0a-6f6a-442c-bdcd-c55e507b6bca</id>
+      <recordtableid>d33cb2ca-89a1-4b43-935b-1742ee20bef1</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8PayByCash_PP.rxrec">
+      <id>4476cd3b-a72c-46f7-a217-d9c7105fe293</id>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+      <recordtableid>5cb0c6a5-89ca-40ad-89de-cc38f7840adb</recordtableid>
+    </None>
+    <None Include="K8ProcessAmendedOrder_PP.rxrec">
+      <id>17f54c1c-52a3-45c6-ba1c-23dbf7a61453</id>
+      <recordtableid>12a74dcd-b4ef-490a-b582-e93730a314b6</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8ProcessCreditPayment_PP.rxrec">
+      <id>3a7a9cad-ee07-4c36-92eb-b4c982e73ea1</id>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+      <recordtableid>547404e3-dfbc-41a0-88fb-2fe07c2907ab</recordtableid>
+    </None>
+    <None Include="K8ProcessPayment_PP.rxrec">
+      <id>3e5da48f-091d-4374-9fce-4794f4301b3f</id>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+      <recordtableid>9caec4cc-5cce-4f51-80ad-52c415dfc577</recordtableid>
+    </None>
+    <None Include="K8ProcessSTN.rxrec">
+      <id>cc1e31b4-c595-44e3-82c0-bfed5885eb31</id>
+      <recordtableid>ab24b27b-a2c3-499b-bae5-e2d8ad44c0d6</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8ProcessSubsequentOrder_PP.rxrec">
+      <id>9aa7e59a-4277-4afb-923d-11f36153816f</id>
+      <recordtableid>8efb12e4-5242-4400-a72b-455f15424252</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8RaiseSTN_PP.rxrec">
+      <id>1636d336-4623-490f-b623-828980c92342</id>
+      <recordtableid>2d16614f-982c-4643-a6ae-485d001c8415</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8ReceiveSTN_PP.rxrec">
+      <id>a01e148e-3e8f-4019-8843-0549ab13a4fb</id>
+      <recordtableid>52cd503c-e354-4f03-9db5-b2c071400568</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8Refund_PP.rxrec">
+      <id>d9a3a011-9893-4a7c-94a6-1433f2a0dc7c</id>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+      <recordtableid>6fab2f06-19b8-46a8-b996-d706c6bdfdd8</recordtableid>
+    </None>
+    <None Include="K8RemoteStockLookup_PP.rxrec">
+      <id>b925378c-47dc-4c9b-b780-68c6d1fda2e8</id>
+      <recordtableid>5db1cc41-1dc9-4cb6-85cf-d6b858bba8f4</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8SaveQuotation_PP.rxrec">
+      <id>fa625520-fce6-49b3-9e65-1f9d44b35041</id>
+      <recordtableid>13e3195d-ee13-46ef-84f3-b0aa3205b931</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8SaveSalesOrder_PP.rxrec">
+      <id>77ad0b0a-4c8a-44d4-a724-66ee702c5dd3</id>
+      <recordtableid>89dc6092-e566-433d-bd3e-5d6719444e26</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8SaveSBOSalesOrder_PP.rxrec">
+      <id>13ff9cf5-6579-4f54-b343-4b2d933d44af</id>
+      <recordtableid>0bb2d7cb-e084-418e-8d38-fbe5372ef6ff</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8SetDepot_PP.rxrec">
+      <id>44c930f5-e8a9-488b-90a5-4e36b032089a</id>
+      <recordtableid>bfdff964-304e-425d-9db0-88603b992a3e</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8SetSBOStatus_PP.rxrec">
+      <id>da6ef653-d828-431c-840e-6004849722fd</id>
+      <recordtableid>4ff1c936-6c1e-4d90-9972-a2fb8d1ce5af</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8SupplyAllItems_PP.rxrec">
+      <id>97d00d61-2f7d-4980-bd60-bf01ebead15c</id>
+      <recordtableid>b302aa9a-3612-47b3-972c-b39158f55852</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8TillTransfer_PP.rxrec">
+      <id>eaee2c5d-bf47-4432-90ca-13da35e786cd</id>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+      <recordtableid>cfb4d829-c106-45a1-b50a-2f715ee40b79</recordtableid>
+    </None>
+    <None Include="K8ValidateRecord_PP.rxrec">
+      <id>6be1137f-872a-4bcf-a950-4f203d595b73</id>
+      <recordtableid>04c07f68-0b0a-4f6a-b6a3-18b71b43dda0</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8ViewAccPaymentViaCRM_PP.rxrec">
+      <id>4d28d47a-3158-4be3-8876-de8350c6598f</id>
+      <recordtableid>1bb7b39e-ca8d-4d64-88ef-29aee734da16</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8ViewQuotationViaCRM_PP.rxrec">
+      <id>4a44660e-9f4e-48d5-8302-10f98d6289bc</id>
+      <recordtableid>ab0482e2-ae79-468e-9a49-548901124d7b</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8ViewSalesOrderViaCRM_PP.rxrec">
+      <id>f120ede9-1852-4646-ad89-52d8dcef1470</id>
+      <recordtableid>af7b22db-4b95-41a6-a242-66c4e9591be1</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8SetPROStatus_PP.rxrec">
+      <id>1bd8561b-c30c-4fcd-b99c-7fb419e64846</id>
+      <recordtableid>d799531d-2e5d-40d2-80f2-c455cfbb5402</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8_UK_PP_RegressionRepository.rximg">
+      <BoundTo>44cfe1e9-7d33-40ad-9953-a0cb29712d35</BoundTo>
+      <DependentUpon>K8_UK_PP_RegressionRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>879001d1-8f1c-4508-bd0f-33a14dd99ee4</id>
+    </None>
+    <None Include="K8_UK_PP_RegressionRepository.rxrep">
+      <id>44cfe1e9-7d33-40ad-9953-a0cb29712d35</id>
+      <repoid>a0a885a7-5526-41c9-94f8-abd52ce9e6e4</repoid>
+      <reporootid>776172c2-4aae-411a-8036-439c171a2339</reporootid>
+    </None>
+    <None Include="K8_UK_SOP_RegressionRepository.rximg">
+      <id>880ce97c-76d9-40be-9681-fa464fcbe5ff</id>
+      <imageblob>true</imageblob>
+      <DependentUpon>K8_UK_SOP_RegressionRepository.rxrep</DependentUpon>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <None Include="K8_UK_SOP_RegressionRepository.rxrep">
+      <id>59d900eb-4c33-4aeb-948f-0545c6712ce8</id>
+      <reporootid>2b5dd7ef-5e90-4f11-a335-72c4f1a3e29d</reporootid>
+      <repoid>1adcd73d-acba-446e-a5d5-c5a16120c7ec</repoid>
+    </None>
+    <None Include="K8Logout2_PP.rxrec">
+      <id>d900cd3f-8a1b-4666-ad7a-a4f5a9fa17e9</id>
+      <recordtableid>f7947ebe-47c6-4d33-8449-95b7db817b62</recordtableid>
+      <BoundTo>59d900eb-4c33-4aeb-948f-0545c6712ce8</BoundTo>
+    </None>
+    <Content Include="K8_UK_PP_Regression.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>bde84e19-545f-476f-a59d-8fcae9e9c3c3</id>
+    </Content>
+    <Content Include="K8_UK_PP_Regression.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>3bc8615b-be8d-429d-8d0f-e1893ed4b263</id>
+    </Content>
+    <Content Include="MakeCashAccPayByCash_PP.xlsx">
+      <Link>MakeCashAccPayByCash_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>ba777afb-9936-47dd-9665-1ef7ed3ab68f</id>
+    </Content>
+    <Content Include="MakeCashAccPayByCheque_PP.xlsx">
+      <Link>MakeCashAccPayByCheque_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>67870257-9d19-4051-a72a-09e9717593d4</id>
+    </Content>
+    <Content Include="MakeCreditAccPayByCash_PP.xlsx">
+      <Link>MakeCreditAccPayByCash_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>7a096288-24a4-4bb3-8f8c-b2c494c113ba</id>
+    </Content>
+    <Content Include="MakeCreditAccPayByCheque_PP.xlsx">
+      <Link>MakeCreditAccPayByCheque_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>c9d31f16-cd5d-4b09-a90a-95106736b7b9</id>
+    </Content>
+    <Content Include="MakeNegativeCashAdjCash_PP.xlsx">
+      <Link>MakeNegativeCashAdjCash_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>a64827b3-c51c-4985-96f9-908359889dd8</id>
+    </Content>
+    <Content Include="MakeNegativeCashAdjCheque_PP.xlsx">
+      <Link>MakeNegativeCashAdjCheque_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>690bbb69-e91e-4426-b40f-c850b205bca9</id>
+    </Content>
+    <Content Include="MakePositiveCashAdjCash_PP.xlsx">
+      <Link>MakePositiveCashAdjCash_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>48fc014b-5752-4b0c-9844-5f1e44875d6b</id>
+    </Content>
+    <Content Include="MakePositiveCashAdjCheque_PP.xlsx">
+      <Link>MakePositiveCashAdjCheque_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>ef67da19-4f6b-4a51-a0bb-704a51ed1744</id>
+    </Content>
+    <Content Include="NewBuildCreditAccCust_PP.xlsx">
+      <Link>NewBuildCreditAccCust_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>9e199635-929e-41ee-8119-61a14643234e</id>
+    </Content>
+    <Content Include="NewBuildCreditAccCustTakeSale_PP.xlsx">
+      <Link>NewBuildCreditAccCustTakeSale_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>6b9f8e9c-ab0c-47b2-8563-ded882661105</id>
+    </Content>
+    <Content Include="OneTimeCashCustomer_PP.xlsx">
+      <Link>OneTimeCashCustomer_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>20434d16-e06b-4803-9c4a-56215c40b368</id>
+    </Content>
+    <Content Include="OneTimeCashCustomerCRM_PP.xlsx">
+      <Link>OneTimeCashCustomerCRM_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>7813b7a8-ad09-4407-a668-f3dad5e8f8a4</id>
+    </Content>
+    <Content Include="OneTimeCashCustomerFutureReq.xlsx">
+      <Link>OneTimeCashCustomerFutureReq.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>647eee53-bd27-4ce7-a91a-d0197ab4fae8</id>
+    </Content>
+    <Content Include="OneTimeCashCustomerSameDayRefund_PP.xlsx">
+      <Link>OneTimeCashCustomerSameDayRefund_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>0d49df56-a366-4a67-a6de-7c71c0c4cb3e</id>
+    </Content>
+    <Content Include="OneTimeCashCustomerTakeSale_PP.xlsx">
+      <Link>OneTimeCashCustomerTakeSale_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>5cb8146d-6cb8-4985-a8e4-d1078beb5e95</id>
+    </Content>
+    <Content Include="RaiseSTN_PP.xlsx">
+      <Link>RaiseSTN_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>f1349133-4bdc-4362-a57c-eb20e3fd3419</id>
+    </Content>
+    <Content Include="ReceiveSTN_PP.xlsx">
+      <Link>ReceiveSTN_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>4aea60f3-3721-4a09-a279-0d183f6cf57b</id>
+    </Content>
+    <Content Include="RemoteStockLookup_PP.xlsx">
+      <Link>RemoteStockLookup_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>906ec075-2ab1-48ad-bded-4668da54e7c7</id>
+    </Content>
+    <Content Include="TillTransferFromPettyCash_PP.xlsx">
+      <Link>TillTransferFromPettyCash_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>db046146-f02c-4120-92c4-09c1c44561b4</id>
+    </Content>
+    <Content Include="TillTransferToPettyCash_PP.xlsx">
+      <Link>TillTransferToPettyCash_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>47733113-253a-40a8-ae7e-52cb4b5458be</id>
+    </Content>
+    <Content Include="UrbanRegenCreditAcc_PP.xlsx">
+      <Link>UrbanRegenCreditAcc_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>f3965781-a1b8-4413-abc8-bdc5f67170eb</id>
+    </Content>
+    <Content Include="MakeCreditAccPayByChequeBPT000_PP.xlsx">
+      <Link>MakeCreditAccPayByChequeBPT000_PP.xlsx</Link>
+      <BoundTo>3bc8615b-be8d-429d-8d0f-e1893ed4b263</BoundTo>
+      <DependentUpon>K8_UK_PP_Regression.rxtst</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <id>ea896365-4c5a-4a3b-84e9-a5de2908a2fa</id>
+    </Content>
+    <None Include="packages.config">
+      <id>a6f57674-0611-4f33-ba85-e7edae3b6c4f</id>
+    </None>
+  </ItemGroup>
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

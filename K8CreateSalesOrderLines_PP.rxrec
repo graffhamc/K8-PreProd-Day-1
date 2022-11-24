@@ -1,0 +1,1096 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="45652a13-5b59-424a-83a1-386bac45b0f9"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="K8CreateSalesOrderLines_PP"
+	namespace="K8_UK_PP_Regression">
+	</codegen>
+	<variables>
+		<var
+		id="badb2129-115d-42d5-b3ec-09b3cbe10eb4"
+		name="Product_1">
+			{LShiftKey down}BFY{LShiftKey up}9256
+		</var>
+		<var
+		id="a5b7f21d-b667-454b-a9c2-aabb1358612f"
+		name="Product_2">
+			{LShiftKey down}SCM{LShiftKey up}4126
+		</var>
+		<var
+		id="78117d90-72ab-4762-862f-1341a8847a85"
+		name="Product_3">
+			{LShiftKey down}DIC{LShiftKey up}0770
+		</var>
+		<var
+		id="944682ca-7d16-41bb-868b-42fe89181ff5"
+		name="Product_4">
+			{LShiftKey down}ZZG{LShiftKey up}50
+		</var>
+		<var
+		id="f5312a4f-e07f-4f3d-a5c1-240d887fbcde"
+		name="Qty_1">
+			1
+		</var>
+		<var
+		id="9c5b70de-6442-49b1-9be5-02501b2a8a14"
+		name="Price_1">
+			686.71
+		</var>
+		<var
+		id="3142cb53-40aa-40a9-81cf-11667f8f7730"
+		name="Disc_1">
+			5
+		</var>
+		<var
+		id="1b0c242e-9e56-4f26-a4e2-6a3cc3b9fa65"
+		name="Qty_2">
+			1
+		</var>
+		<var
+		id="130a3d60-da8e-463b-aedd-5c28a845cdc1"
+		name="Price_2">
+			679.00
+		</var>
+		<var
+		id="5f53e638-64c1-4be9-846e-06d4e123afaf"
+		name="Disc_2">
+			10
+		</var>
+		<var
+		id="660fb5cb-d6f7-4384-8113-1de23e3c8c73"
+		name="Qty_3">
+			1
+		</var>
+		<var
+		id="b1f3b48d-35e5-4cb0-b66e-4fbf683c294d"
+		name="Price_3">
+			65.11
+		</var>
+		<var
+		id="ee5d2aaf-fd58-4cb0-af6c-d813a8589607"
+		name="Disc_3">
+			20
+		</var>
+		<var
+		id="394756a0-7058-442f-aacf-70930c0db760"
+		name="Qty_4">
+			yourtext
+		</var>
+		<var
+		id="c0489a5f-1f4c-44aa-a2a9-41cf90fc4ec6"
+		name="Price_4">
+			yourtext
+		</var>
+		<var
+		id="36fe2a07-b7cb-443b-89ff-60151aa1bbf2"
+		name="Disc_4">
+			yourtext
+		</var>
+	</variables>
+	<recorditems>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				First Sales Order Line Item
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<validationitem
+		action="Exists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="2fd82a9e-dc06-4215-8f42-47e39717f0e3">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d367ea14-6a47-4a7f-82ae-a1b9c04de3cb"
+			sourcename="ElementTree">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="1"
+				prefcap="cell"
+				rect="1727,276,84,16"
+				role="cell"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="isheader"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Product Code
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Cell
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						ReadOnly, Focusable, Selectable
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[@accessiblename='Product Code']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="855635d6-7053-44c2-b40a-655e95ab84a5">
+				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
+			</helperscreenshot>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="28;7"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="3c5b49bd-b02a-468a-9bd9-10048833d936"
+		sx="1755"
+		sy="283"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d367ea14-6a47-4a7f-82ae-a1b9c04de3cb"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="1"
+				prefcap="cell"
+				rect="1727,276,84,16"
+				role="cell"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="isheader"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Product Code
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Cell
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						ReadOnly, Focusable, Selectable
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[@accessiblename='Product Code']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="e53266ea-0059-444a-9856-68710118f4f1">
+				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
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z
+			</helperscreenshot>
+		</mouseitem>
+		<userrecorditem
+		classname="K8CreateSalesOrderLines_PP"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="SalesOrderLine1"
+		namespace="K8_UK_PP_Regression"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<imagebasedlocations>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="1ee01829-b5e6-4635-adf7-62e684a9918c">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="aff2da47-349f-4baa-b843-d812d2540a84">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="ElementTree">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="c86cd54a-40cf-4028-8702-90589a8fd0fc">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="9df74a6e-66a9-4222-ac71-58d4a651cf12">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="fe6f3da5-2e65-4e23-a55b-5578a617d629">
+					<info
+					id="c9fa3d74-914a-4f39-a59f-b4eac27043db"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[@accessiblename='Qty']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="3ba69c17-9e9e-4165-b09c-1664f818e635">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="74ff104e-9bc0-4246-9392-ca60e0be7de0">
+					<info
+					id="692f75b7-6644-4f9c-9172-4de5a93dd19a"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[@accessiblename='Price']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="cd5afac5-4c14-43db-8181-c9d71496408f">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="933a3f61-6565-41ff-bd8e-d26b51d4e641">
+					<info
+					id="742087de-7c01-40c2-9550-e43236d10eac"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[@accessiblename='Disc %']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="08bd244e-0379-4edd-b53a-68200780a359">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="c53d0d10-1dc3-487d-b15b-76920b75752e">
+					<info
+					id="975ec396-fa59-4424-9199-a79e14ca2edc"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[@accessiblename='Status']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="9947848d-4e0e-4ae1-aa6d-f03f4451fff8">
+					<info
+					id="01ba5e0d-3894-4449-8d1f-aca5dfadd503"
+					sourcename="ElementTree">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblename='Status']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="c5c81b03-9d2f-43f8-bbf8-c860ab1a0e97">
+					<info
+					id="01ba5e0d-3894-4449-8d1f-aca5dfadd503"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblename='Status']
+						</path>
+					</info>
+				</imagebasedlocation>
+			</imagebasedlocations>
+			<arguments
+			id="b35b40eb-c37f-48f5-8cf1-a234bac3886f">
+			</arguments>
+		</userrecorditem>
+		<explicitdelayitem
+		duration="500ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Second Sales Order Line Item
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<validationitem
+		action="Exists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="44d74c42-0109-4f69-8237-2be3079f12b0">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4d56d79f-d07a-4d3a-a43a-4e54992c888e"
+			sourcename="ElementTree">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27193']//text[@accessiblerole='Text']
+				</path>
+			</info>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="21;9"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d7f38d4e-048d-4282-964d-8a07c529aa3c"
+		sx="1749"
+		sy="367"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4d56d79f-d07a-4d3a-a43a-4e54992c888e"
+			sourcename="Recorder">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27193']//text[@accessiblerole='Text']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		classname="K8CreateSalesOrderLines_PP"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="SalesOrderLine2"
+		namespace="K8_UK_PP_Regression"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<imagebasedlocations>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="e7857566-e030-4d92-bb7f-48f7fc8d0191">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="5f037a73-f739-455b-9aed-051fa337f5ac">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="d2db833a-21a2-4bf6-99bc-c2b0e36ff112">
+					<info
+					id="d76fb390-0447-4c92-8cb4-3beabc150ede"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[7]/cell[@accessiblename='Qty']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="127144c5-f0fa-42c3-98c7-f58deb8ceeec">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="71d14039-0210-4dca-81a7-052b229d9cfb">
+					<info
+					id="f8969e63-49ed-44db-a5dd-3e93ea1c9c3b"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[7]/cell[@accessiblename='Price']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="1f1920d3-d080-4cfc-8084-eb90f03ea837">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="b0e6c4f2-4cfc-4824-b291-e85cebab9174">
+					<info
+					id="33f61fea-1654-473e-827f-07be1f40466e"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[7]/cell[@accessiblename='Disc %']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="747bbb67-6d78-4a52-9a14-0807963a2e47">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="347e7cc8-f5bc-47e1-80d9-d4233a350b8c">
+					<info
+					id="82d8a2c3-2838-47cf-a61e-305109a779b5"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[7]/cell[@accessiblename='Status']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="aaa3a7cf-503a-4977-9160-3b65815aa767">
+					<info
+					id="01ba5e0d-3894-4449-8d1f-aca5dfadd503"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblename='Status']
+						</path>
+					</info>
+				</imagebasedlocation>
+			</imagebasedlocations>
+			<arguments
+			id="d8b50848-5ef9-44bb-89b3-0983dce613a1">
+			</arguments>
+		</userrecorditem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Third Sales Order Line Item
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<validationitem
+		action="Exists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="30b31981-724e-474a-9685-5c81a8122897">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4d56d79f-d07a-4d3a-a43a-4e54992c888e"
+			sourcename="ElementTree">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27193']//text[@accessiblerole='Text']
+				</path>
+			</info>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="39;7"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f93ad30c-5a5c-4ae9-8d30-0e27a1e91b0a"
+		sx="1767"
+		sy="461"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4d56d79f-d07a-4d3a-a43a-4e54992c888e"
+			sourcename="Recorder">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27193']//text[@accessiblerole='Text']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		classname="K8CreateSalesOrderLines_PP"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="SalesOrderLine3"
+		namespace="K8_UK_PP_Regression"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<imagebasedlocations>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="25fad7fd-90b0-4d2e-801f-5dd50e909258">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="0c23e5e4-8f06-42ff-827b-febbf369c010">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="ccd681e7-aa7b-47cf-acd4-cb4c361ff2b7">
+					<info
+					id="d1d7f99e-2ef3-48f6-bfeb-d307f4bf87e5"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[13]/cell[@accessiblename='Qty']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="c196cf46-c5bf-46fa-a009-ed71533abc49">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="73c1d276-473c-492e-8e18-dbf1581b628b">
+					<info
+					id="5f16aa11-aeab-4b34-8dfe-cf30f00e7f51"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[13]/cell[@accessiblename='Price']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="478696e6-66ff-426e-922e-c08fee71c9d2">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="321732a1-6c6c-46e0-bf8c-138942f6439c">
+					<info
+					id="e4000d93-7dea-40a0-907e-a408d2c80d1d"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[13]/cell[@accessiblename='Disc %']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="cd5f2746-7d65-4e0d-b671-33ac4a9c00eb">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="6c282c4f-981d-4503-80e7-73eafdd0fb30">
+					<info
+					id="4b01add8-ec4f-4b4d-85ae-37406c6e2e1d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[$Row_3]/cell[@accessiblename='Status']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="8724362b-b68e-499e-a5d4-c4f2b7a93354">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+			</imagebasedlocations>
+			<arguments
+			id="758674d0-8f0a-4a74-94f5-e7a3d5287b44">
+			</arguments>
+		</userrecorditem>
+		<separatoritem
+		enabled="True"
+		optional="False">
+			<comment>
+				Fourth Sales Order Line Item
+			</comment>
+			<bindings>
+			</bindings>
+		</separatoritem>
+		<validationitem
+		action="Exists"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="46723b63-8a81-4a3e-bff8-c7e0fdb74565">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4d56d79f-d07a-4d3a-a43a-4e54992c888e"
+			sourcename="ElementTree">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27193']//text[@accessiblerole='Text']
+				</path>
+			</info>
+			<matchname>
+			</matchname>
+			<matchvalue>
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="28;5"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c73b030c-a576-4a19-80b4-da1e9f3774a1"
+		sx="1748"
+		sy="467"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4d56d79f-d07a-4d3a-a43a-4e54992c888e"
+			sourcename="Recorder">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27193']//text[@accessiblerole='Text']
+				</path>
+			</info>
+		</mouseitem>
+		<userrecorditem
+		classname="K8CreateSalesOrderLines_PP"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="SalesOrderLine4"
+		namespace="K8_UK_PP_Regression"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<imagebasedlocations>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="91e44996-5b0e-4a7e-8114-b5b85e6eda96">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="6ab12b3f-889f-43bc-914d-c6ed2ea60ec6">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="6aa3ed10-6e95-4b41-94bf-d90d0ed440d6">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="80af285c-45e2-4ed8-816c-6ff09b8bff4c">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="09bd2929-e95a-4c0f-a64d-e3d96c914635">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="b9b2b15c-0aa2-4af5-b69a-59561bee8d0b">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="015df718-bb3a-41f9-8bb4-e679512ee58c">
+					<info
+					id="5a83e501-ff9b-448a-adb1-7471ed7e4554"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[12]/cell[@accessiblename='Qty']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="12b7f370-7c65-4d0f-982c-d0637a2a950e">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="70a77f05-bfaf-4aba-b074-43032524913f">
+					<info
+					id="53020c1f-8473-48c0-b005-d202c5573820"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[12]/cell[@accessiblename='Price']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="d18633b6-f437-4f02-93aa-9632d314b383">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="536593f3-659b-4b23-84b5-087c86d9ac67">
+					<info
+					id="e3cbfccf-1d86-439e-bf6b-2e5d6683df44"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[12]/cell[@accessiblename='Disc %']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="b2ccc164-00a5-4096-9f32-511c8acf7d2e">
+					<info
+					id="55322194-f50a-4bc9-84ff-558f255bfc8d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26683']/?/?/element[@controlid='26723']/?/?/element[@controlid='27200']//text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+				<imagebasedlocation
+				editmode="ClickEditMode"
+				searchpropertyid="6b4515b1-eeb9-4ba4-82c3-8b3a0f6c763b">
+					<info
+					id="4bf54c86-5c85-4c3e-835b-6f41582bbaf8"
+					sourcename="Recorder">
+						<path>
+							/form[@title~'^ql1054\ K8QA3\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26723']//element[@controlid='100']/table[@accessiblename='']/row[12]/cell[@accessiblename='Status']
+						</path>
+					</info>
+				</imagebasedlocation>
+			</imagebasedlocations>
+			<arguments
+			id="f4a42e7b-4ba2-4386-bc1c-ab272eb9b4c6">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="1adcd73d-acba-446e-a5d5-c5a16120c7ec"
+	name="K8_UK_SOP_RegressionRepository"
+	relativepath="K8_UK_SOP_RegressionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="K8_UK_SOP_RegressionRepository"
+		namespace="K8_UK_PP_Regression">
+		</codegen>
+		<rootfolder
+		id="2b5dd7ef-5e90-4f11-a335-72c4f1a3e29d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		K8CreateSalesOrderLines_PP.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

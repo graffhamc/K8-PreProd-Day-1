@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="aec1195f-ecef-4f29-8ab9-2e06421abced"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="K8Logout_PP"
+	namespace="K8_UK_PP_Regression">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="K8Logout_PP"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CloseK8"
+		namespace="K8_UK_PP_Regression"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="4fc441e1-7d9c-4503-883e-0fe303f50a6b">
+			</arguments>
+		</userrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="K8 Closed"
+		optional="False"
+		reportlevel="Success;110"
+		searchpropertyid="943d4bf0-fb58-44dc-bf32-d1f7309f58ce">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="1adcd73d-acba-446e-a5d5-c5a16120c7ec"
+	name="K8_UK_SOP_RegressionRepository"
+	relativepath="K8_UK_SOP_RegressionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="K8_UK_SOP_RegressionRepository"
+		namespace="K8_UK_PP_Regression">
+		</codegen>
+		<rootfolder
+		id="2b5dd7ef-5e90-4f11-a335-72c4f1a3e29d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		K8Logout_PP.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

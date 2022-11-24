@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7dc8bb6b-a7d7-4b68-add0-b9175ca6bb60"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="K8CreateQuotationHeader_PP"
+	namespace="K8_UK_PP_Regression">
+	</codegen>
+	<variables>
+		<var
+		id="35a36c3e-45a8-406e-b152-368d9d0e3de5"
+		name="AccountNo">
+			CD723
+		</var>
+		<var
+		id="58d88eae-45f7-4312-ade4-280c14b838ed"
+		name="Contact">
+			2423
+		</var>
+		<var
+		id="42f5867e-542f-41cf-b73e-f30a093f065b"
+		name="OrderCategory">
+			C
+		</var>
+		<var
+		id="b89b8081-12f3-4e76-8a38-c8580b8b07e2"
+		name="DeliveryMethod">
+			G
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3a98c5c4-7e00-4a8b-a2e7-7d3b0d697e4b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="06e20e19-dd42-4bf3-aed8-2e79739766e9"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27095']/text[@accessiblename='Order number:']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="DoubleClick"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="23;9"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="51d79883-6092-4c8c-ade9-886b5ad91084"
+		sx="1824"
+		sy="117"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="06e20e19-dd42-4bf3-aed8-2e79739766e9"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="1801,108,203,21"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Order number:
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27095']/text[@accessiblename='Order number:']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="a90cd7a3-6fff-4758-8844-2c4a4e8065fb">
+				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
+DOB2qFtLDLHuaF2VBGWeENwOmMng/n9KSUO4E7Xifao4Y8ks5VjtOOATwemas1VS0dJkIlHlI5dU
+2c5IPfPue1WqmVugxlwxS3kdeCqEj8qi8lRwXlJ9fMb/ABqS5Ba2lVRklCAPwqm0ysxKzxAHGASM
++/epAmZfLdNrPhiVILFgflJ7/SqEP/Ibn/65j/2WrSOHkQB1chix2dhg9fzFVYf+Q3P/ANcx/wCy
+1hV3OijtL0/yNCiiisTIKKKKAIQ8zksuwIGIwQcnBwee35U4zxhQxbhhuHB5HH+IqE+ersESTyyx
+PRc/gd39KPsrlQpkUhV2qDHnjjrk89KuyEPW7jZnHO1VBztPrjHSlN1CBksR1/hORjrnjimLasAR
+5vUD+HoQcjv09qU2pbeWkyzqwJC8c4/wo90NR/2mLGcsecYCHP5YzTkmjkYqhJI9AcfnUMloHcvl
+Cc5w6bh0A6fhUsMIiVgDkE+mOwH9KWlg1BJ43YhWOR7EZ+nrRTI7cqRufcFXao24wPf16CipfkNE
+9FFFABRRSKwYsAeVODQAtFFFABRRRQAUUUUAFZt75sepRTRwvKFTHyg+/f8AGtKig0pz5HexR/tK
+6/58pvzP+FH9pXX/AD5Tfmf8K1fLX0o8tfStvZy7j9pT/k/FmV/aV1/z5Tfmf8KP7Suv+fKb8z/h
+Wr5a+lHlr6Uezl3D2lP+T8WZX9pXX/PlN+Z/wo/tK6/58pvzP+Favlr6UeWvpR7OXcPaU/5PxZlf
+2ldf8+U35n/Cj+0rr/nym/M/4Vq+WvpR5a+lHs5dw9pT/k/FmV/aV1/z5Tfmf8KP7Suv+fKb8z/h
+Wr5a+lHlr6Uezl3D2lP+T8WZX9pXX/PlN+Z/wo/tK6/58pvzP+Favlr6UeWvpR7OXcPaU/5PxZlf
+2ldf8+U35n/Cj+0rr/nym/M/4Vq+WvpR5a+lHs5dw9pT/k/FmV/aV1/z5Tfmf8KP7Suv+fKb8z/h
+Wr5a+lHlr6Uezl3D2lP+T8WZX9pXX/PlN+Z/wo/tK6/58pvzP+Favlr6UeWvpR7OXcPaU/5PxZlf
+2ldf8+U35n/Cj+0rr/nym/M/4Vq+WvpR5a+lHs5dw9pT/k/FmV/aV1/z5Tfmf8KP7Suv+fKb8z/h
+Wr5a+lHlr6Uezl3D2lP+T8WZX9pXX/PlN+Z/wo/tK6/58pvzP+Fajqiozbc4GetM2N3K/kf8aPZy
+7h7Sn/J+LM3+0rr/AJ8ZvzP+FMsvNk1KWaSF4gyY+YH27/hWoQVIztIORxkY4+tNqJRcdxqrGzUY
+2uFFFFQYhRRRQAUVF5/zkCN2UHBYDgH+dS0AFFJuAcLn5iMgUtABRSBgXK55ABIpaACiiigCoISH
++aDceNrbvuD0z1piwSAAiLaVxu5H7whgc/oevrV6iq5mKxTWAyzs8sPynOA2D2X/AANPs4miVw0e
+1jj5uOeB/XNWaKOZ2sFil9lZY0CRgHy8OAR8xyOD+tTQR7F5i2gvlV4+Tj/9fT1qeihybCwUUUVI
+wooooAKKKKALNFRea3oKPNb0FdPtIk2JaKi81vQUea3oKPaRCxLRUXmt6CjzW9BR7SIWJaKi81vQ
+Uea3oKPaRCxLRUXmt6CjzW9BR7SIWJaKi81vQUea3oKPaRCxLRUXmt6CjzW9BR7SIWJaKi81vQUe
+a3oKPaRCxLRUXmt6CjzW9BR7SIWJaKi81vQUea3oKPaRCxLRUXmt6CjzW9BR7SIWHTf6l/8AdNIS
+QT8pP5U0ykjBAxTBgDjP/fR/xo9pELD3OdvBHJ6/Q0ylyM5xk4xySaSsqklJ6DSCiiisxhRRRQBT
+FykLNFujJ3k58xQBk9+c/pTRbOQB5W3oHOR853A5/n19avUVXN2FYpfZyk7MkK4wwTgYHA/TrTY7
+d13fuWMeVJQ7Bu69hx6dav0UczCxWt4tk7N5HlhlGOQccnj+XtTfs7KAyRr5m5ySe4OcZ9ulW6KO
+ZjsZUtnM0ZWOJgMg4O0euenHpRWrRVqq0TyhRVISTMhdnKkMq7Qo7gZ/nURuGjtotkwGIwfmZQD7
+Djn9KnkY7mlRVCeQtHKDPtfDDygAeP5/jVyMg4xJv+Udx+dS1Ydx9FFFIAooooAKKKKACiiigB+1
+PM2eau/+73/KneT/ALX6VBuHnbMjzPOzjvjHX8qt11ezj2JuyPyf9r9KPJ/2v0qSij2cewXZH5P+
+1+lHk/7X6VJRR7OPYLsj8n/a/Sjyf9r9Kkoo9nHsF2R+T/tfpR5P+1+lSUUezj2C7I/J/wBr9KPJ
+/wBr9Kkoo9nHsF2R+T/tfpR5P+1+lSUUezj2C7I/J/2v0o8n/a/SpKKPZx7Bdkfk/wC1+lHk/wC1
++lSUUezj2C7I/J/2v0o8n/a/SpKKPZx7Bdkfk/7X6UeT/tfpUlFHs49guyIxhQSW4HPSmYP91v0/
+xqWb/Uv/ALppCygkFgD9aPZx7BdkeOcEMM9Mgc/rSU9yDtwQeT/I0ysakUnoNBRRRWYwooooAjae
+FX2NKgb0LDNSVTkEmLkhl2Z+YbeSNozg5/pTPtE3mPhlON2I85OAODjGfTvV8t9hXL9FUkuNsw/0
+kSRcZY7cDIPcfQU1JpJJgFkwGONygZx83+ApcrC5fpAQScEHHB9qoJcTlWLSL0+YA5MfPpjjHPXN
+T2rKTIRNvBk4bj5vlH+ePShxsFyzRRRUjCiiigAooooAKKKKACiiigAooooAKKKKAJvNX0NHmr6G
+o/Lb0o8tvStuafYVkSeavoaPNX0NR+W3pR5belHNPsFkSeavoaPNX0NR+W3pR5belHNPsFkSeavo
+aPNX0NR+W3pR5belHNPsFkSeavoaPNX0NR+W3pR5belHNPsFkSeavoaPNX0NR+W3pR5belHNPsFk
+SeavoaPNX0NR+W3pR5belHNPsFkSeavoaPNX0NR+W3pR5belHNPsFkSeavoaPNX0NR+W3pR5belH
+NPsFkSeavoaPNX0NR+W3pR5belHNPsFkSeavoaPNX0NR+W3pR5belHNPsFkPaRWUqQcEYpm5v7wP
+/Af/AK9IylRkjikyf7rf98mjmn2CyHZycsc46ADH9abSZx1DD6qaWok29xoKKKKgAooooAKQjIIO
+eeODilooAjjgSNy679xGCWcn+ZqSiigAooooAKKKKAP/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="qt"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="2ea03e2b-fb84-4c41-b66f-794b6fb3ce73">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="06e20e19-dd42-4bf3-aed8-2e79739766e9"
+			sourcename="Recorder">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27095']/text[@accessiblename='Order number:']
+				</path>
+			</info>
+		</keysequenceitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="9f68f3f5-fd4f-4f48-86d4-972fac55d9be">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="75965fd6-c085-4e59-a50e-52e7889b3bcc"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27095']/?/?/text[@accessiblerole='Text']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<keysequenceitem
+		KeySequence="{Tab}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="2e0276d9-debd-40a6-bef6-4feb4fb98d67">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="75965fd6-c085-4e59-a50e-52e7889b3bcc"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27095']/?/?/text[@accessiblerole='Text']
+				</path>
+			</info>
+		</keysequenceitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="572b46b0-0918-4155-a272-f0c6fded0db6">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fefa03d9-eb7f-451b-9388-92985f237bc2"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27096']/text[@accessiblename='Account no:']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="DoubleClick"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="48;8"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="c87f016d-eb8c-46b7-b7a2-1d72abe255f9"
+		sx="1849"
+		sy="142"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fefa03d9-eb7f-451b-9388-92985f237bc2"
+			sourcename="Recorder">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27096']/text[@accessiblename='Account no:']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{LShiftKey down}CD{LShiftKey up}723"
+		duration="300ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="c5625ce7-b553-47ac-a33c-a466de803b2f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="AccountNo">
+				</binding>
+			</bindings>
+			<info
+			id="fefa03d9-eb7f-451b-9388-92985f237bc2"
+			sourcename="Recorder">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27096']/text[@accessiblename='Account no:']
+				</path>
+			</info>
+		</keysequenceitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="f60d18f6-8680-450f-bb3b-20d79e28fd59">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c98fe49c-0273-4c52-97a4-3d744be8988d"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27097']/text[@accessiblename='Contact:']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="DoubleClick"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="41;10"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5093b6ea-d75b-4ca8-b7fe-fdc54b8c7b65"
+		sx="1842"
+		sy="170"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="c98fe49c-0273-4c52-97a4-3d744be8988d"
+			sourcename="Recorder">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27097']/text[@accessiblename='Contact:']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="11326"
+		duration="200ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="6ebe43e4-8599-4c17-8ef8-4b912075376f">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Contact">
+				</binding>
+			</bindings>
+			<info
+			id="c98fe49c-0273-4c52-97a4-3d744be8988d"
+			sourcename="Recorder">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27097']/text[@accessiblename='Contact:']
+				</path>
+			</info>
+		</keysequenceitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="96138db3-5518-41c3-87b1-06bce164c7b5">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9ba8a6b5-aa6d-4427-baf2-6860f7f32414"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27097']/?/?/text[@accessiblerole='Text']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<keysequenceitem
+		KeySequence="{Tab}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="a8313e76-b6cd-4675-a2ee-031b01618cd3">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9ba8a6b5-aa6d-4427-baf2-6860f7f32414"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27097']/?/?/text[@accessiblerole='Text']
+				</path>
+			</info>
+		</keysequenceitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="4d599be7-931e-4ce9-ae71-56c9cd085d2c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="aeb3d42a-cf41-4347-8545-b891cbcea80c"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27098']/text[@accessiblename='Order category:']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="DoubleClick"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="36;14"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f2c7c5e6-296a-443b-925b-a3afc0c5b445"
+		sx="1837"
+		sy="200"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="aeb3d42a-cf41-4347-8545-b891cbcea80c"
+			sourcename="Recorder">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27098']/text[@accessiblename='Order category:']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{LShiftKey down}U{LShiftKey up}"
+		duration="200ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="51a94d28-82a3-4b78-85e3-9e73a79c6803">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="OrderCategory">
+				</binding>
+			</bindings>
+			<info
+			id="aeb3d42a-cf41-4347-8545-b891cbcea80c"
+			sourcename="Recorder">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27098']/text[@accessiblename='Order category:']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Tab}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="df2479d6-07a8-4d6d-88f3-d9ccde2a2a6b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="aeb3d42a-cf41-4347-8545-b891cbcea80c"
+			sourcename="Recorder">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27098']/text[@accessiblename='Order category:']
+				</path>
+			</info>
+		</keysequenceitem>
+		<userrecorditem
+		classname="K8CreateQuotationHeader_PP"
+		duration="2000ms"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="Validate_Text"
+		namespace="K8_UK_PP_Regression"
+		optional="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<imagebasedlocations>
+				<imagebasedlocation
+				editmode="ValidationEditModeRecorder"
+				searchpropertyid="22c13e00-7ead-4469-a06f-7b7283e5f834">
+					<info
+					id="1e77fef3-0a81-41a3-9de2-f7b7ed4f683e"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title='Data Capture']/?/?/element[@controlid='26697']/?/?/element[@controlid='103']/?/?/text[@accessiblerole='Text']
+						</path>
+					</info>
+				</imagebasedlocation>
+			</imagebasedlocations>
+			<arguments
+			id="380a30ac-96c9-4824-b098-3fb39b51f499">
+			</arguments>
+		</userrecorditem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="404f461b-d54f-4786-9f51-ba16a2be4ec9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d4a12528-f3e6-4950-8ba2-ac6d13622ebd"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27099']/text[@accessiblename='Delivery method:']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="DoubleClick"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="36;10"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="afc36e10-8e4d-4cd7-8376-71c5e3b289f1"
+		sx="1837"
+		sy="222"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d4a12528-f3e6-4950-8ba2-ac6d13622ebd"
+			sourcename="Recorder">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27099']/text[@accessiblename='Delivery method:']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{LShiftKey down}G{LShiftKey up}"
+		duration="200ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="ecb93b47-6eb5-4f41-a39a-72bfd3892a11">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="DeliveryMethod">
+				</binding>
+			</bindings>
+			<info
+			id="d4a12528-f3e6-4950-8ba2-ac6d13622ebd"
+			sourcename="Recorder">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27099']/text[@accessiblename='Delivery method:']
+				</path>
+			</info>
+		</keysequenceitem>
+		<explicitdelayitem
+		duration="1000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="1adcd73d-acba-446e-a5d5-c5a16120c7ec"
+	name="K8_UK_SOP_RegressionRepository"
+	relativepath="K8_UK_SOP_RegressionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="K8_UK_SOP_RegressionRepository"
+		namespace="K8_UK_PP_Regression">
+		</codegen>
+		<rootfolder
+		id="2b5dd7ef-5e90-4f11-a335-72c4f1a3e29d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		K8CreateQuotationHeader_PP.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

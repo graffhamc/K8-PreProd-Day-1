@@ -1,0 +1,3280 @@
+﻿<repository
+id="1adcd73d-acba-446e-a5d5-c5a16120c7ec"
+name="K8_UK_SOP_RegressionRepository"
+rxversion="9.0">
+	<codegen
+	classname="K8_UK_SOP_RegressionRepository"
+	namespace="K8_UK_PP_Regression">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="2b5dd7ef-5e90-4f11-a335-72c4f1a3e29d"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="3b1a0517-fb99-4653-a7b0-ad892a0cfc70"
+		isrooted="True"
+		name="KCMLClient"
+		refpath="/form[@title='KCML Client']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="bde3ee89-99f0-4a39-90d1-0334753f0964"
+			name="Text1380"
+			refimgid="c3fe806e-a9db-489b-9e00-bf4de2c5be95"
+			refpath="/form[@title='KCML Client']/text[@controlid='1380']"
+			searchtimeout="30000ms">
+				/form[@title='KCML Client']/text[@controlid='1380']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="bce2094b-9608-4ff6-8f23-fe908995701d"
+			name="Password"
+			refimgid="d4521659-df94-4f63-abc8-53929d8094be"
+			refpath="/form[@title='KCML Client']/element[@controlid='1382']/text[@accessiblename='Password:']"
+			searchtimeout="30000ms">
+				/form[@title='KCML Client']/?/?/text[@accessiblename='Password:']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="423a7439-97f1-4f0a-a1c0-a67faba1da09"
+			name="Connect"
+			refimgid="fe0c9b52-babc-4560-967d-0140a2b87ecf"
+			refpath="/form[@title='KCML Client']/button[@text='Connect']"
+			searchtimeout="30000ms">
+				/form[@title='KCML Client']/button[@text='Connect']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="ccba883c-dcbb-49aa-a4b5-d7fe2b0363e6"
+			name="Text1381"
+			refimgid="f1f9256b-f503-4916-8b27-2fad832c29ec"
+			refpath="/form[@title='KCML Client']/text[@controlid='1381']"
+			searchtimeout="30000ms">
+				/form[@title='KCML Client']/text[@controlid='1381']
+			</item>
+			<basepath>
+				/form[@title='KCML Client']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="b285f52b-86f8-4369-9e4d-edda0ba3d231"
+		isrooted="True"
+		name="Ql1054K8QA3BackOfficeUserView2"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="9979f10b-69e9-4067-9440-031b96b629c4"
+			name="Exit"
+			refimgid="9e676680-3ea8-4dba-99dd-cf6ad75d3537"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Howdens']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Exit']
+			</item>
+			<folder
+			addcaps="tree,accessible"
+			capname="tree"
+			id="abac05f8-dbef-4646-9a2a-f7c0fedb84da"
+			isrooted="True"
+			name="Outline1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="dcaa1b68-612b-4363-a519-bf17a7cb3595"
+				name="SalesOrderProcessing"
+				refimgid="f930f77d-b8f0-4397-8844-580807e3833b"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Howdens']/?/?/element[@controlid~'[d]*']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Sales Order Processing']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="f7d3e85d-9f76-43d5-824d-ada55cdba110"
+				name="SalesOrderProcessing1"
+				refimgid="3757ee4e-5f40-4826-a6a5-82197e0b5f94"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Howdens']/?/?/element[@controlid~'[d]*']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Sales Order Processing']/treeitem[@accessiblename='Sales Order Processing']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="25ce1726-281a-4a13-bcfe-814b367cafd7"
+				name="PurchaseControl"
+				refimgid="0075d410-e993-498d-a439-af89b5629bec"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Howdens']/?/?/element[@controlid~'[d]*']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Purchase Control']
+				</item>
+				<item
+				addcaps="treeitem,accessible,accessibletreeitem"
+				capname="treeitem"
+				id="039c77d0-567a-4402-8ad8-311f09b47c11"
+				name="PurchaseOrder"
+				refimgid="086f57d9-3f48-4412-802d-1521ac3e9608"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Howdens']/?/?/element[@controlid~'[d]*']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Purchase Control']/treeitem[@accessiblename='Purchase Order']
+				</item>
+				<basepath>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Howdens']/?/?/element[@controlid~'[d]*']/tree[@accessiblerole='Outline']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="9d92a597-829c-41d5-be8d-d7bc3781cf1c"
+			name="HowdensHistory"
+			refimgid="c5080345-4755-425e-9e17-d782cee1e6dc"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Howdens']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Howdens History']
+			</item>
+			<item
+			addcaps="row,accessible"
+			capname="row"
+			id="9ae0f6d1-8408-40c0-af27-7b63eddaaac9"
+			name="RowRow"
+			refimgid="0d762554-5d65-485f-97b5-1bcc995ea216"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Howdens']/?/?/element[@controlid='26955']/?/?/element[@controlid='27373']/?/?/table[@accessiblename='']/row[2]
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="a0937ee2-e182-4f63-89a4-02651eae1591"
+			name="PushButton"
+			refimgid="d4f1dfd5-f2d5-4f66-bd2e-6abc95db2445"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Howdens']/?/?/element[@controlid='26958']/?/?/element[@controlid='27407']/button[@accessiblerole='PushButton']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="005d539c-500b-4773-b46a-81d8376da814"
+			name="PushButton1"
+			refimgid="6522106a-8f71-4c63-b7b5-ef51b5863bcd"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Howdens']/?/?/element[@controlid='26955']/?/?/element[@controlid='27466']/button[@accessiblerole='PushButton']
+			</item>
+			<item
+			addcaps="row,accessible"
+			capname="row"
+			id="cb21c4d0-72eb-4134-9116-0ebfdf5420b3"
+			name="RowRow1"
+			refimgid="d384a117-356a-40b2-972a-4c9a8e36abe0"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Howdens']/?/?/element[@controlid='26955']/?/?/element[@controlid='27437']/?/?/table[@accessiblename='']/row[2]
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="779a1d1c-156b-44a1-9ee3-fed6739c3534"
+			name="PushButton2"
+			refimgid="cf270e31-79cf-4ac1-a084-4c3f1bf48c6c"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Howdens']/?/?/element[@controlid='26958']/?/?/element[@controlid='27471']/button[@accessiblerole='PushButton']
+			</item>
+			<item
+			addcaps="row,accessible"
+			capname="row"
+			id="9bc0dafd-7ef3-4ec4-8e35-e3c8d77834d2"
+			name="RowRow2"
+			refimgid="8e59c6b8-e9b4-44fc-a1a4-31e8365623f8"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Howdens']/?/?/element[@controlid='26958']/?/?/element[@controlid='27442']/?/?/table[@accessiblename='']/row[2]
+			</item>
+			<basepath>
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Howdens']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="f037d951-23f1-45b7-992d-98ea557dd93d"
+		isrooted="True"
+		name="Ql1054K8QA3SalesOrderProcessingD"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="06e20e19-dd42-4bf3-aed8-2e79739766e9"
+			name="OrderNumber"
+			refimgid="441966ae-67c5-41a1-9657-ea5f6d25931a"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Order number:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="fefa03d9-eb7f-451b-9388-92985f237bc2"
+			name="AccountNo"
+			refimgid="f7f463ff-bd39-40dc-9a7f-d35899ae73fd"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Account no:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="unknown"
+			id="a22b8675-6395-41fd-96f3-1c6001042d14"
+			name="STNAccountNo"
+			refimgid="f7f463ff-bd39-40dc-9a7f-d35899ae73fd"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@accessiblename='Account no:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="c98fe49c-0273-4c52-97a4-3d744be8988d"
+			name="Contact"
+			refimgid="30cae52a-4533-4968-82d7-c79369a51227"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Contact:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="9cf27e28-1cf6-4b85-a384-821f16ca8ff4"
+			name="OrderCategory2"
+			refimgid="38fe5971-ab65-43b1-8e56-24d9fbc59ea0"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Order category:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="aeb3d42a-cf41-4347-8545-b891cbcea80c"
+			name="OrderCategory"
+			refimgid="48c9caa1-1f1f-45e2-b8dc-ab3678eda9e9"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Order category:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="d4a12528-f3e6-4950-8ba2-ac6d13622ebd"
+			name="DeliveryMethod"
+			refimgid="066ac0e3-34c1-435c-81d5-46aede358a42"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Delivery method:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="75965fd6-c085-4e59-a50e-52e7889b3bcc"
+			name="OrderNumber2"
+			refimgid="cce7ebe8-85d7-4fcb-bd5b-9d0750b7b794"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="9ba8a6b5-aa6d-4427-baf2-6860f7f32414"
+			name="Contact2"
+			refimgid="d2d06931-ec98-436d-942b-4a9a5d9c8f02"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="4d56d79f-d07a-4d3a-a43a-4e54992c888e"
+			name="RowText"
+			refimgid="37fc8e74-e571-4b76-8e2f-154bb20493b3"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//text[@accessiblerole='Text']
+			</item>
+			<folder
+			addcaps="row,accessible"
+			capname="row"
+			id="a1088aa5-c561-4bd3-9b5e-bb2f7e8990c4"
+			isrooted="True"
+			name="RowRow"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="742087de-7c01-40c2-9550-e43236d10eac"
+				name="DiscPercent"
+				refimgid="8f0c5e65-f867-40ef-b367-a2e22557b0b9"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_1]/cell[@accessiblename='Disc %']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="d367ea14-6a47-4a7f-82ae-a1b9c04de3cb"
+				name="ProductCode"
+				refimgid="bb720040-9009-437e-b9f3-416f0ebf27ba"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_1]/cell[@accessiblename='Product Code']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="c9fa3d74-914a-4f39-a59f-b4eac27043db"
+				name="CellQty1"
+				refimgid="9107821f-e023-43c2-be96-b29fd7caac14"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_1]/cell[@accessiblename='Qty']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="f5be5b82-c164-4ab0-a6d1-8ff23875156e"
+				name="CellQty"
+				refimgid="ba945173-1fd1-4642-8fb5-cea656cb524d"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_1]/cell[@accessiblename='Quantity']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="692f75b7-6644-4f9c-9172-4de5a93dd19a"
+				name="Price"
+				refimgid="b8f80c38-58c8-4347-8439-d03c5cc70f38"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_1]/cell[@accessiblename='Price']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="975ec396-fa59-4424-9199-a79e14ca2edc"
+				name="Status"
+				refimgid="05137df4-9d0e-4ca5-96ef-33df608742d3"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_1]/cell[@accessiblename='Status' and @text~'[a-zA-Z]']
+				</item>
+				<basepath>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_1]
+				</basepath>
+			</folder>
+			<item
+			addcaps="text,accessible"
+			capname="cell"
+			id="d894cc2c-1cbc-4bd7-9bb7-f830033512d3"
+			name="Status"
+			refimgid="660756fb-67ca-483f-bb10-a851c1dcc59e"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//cell[@accessiblename='Status' and @text~'[a-zA-Z]']
+			</item>
+			<folder
+			addcaps="row,accessible"
+			capname="row"
+			id="396c367c-ff6c-4268-9f4c-b27bc40d85d7"
+			isrooted="True"
+			name="RowRow1"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="33f61fea-1654-473e-827f-07be1f40466e"
+				name="DiscPercent"
+				refimgid="a4b54db1-423d-41fd-9efd-3587b6eb2c91"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_2]/cell[@accessiblename='Disc %']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="f8969e63-49ed-44db-a5dd-3e93ea1c9c3b"
+				name="Price"
+				refimgid="cb5a6047-e53e-4566-b55b-c0b3a3eaf05d"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_2]/cell[@accessiblename='Price']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="4cc30d38-fc64-4c17-bb41-5c78a36c2821"
+				name="CellQty"
+				refimgid="02b5d67a-6709-4f7e-babd-0af089485706"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_2]/cell[@accessiblename='Quantity']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="82d8a2c3-2838-47cf-a61e-305109a779b5"
+				name="Status"
+				refimgid="5a1198fe-5a03-4b78-996a-d35c37932e9c"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_2]/cell[@accessiblename='Status' and @text~'[a-zA-Z]']
+				</item>
+				<basepath>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_2]
+				</basepath>
+			</folder>
+			<folder
+			addcaps="row,accessible"
+			capname="row"
+			id="df5ef1b6-4413-4ee0-8896-05fc13387d9c"
+			isrooted="True"
+			name="RowRow2"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="5f16aa11-aeab-4b34-8dfe-cf30f00e7f51"
+				name="Price"
+				refimgid="4b7bab38-8f9c-4e9f-8e18-50e308d4e0bb"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_3]/cell[@accessiblename='Price']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="450b6a24-ff0b-4c3d-87be-d5961e2ded45"
+				name="CellQty"
+				refimgid="0c974f70-04e4-491d-9ba1-c6552fe1b34c"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_3]/cell[@accessiblename='Quantity']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="e4000d93-7dea-40a0-907e-a408d2c80d1d"
+				name="DiscPercent"
+				refimgid="e4218da1-6717-42a7-8189-e1bd6086871e"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_3]/cell[@accessiblename='Disc %']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="dadaa2aa-4dcf-47eb-812d-b425053ca339"
+				name="Status"
+				refimgid="89016b9d-513d-4cbe-8223-2bd3d2610087"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_3]/cell[@accessiblename='Status' and @text~'[a-zA-Z]']
+				</item>
+				<basepath>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_3]
+				</basepath>
+			</folder>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="bab6e94d-455a-4615-8843-632ec28f0189"
+			name="Required"
+			refimgid="8f8cc321-92ae-4855-afc0-ceb6a4e4e18d"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Required:']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="270407a4-0cbe-4b6d-a5a4-cd7b2f6db063"
+			name="Process"
+			refimgid="6c11939b-b836-4d0e-afbe-71de6f8a80af"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Process']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="afc4cb89-724a-453f-becc-28fb3b04de1c"
+			name="OrderAccountType"
+			refimgid="1922ef6c-565b-47ae-8750-0095ecc365df"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Order account type:']
+			</item>
+			<folder
+			addcaps="row,accessible"
+			capname="row"
+			id="89ad5cd5-579c-4ce8-9b06-7baf8abe921b"
+			isrooted="True"
+			name="RowRow3"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="64a0b65b-1ace-44ab-ae63-32e41e84c7be"
+				name="Status"
+				refimgid="e88205dc-623f-424f-b9f0-d505db0a7eb2"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$RefundRow_3]/cell[@accessiblename='Status']
+				</item>
+				<basepath>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$RefundRow_3]
+				</basepath>
+			</folder>
+			<folder
+			addcaps="row,accessible"
+			capname="row"
+			id="3938b304-5ec7-47ae-9315-f4875f0d1b01"
+			isrooted="True"
+			name="RowRow4"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="e3cbfccf-1d86-439e-bf6b-2e5d6683df44"
+				name="DiscPercent"
+				refimgid="7abdad83-16dd-4d13-a81c-e5755ae62d0a"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_4]/cell[@accessiblename='Disc %']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="53020c1f-8473-48c0-b005-d202c5573820"
+				name="Price"
+				refimgid="c3a29cec-dfe2-4209-9366-b7f6ea719d83"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_4]/cell[@accessiblename='Price']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="d0fcbd64-3f97-4571-a382-d2ab40a19e82"
+				name="CellQty"
+				refimgid="238d1d89-7c3c-4177-8499-58a923a9b11f"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_4]/cell[@accessiblename='Quantity']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="4bf54c86-5c85-4c3e-835b-6f41582bbaf8"
+				name="Status"
+				refimgid="711e7cc7-d837-41d1-adff-694191c2405d"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_4]/cell[@accessiblename='Status' and @text~'[a-zA-Z]']
+				</item>
+				<basepath>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_4]
+				</basepath>
+			</folder>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="cdec0437-bc35-4dca-a682-2cc48ffa680a"
+			name="Status2"
+			refimgid="cff40d3e-43a2-497b-bf1e-3e981bbc59f2"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$RefundRow_1]/cell[@accessiblename='Status']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="73f13803-e3d8-4557-b31f-27d6058c2e98"
+			name="Status3"
+			refimgid="6262a0e1-1717-4e9b-b7cd-173fb74a36cd"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$RefundRow_2]/cell[@accessiblename='Status']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="17bcda34-fdb9-4825-a9ca-1e417b8c41fa"
+			name="Status4"
+			refimgid="b82b4ceb-b705-48d7-867c-56525835b038"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$RefundRow_4]/cell[@accessiblename='Status']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="1275b734-5dc8-49de-8adb-ff67294c1b8d"
+			name="Display"
+			refimgid="adc357da-ba95-4ae1-bb8c-63e86e9a808d"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/menuitem[@accessiblename='Display']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="d977c9fa-6bb0-4151-8e71-2ad807b898ac"
+			name="Tools"
+			refimgid="037c99aa-3196-4edd-88db-4c0b7e955365"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/menuitem[@accessiblename='Tools']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="400beccf-3a98-41f0-b6e5-54e53e521362"
+			name="Options2"
+			refimgid="41b6bd95-76ed-4476-a883-116f124cf021"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/button[@accessiblename='Options']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="ed124290-ad56-4bf2-8c41-9f51d07354c9"
+			name="Lines2"
+			refimgid="62a3313b-bf20-4c25-a68b-9273a4beade8"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/button[@accessiblename='Lines']
+			</item>
+			<folder
+			addcaps="table,accessible"
+			capname="table"
+			id="fce39e17-5003-4b7c-92c9-f52e2d2273ed"
+			isrooted="True"
+			name="Table"
+			refpath="/form[@title='sl1071 K8UKPPD 1    - Sales Order Processing - Sales Order (SL) 260575 (HJ Ilford) d961manager']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26709']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26763']/element[@class='KCMLDlgWndClass_32' and @instance='0']/element[@controlid='27260']/element[@controlid='100']/table[@accessiblename='']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="b74172d4-1355-46da-bc27-1a7533aef83e"
+				name="Status1"
+				refimgid="51e719b4-da5a-4398-8839-6ef9a5bb6ad0"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']/row[$PROStatus_1]/cell[@accessiblename='Status']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="9ef8a21d-d886-4cf5-bf82-2044fe92c6d6"
+				name="Status5"
+				refimgid="d99e9380-5895-44b7-b54f-54d5eb05380b"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']/row[$PROStatus_2]/cell[@accessiblename='Status']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="91cd4803-9267-45c3-b30a-61a0ad3d2853"
+				name="Status6"
+				refimgid="ad8153fc-8b64-4959-a6a7-573033fc766d"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']/row[$PROStatus_3]/cell[@accessiblename='Status']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="f81b4a3f-9a4f-4dbd-9b82-c9282ac73ad2"
+				name="Status"
+				refimgid="31269fa1-31d8-4fe6-a8af-da37551a6a73"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']/row[$PROStatus_4]/cell[@accessiblename='Status']
+				</item>
+				<basepath>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="47f507f2-ce35-431f-852b-56aef56deb94"
+		isrooted="True"
+		name="ActionSalesOrderSL17707"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="8f7f5830-41e2-4d32-bfcd-5b361f6dedae"
+			name="Type"
+			refimgid="86b4fc9f-d3f0-4e3a-9f62-863f661df3b3"
+			searchtimeout="30000ms">
+				/form[@title~'^Action\ Sales\ Order\ \(SL\)']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/element[@controlid='100']/?/?/text[@accessiblename='Type']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="fbf73103-c9a3-4943-bc7c-9297e2614d1e"
+			name="ButtonOK"
+			refimgid="3d691f67-68a1-4515-a881-ebb21f590187"
+			searchtimeout="30000ms">
+				/form[@title~'^Action\ Sales\ Order\ \(SL\)']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@title~'^Action\ Sales\ Order\ \(SL\)']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="5c433e54-7584-4910-b2e4-f0dd3a18d72a"
+		isrooted="True"
+		name="DeliveryAddress17707D723HowdensW"
+		refpath="/form[@title='Delivery Address 17707 (D723 Howdens - Watford)']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="e68397ec-cd76-4979-80e5-a8e8798c8a58"
+			name="ButtonOK"
+			refimgid="b8b2abd6-9e02-49c0-9797-6fca8ce4676f"
+			searchtimeout="30000ms">
+				/form[@title~'^Delivery\ Address']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@title~'^Delivery\ Address']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="627ba4ca-5741-46c6-8bea-86c62aa71628"
+		isrooted="True"
+		name="DataCapture"
+		searchtimeout="1000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="1e77fef3-0a81-41a3-9de2-f7b7ed4f683e"
+			name="Text"
+			refimgid="4ab19eda-7329-456b-9ccc-7d6b8212dd61"
+			searchtimeout="1000ms">
+				/form[@title~'^Data\ Capture']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid='103']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="f3d406bf-f644-4eab-9216-4cb0f32b89b2"
+			name="ButtonOK"
+			refimgid="cd5b174a-25e2-4c67-a8b2-ebc8fca9f85f"
+			searchtimeout="30000ms">
+				/form[@title~'^Data\ Capture']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@title~'^Data\ Capture']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="904d9275-1bd8-4c8a-8d00-9cbc79a5ede8"
+		isrooted="True"
+		name="CreditProductSalesOrder18175"
+		refpath="/form[@title='Credit Product - Sales Order 18175']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="6582c753-9226-4fc2-bd84-ae96fdb502a9"
+			name="ButtonOK"
+			refimgid="d75dd7bf-1638-4a17-8f7e-ebda034f202c"
+			refpath="/form[@title~'^Credit\ Product\ -\ Sales\ Or']/element/element[@controlid='1']/button[@accessiblename='OK']"
+			searchtimeout="30000ms">
+				/form[@title~'^Credit\ Product\ -\ Sales\ Or']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@title~'^Credit\ Product\ -\ Sales\ Or']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="53854caf-b4cd-461b-9d49-4674b02459ce"
+		isrooted="True"
+		name="SalesOrderProcessingCreditNoteCR"
+		refpath="/form[@title='Sales Order Processing - Credit Note (CR) 18320']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="1eb49a6d-1ac9-47ca-bd9f-243fa56d4d25"
+			name="Process"
+			refimgid="6499e60f-e9d8-4c54-a0eb-7f5fe21005d1"
+			refpath="/form[@title='Sales Order Processing - Credit Note (CR) 18320']/element[@controlid='62']/element[@controlid='66']/toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Process']"
+			searchtimeout="30000ms">
+				/form[@title~'^Sales\ Order\ Processing\ -\ ']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Process']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="d9841733-c299-4f2e-bf7c-a1fa143c6b60"
+			name="Quantity"
+			refimgid="0eacceba-71a4-4d41-91aa-fceca1d1681d"
+			searchtimeout="30000ms">
+				/form[@title~'^Sales\ Order\ Processing\ -\ ']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[@accessiblename='Quantity']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="0ad74a26-fafc-4b7f-ab3f-df5d777ad907"
+			name="Save"
+			refimgid="1a502936-71ea-4d95-87d9-198e62585459"
+			refpath="/form[@title='Sales Order Processing - Sales Order (SL) 193869']/element[@controlid='62']/element[@controlid='66']/toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Save']"
+			searchtimeout="30000ms">
+				/form[@title~'^Sales\ Order\ Processing\ -\ ']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Save']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="eaff459b-7a30-4c15-a672-66d9534e02c7"
+			name="Text1"
+			refimgid="2a78fdf7-c851-421c-9f29-3be24fd1cdea"
+			searchtimeout="30000ms">
+				/form[@title~'^Sales\ Order\ Processing\ -\ ']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="d22e1a02-eba9-4aaa-b892-aaac1ec0cabb"
+			name="Cancel"
+			refimgid="5873e538-bf95-4c36-8a47-59fc8e657ab5"
+			refpath="/form[@title='Sales Order Processing - Sales Order (SL) 193892']/element[@controlid='62']/element[@controlid='66']/toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Cancel']"
+			searchtimeout="30000ms">
+				/form[@title~'^Sales\ Order\ Processing\ -\ ']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Cancel']
+			</item>
+			<basepath>
+				/form[@title~'^Sales\ Order\ Processing\ -\ ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="30fc971a-5c06-44de-93cb-4d8fd8d40967"
+		isrooted="True"
+		name="ActionCreditNoteCR18320"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="595139fd-f747-42ab-a7e6-3ef0a9611d79"
+			name="ButtonOK"
+			refimgid="5e80bf62-236f-40a6-8053-e15dcdfabcf0"
+			searchtimeout="30000ms">
+				/form[@title~'^Action\ Credit\ Note\ \(CR\)']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@title~'^Action\ Credit\ Note\ \(CR\)']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="contextmenu,nativewindow"
+		capname="contextmenu"
+		id="57350928-55a2-4fe1-bd04-b3a35407c35f"
+		isrooted="True"
+		name="Kclient"
+		refpath="/contextmenu[@processname='kclient']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="43fd7be1-1030-40c2-9fe9-bb25c81927cd"
+			name="DisplaySalesOrderHistory"
+			refimgid="a6348304-35f5-43fc-9aef-92453c24a5b3"
+			refpath="/contextmenu[@processname='kclient']/contextmenu/menuitem[@accessiblename~'^Display\ Sales\ Order\ Histo']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='kclient']/?/?/menuitem[@accessiblename~'^Display\ Sales\ Order\ Histo']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="fd8223b6-ed28-4ed8-8434-0289474660d2"
+			name="OpenCashDrawer"
+			refimgid="6ed78bbc-1c24-430f-9db7-f5c5ddbde3be"
+			refpath="/contextmenu[@processname='kclient']/contextmenu/menuitem[@accessiblename='Open Cash Drawer...']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='kclient']/?/?/menuitem[@accessiblename='Open Cash Drawer...']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="cc857f2c-7f8b-4762-86b6-b6802fe9afbb"
+			name="CashAnalysis"
+			refimgid="58be6c87-336a-4b0e-8b34-0d174f042ca6"
+			refpath="/contextmenu[@processname='kclient']/contextmenu/menuitem[@accessiblename='Cash Analysis...']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='kclient']/?/?/menuitem[@accessiblename='Cash Analysis...']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="b6365ead-fe7c-4ea2-ac85-a514f57af9a9"
+			name="MakeAccountPaymentSHIFTPlusF10"
+			refimgid="01c4d390-46be-475f-a789-9c45b727c41e"
+			refpath="/contextmenu[@processname='kclient']/contextmenu/menuitem[@accessiblename~'^Make\ Account\ Payment\.\.\.S']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='kclient']/?/?/menuitem[@accessiblename~'^Make\ Account\ Payment\.\.\.S']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="bffa3613-9ace-4c47-bcb8-73b689b43a6e"
+			name="OpenSale"
+			refimgid="fecab42c-8aa0-44f5-86f8-56b392e52f8c"
+			refpath="/contextmenu[@processname='kclient']/contextmenu[@accessiblename='Context']/menuitem[@accessiblename='Open Sale...']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='kclient']/?/?/menuitem[@accessiblename='Open Sale...']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="9ecc909d-edac-4496-b84c-2f0e87d843a8"
+			name="OpenQuote"
+			refimgid="a9c2ff2b-d071-4ec8-930f-ba765b62a561"
+			refpath="/contextmenu[@processname='kclient']/contextmenu[@accessiblename='Context']/menuitem[@accessiblename='Open Quote...']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='kclient']/?/?/menuitem[@accessiblename='Open Quote...']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="ec72a73c-7964-4699-856b-e7265b412fd2"
+			name="DisplayCashTransaction"
+			refimgid="2d390b9a-d99b-42c4-859c-b11b3ccd17b9"
+			refpath="/contextmenu[@processname='kclient']/contextmenu[@accessiblename='Context']/menuitem[@accessiblename='Display Cash Transaction...']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='kclient']/?/?/menuitem[@accessiblename~'^Display\ Cash\ Transaction\.']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="a6dfff1e-965d-4921-a8a6-02dcb81fc313"
+			name="ConfirmAllLines"
+			refimgid="667e60f3-a418-4abe-9f36-91f24cd601dc"
+			refpath="/contextmenu[@processname='kclient']/contextmenu[@accessiblename='Context']/menuitem[@accessiblename='Confirm all lines']"
+			searchtimeout="30000ms">
+				/contextmenu[@processname='kclient']/?/?/menuitem[@accessiblename='Confirm all lines']
+			</item>
+			<basepath>
+				/contextmenu[@processname='kclient']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGOfPtRkwAAACBjSFJN
+AACHDwAAjA8AAP1SAACBQAAAfXkAAOmLAAA85QAAGcxzPIV3AAAKOWlDQ1BQaG90b3Nob3AgSUND
+IHByb2ZpbGUAAEjHnZZ3VFTXFofPvXd6oc0wAlKG3rvAANJ7k15FYZgZYCgDDjM0sSGiAhFFRJoi
+SFDEgNFQJFZEsRAUVLAHJAgoMRhFVCxvRtaLrqy89/Ly++Osb+2z97n77L3PWhcAkqcvl5cGSwGQ
+yhPwgzyc6RGRUXTsAIABHmCAKQBMVka6X7B7CBDJy82FniFyAl8EAfB6WLwCcNPQM4BOB/+fpFnp
+fIHomAARm7M5GSwRF4g4JUuQLrbPipgalyxmGCVmvihBEcuJOWGRDT77LLKjmNmpPLaIxTmns1PZ
+Yu4V8bZMIUfEiK+ICzO5nCwR3xKxRoowlSviN+LYVA4zAwAUSWwXcFiJIjYRMYkfEuQi4uUA4EgJ
+X3HcVyzgZAvEl3JJS8/hcxMSBXQdli7d1NqaQffkZKVwBALDACYrmcln013SUtOZvBwAFu/8WTLi
+2tJFRbY0tba0NDQzMv2qUP91829K3NtFehn4uWcQrf+L7a/80hoAYMyJarPziy2uCoDOLQDI3fti
+0zgAgKSobx3Xv7oPTTwviQJBuo2xcVZWlhGXwzISF/QP/U+Hv6GvvmckPu6P8tBdOfFMYYqALq4b
+Ky0lTcinZ6QzWRy64Z+H+B8H/nUeBkGceA6fwxNFhImmjMtLELWbx+YKuGk8Opf3n5r4D8P+pMW5
+FonS+BFQY4yA1HUqQH7tBygKESDR+8Vd/6NvvvgwIH554SqTi3P/7zf9Z8Gl4iWDm/A5ziUohM4S
+8jMX98TPEqABAUgCKpAHykAd6ABDYAasgC1wBG7AG/iDEBAJVgMWSASpgA+yQB7YBApBMdgJ9oBq
+UAcaQTNoBcdBJzgFzoNL4Bq4AW6D+2AUTIBnYBa8BgsQBGEhMkSB5CEVSBPSh8wgBmQPuUG+UBAU
+CcVCCRAPEkJ50GaoGCqDqqF6qBn6HjoJnYeuQIPQXWgMmoZ+h97BCEyCqbASrAUbwwzYCfaBQ+BV
+cAK8Bs6FC+AdcCXcAB+FO+Dz8DX4NjwKP4PnEIAQERqiihgiDMQF8UeikHiEj6xHipAKpAFpRbqR
+PuQmMorMIG9RGBQFRUcZomxRnqhQFAu1BrUeVYKqRh1GdaB6UTdRY6hZ1Ec0Ga2I1kfboL3QEegE
+dBa6EF2BbkK3oy+ib6Mn0K8xGAwNo42xwnhiIjFJmLWYEsw+TBvmHGYQM46Zw2Kx8lh9rB3WH8vE
+CrCF2CrsUexZ7BB2AvsGR8Sp4Mxw7rgoHA+Xj6vAHcGdwQ3hJnELeCm8Jt4G749n43PwpfhGfDf+
+On4Cv0CQJmgT7AghhCTCJkIloZVwkfCA8JJIJKoRrYmBRC5xI7GSeIx4mThGfEuSIemRXEjRJCFp
+B+kQ6RzpLuklmUzWIjuSo8gC8g5yM/kC+RH5jQRFwkjCS4ItsUGiRqJDYkjiuSReUlPSSXK1ZK5k
+heQJyeuSM1J4KS0pFymm1HqpGqmTUiNSc9IUaVNpf+lU6RLpI9JXpKdksDJaMm4ybJkCmYMyF2TG
+KQhFneJCYVE2UxopFykTVAxVm+pFTaIWU7+jDlBnZWVkl8mGyWbL1sielh2lITQtmhcthVZKO04b
+pr1borTEaQlnyfYlrUuGlszLLZVzlOPIFcm1yd2WeydPl3eTT5bfJd8p/1ABpaCnEKiQpbBf4aLC
+zFLqUtulrKVFS48vvacIK+opBimuVTyo2K84p6Ss5KGUrlSldEFpRpmm7KicpFyufEZ5WoWiYq/C
+VSlXOavylC5Ld6Kn0CvpvfRZVUVVT1Whar3qgOqCmrZaqFq+WpvaQ3WCOkM9Xr1cvUd9VkNFw08j
+T6NF454mXpOhmai5V7NPc15LWytca6tWp9aUtpy2l3audov2Ax2yjoPOGp0GnVu6GF2GbrLuPt0b
+erCehV6iXo3edX1Y31Kfq79Pf9AAbWBtwDNoMBgxJBk6GWYathiOGdGMfI3yjTqNnhtrGEcZ7zLu
+M/5oYmGSYtJoct9UxtTbNN+02/R3Mz0zllmN2S1zsrm7+QbzLvMXy/SXcZbtX3bHgmLhZ7HVosfi
+g6WVJd+y1XLaSsMq1qrWaoRBZQQwShiXrdHWztYbrE9Zv7WxtBHYHLf5zdbQNtn2iO3Ucu3lnOWN
+y8ft1OyYdvV2o/Z0+1j7A/ajDqoOTIcGh8eO6o5sxybHSSddpySno07PnU2c+c7tzvMuNi7rXM65
+Iq4erkWuA24ybqFu1W6P3NXcE9xb3Gc9LDzWepzzRHv6eO7yHPFS8mJ5NXvNelt5r/Pu9SH5BPtU
++zz21fPl+3b7wX7efrv9HqzQXMFb0ekP/L38d/s/DNAOWBPwYyAmMCCwJvBJkGlQXlBfMCU4JvhI
+8OsQ55DSkPuhOqHC0J4wybDosOaw+XDX8LLw0QjjiHUR1yIVIrmRXVHYqLCopqi5lW4r96yciLaI
+LoweXqW9KnvVldUKq1NWn46RjGHGnIhFx4bHHol9z/RnNjDn4rziauNmWS6svaxnbEd2OXuaY8cp
+40zG28WXxU8l2CXsTphOdEisSJzhunCruS+SPJPqkuaT/ZMPJX9KCU9pS8Wlxqae5Mnwknm9acpp
+2WmD6frphemja2zW7Fkzy/fhN2VAGasyugRU0c9Uv1BHuEU4lmmfWZP5Jiss60S2dDYvuz9HL2d7
+zmSue+63a1FrWWt78lTzNuWNrXNaV78eWh+3vmeD+oaCDRMbPTYe3kTYlLzpp3yT/LL8V5vDN3cX
+KBVsLBjf4rGlpVCikF84stV2a9021DbutoHt5turtn8sYhddLTYprih+X8IqufqN6TeV33zaEb9j
+oNSydP9OzE7ezuFdDrsOl0mX5ZaN7/bb3VFOLy8qf7UnZs+VimUVdXsJe4V7Ryt9K7uqNKp2Vr2v
+Tqy+XeNc01arWLu9dn4fe9/Qfsf9rXVKdcV17w5wD9yp96jvaNBqqDiIOZh58EljWGPft4xvm5sU
+moqbPhziHRo9HHS4t9mqufmI4pHSFrhF2DJ9NProje9cv+tqNWytb6O1FR8Dx4THnn4f+/3wcZ/j
+PScYJ1p/0Pyhtp3SXtQBdeR0zHYmdo52RXYNnvQ+2dNt293+o9GPh06pnqo5LXu69AzhTMGZT2dz
+z86dSz83cz7h/HhPTM/9CxEXbvUG9g5c9Ll4+ZL7pQt9Tn1nL9tdPnXF5srJq4yrndcsr3X0W/S3
+/2TxU/uA5UDHdavrXTesb3QPLh88M+QwdP6m681Lt7xuXbu94vbgcOjwnZHokdE77DtTd1PuvriX
+eW/h/sYH6AdFD6UeVjxSfNTws+7PbaOWo6fHXMf6Hwc/vj/OGn/2S8Yv7ycKnpCfVEyqTDZPmU2d
+mnafvvF05dOJZ+nPFmYKf5X+tfa5zvMffnP8rX82YnbiBf/Fp99LXsq/PPRq2aueuYC5R69TXy/M
+F72Rf3P4LeNt37vwd5MLWe+x7ys/6H7o/ujz8cGn1E+f/gUDmPP8usTo0wAAAAlwSFlzAAAOxAAA
+DsQBlSsOGwAAAKtJREFUOE9j+P//P0UYzrAJyP6/ZsVMojFWAxjAXMIApwEgADJkx8Hz/8va5/7P
+qJr4PzK75b9XbNl/mDwI4DUABAi5hKABIAAyZNnGff8jc5r/e8aWk+YCGMDlEqJdAMNTF64nzgUw
+DSAAos+dOwfG6ACnATANyIY0dE4iLgy6OqpBgmCA7gp0gNUAqCAYbD8IcQVJLkA2AARg3iHJBaRg
+DAPIxVgFicf/GQCdrAkiuOdOjQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="8e3f8eb0-ff7b-4cc3-819f-9e58086e0d5e"
+		isrooted="True"
+		name="CashbookCustomerReceipts"
+		refpath="/form[@title='Cashbook (Customer Receipts)']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="174bc0c3-cfd6-4e0e-8b79-4ee2661985b3"
+			name="TillNumber"
+			refimgid="6938f5c7-f925-44b6-824c-438373295978"
+			searchtimeout="30000ms">
+				/form[@title~'^Cashbook\ \(Customer\ Receip']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Till number:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="02f5f980-dea8-44b2-81b5-71c54b47fdfc"
+			name="CashType"
+			refimgid="f8b17548-af17-40bd-89fa-dd00c90b4023"
+			searchtimeout="30000ms">
+				/form[@title~'^Cashbook\ \(Customer\ Receip']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Cash type:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="d3e570ec-8d7f-4626-8fb1-e915728db2b4"
+			name="Value"
+			refimgid="bda7f30b-bbb0-411c-8c0d-fcfd4ba0ebea"
+			searchtimeout="30000ms">
+				/form[@title~'^Cashbook\ \(Customer\ Receip']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Value:']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="dbdbf1a5-aed1-4502-956b-bd28ffcc2a16"
+			name="Process"
+			refimgid="259dbf29-b2c0-4012-bc86-24cee6181694"
+			refpath="/form[@title='Cashbook (Customer Receipts)']/element[@controlid='62']/element[@controlid='66']/toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Process']"
+			searchtimeout="30000ms">
+				/form[@title~'^Cashbook\ \(Customer\ Receip']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Process']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="c2c7945f-846c-473d-ba1d-3cec605e635c"
+			name="Exit"
+			refimgid="794cfb4c-340d-4097-bd81-0372476a5b66"
+			refpath="/form[@title='Cashbook (Customer Receipts)']/element[@controlid='62']/element[@controlid='66']/toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Exit']"
+			searchtimeout="30000ms">
+				/form[@title~'^Cashbook\ \(Customer\ Receip']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Exit']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="f711bc32-8368-49ea-a957-ee858559253b"
+			name="Text"
+			refimgid="b90105d4-4cb3-424e-b978-c9d906ee8ca5"
+			searchtimeout="30000ms">
+				/form[@title~'^Cashbook\ \(Customer\ Receip']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//text[@accessiblerole='Text']
+			</item>
+			<folder
+			addcaps="table,accessible"
+			capname="table"
+			id="2f8d9886-f28a-4b33-b3d9-dea496b5d443"
+			isrooted="True"
+			name="Table"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="bc2dad53-9e21-48f3-8503-89acd5e04c55"
+				name="Account"
+				refimgid="493d03e7-c90d-4d91-b7b2-ff88d83955cf"
+				searchtimeout="30000ms">
+					/form[@title~'^Cashbook\ \(Customer\ Receip']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']/?/?/cell[@accessiblename='Account' and @accessiblerole='Cell']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="7f4e41d9-e716-4bcf-9233-f762fcef7ff9"
+				name="AccountName"
+				refimgid="567ade01-3017-4c15-8aa9-bf74d9fd7a70"
+				searchtimeout="30000ms">
+					/form[@title~'^Cashbook\ \(Customer\ Receip']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']/?/?/cell[@accessiblename='Account Name' and @accessiblerole='Cell']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="6bc8fe8a-abab-4ad1-b199-a5a410dde529"
+				name="Reference"
+				refimgid="84bc1d18-33ae-45d7-aa04-93be2219040d"
+				searchtimeout="30000ms">
+					/form[@title~'^Cashbook\ \(Customer\ Receip']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']/?/?/cell[@accessiblename='Reference' and @accessiblerole='Cell']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="abfb231b-12e5-4343-955c-b73d0534749a"
+				name="Type"
+				refimgid="9270a680-7709-413f-a523-4ad8ed37c61b"
+				refpath="/form[@title='Cashbook (Customer Receipts)']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26846']/element[@class='KCMLDlgWndClass_32' and @instance='0']/element[@controlid='27974']/element[@controlid='100']/table[@accessiblename='']/row[2]/cell[@accessiblename='Type']"
+				searchtimeout="30000ms">
+					/form[@title~'^Cashbook\ \(Customer\ Receip']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']/?/?/cell[@text='No cash taken']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="a0c57d26-5387-49a2-9468-6ec627d4f4e6"
+				name="Value"
+				refimgid="ae19952f-35ae-4dd1-94a3-a1482378189d"
+				refpath="/form[@title='Cashbook (Customer Receipts)']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26846']/element[@class='KCMLDlgWndClass_32' and @instance='0']/element[@controlid='27974']/element[@controlid='100']/table[@accessiblename='']/row[2]/cell[@accessiblename='Value']"
+				searchtimeout="30000ms">
+					/form[@title~'^Cashbook\ \(Customer\ Receip']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']/?/?/cell[@text='0']
+				</item>
+				<basepath>
+					/form[@title~'^Cashbook\ \(Customer\ Receip']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="95c909d8-7268-4d36-af64-28adee934072"
+			name="Description"
+			refimgid="8b5e0ed0-051d-4a52-9049-6cc61bca4651"
+			searchtimeout="30000ms">
+				/form[@title~'^Cashbook\ \(Customer\ Receip']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/button[@accessiblename='Description:']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="96a35ede-fbe4-49fa-917e-625590c9f05d"
+			name="ReceiptReversal"
+			refimgid="e1eb892e-7c97-4393-b109-2f14c0c4d70d"
+			searchtimeout="30000ms">
+				/form[@title~'^Cashbook\ \(Customer\ Receip']/?/?/element[@controlid~'[d]*']/?/?/table/row[6]/cell[@accessiblename='Receipt Reversal']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="2bcd903c-ecc8-4e53-838d-924f573a3c23"
+			name="Text2"
+			refimgid="022fc236-1d8d-4361-9645-768c7b2933a4"
+			searchtimeout="30000ms">
+				/form[@title~'^Cashbook\ \(Customer\ Receip']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26846']/?/?/element[@controlid='27937']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="4c83f94a-d110-49a7-93a3-0fb16652ba35"
+			name="Submit"
+			refimgid="fecdabcf-b33d-4a48-a2dc-e32cf83190ad"
+			refpath="/form[@title='Cashbook (Customer Receipts)']/element[@controlid='62']/element[@controlid='66']/button[@accessiblename='Submit']"
+			searchtimeout="30000ms">
+				/form[@title~'^Cashbook\ \(Customer\ Receip']/element[@controlid='62']/?/?/button[@accessiblename='Submit']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="ff56964d-2ffa-43ec-a5ec-84ef36e9f170"
+			name="Exit1"
+			refimgid="8d47cabb-b923-4fe5-926e-0cad145b8073"
+			refpath="/form[@title='Cashbook (Customer Receipts)']/element[@controlid='62']/element[@controlid='66']/button[@accessiblename='Exit']"
+			searchtimeout="30000ms">
+				/form[@title~'^Cashbook\ \(Customer\ Receip']/element[@controlid='62']/?/?/button[@accessiblename='Exit']
+			</item>
+			<basepath>
+				/form[@title~'^Cashbook\ \(Customer\ Receip']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="89d3bcac-4fa4-4f9e-bf9b-6cff5b33e22e"
+		isrooted="True"
+		name="Cash_Adjustments"
+		refimgid="c03a2505-45da-4999-9133-992192331df9"
+		refpath="/form[@title='Delivery Address 18320 (D723 Howdens - Watford)']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="8ef788ca-e1f9-4866-8212-037c837509f2"
+			name="CurrentTillNumber"
+			refimgid="e3b5f6eb-bd06-442b-a59c-cccd694c95d8"
+			searchtimeout="30000ms">
+				/form[@title~'^Cash Adjustments']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Current till number:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="716ee92f-9ef9-4baa-b146-3cf024273498"
+			name="AdjustmentCashType"
+			refimgid="4d67b261-4d53-4c7e-b301-75b4465d5d2d"
+			searchtimeout="30000ms">
+				/form[@title~'^Cash Adjustments']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Adjustment cash type:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="79a51674-ce7b-44ee-86db-b8bce2206091"
+			name="ReasonCode"
+			refimgid="5c9fcab9-7cb3-4693-b8b4-b30ebdcea188"
+			searchtimeout="30000ms">
+				/form[@title~'^Cash Adjustments']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Reason code:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="2e1ae5fa-7794-41d6-8911-b1e025d03512"
+			name="Text"
+			refimgid="44e8f0a5-be36-44fd-b7a6-e3d4248f22bb"
+			searchtimeout="30000ms">
+				/form[@title~'^Cash Adjustments']/?/?/element[@controlid~'[d]*']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="b932a833-b3e5-4dcd-9338-9891ec82a6c9"
+			name="TotalSpent"
+			refimgid="3ef80b3f-0694-46d1-866f-d1b521a70d7f"
+			searchtimeout="30000ms">
+				/form[@title~'^Cash Adjustments']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Total spent:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="c0ef6bc5-0149-44ec-9b96-6337c3ff20dc"
+			name="VATValue"
+			refimgid="3adbf0ef-a722-4bdf-ac49-d8cb2a929a11"
+			refpath="/form[@title='Cash Adjustments']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26692']/text[@accessiblename='VAT value:']"
+			searchtimeout="30000ms">
+				/form[@title~'^Cash Adjustments']/?/?/element[@controlid='26692']/text[@accessiblename='VAT value:']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="259a8d93-c1a5-4557-8496-c2b2e50d22b3"
+			name="ButtonOK"
+			refimgid="067b5e31-f34f-4e27-81f1-ec7dc2fae6f4"
+			searchtimeout="30000ms">
+				/form[@title~'^Cash Adjustments']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@title~'^Cash Adjustments']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="cf37972c-2527-49e6-aeb5-9325953e9634"
+		isrooted="True"
+		name="SalesOrderProcessing"
+		refpath="/form[@title='Sales Order Processing']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="38c2a3c0-0089-4c22-bad4-77d461df3a9c"
+			name="ButtonOK"
+			refimgid="2f39ac17-cff7-4a67-a811-ffb69ab1ace4"
+			refpath="/form[@title='Sales Order Processing']/button[@text='OK']"
+			searchtimeout="30000ms">
+				/form[@title='Sales Order Processing']/button[@text='OK']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="c7c3e65a-4eec-4c60-8c48-4402218f3c0e"
+			name="ButtonYes"
+			refimgid="cdd1a56a-9af6-4c2e-9040-50bfafce75cf"
+			searchtimeout="30000ms">
+				/form[@title='Sales Order Processing']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='Sales Order Processing']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="dacaebc0-ecff-477a-8afb-4d611cc27a5b"
+		isrooted="True"
+		name="SalesOrderHistory"
+		refpath="/form[@title='Sales Order History']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="e793232d-f9bb-4715-af2e-37f02a2891bc"
+			name="OrderNumber"
+			refimgid="91e45721-53e7-4ca2-9ddd-6d5c74878f60"
+			searchtimeout="30000ms">
+				/form[@title='Sales Order History']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Order number:']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="5fa0d201-72bd-4196-bb51-f37bbeea7f12"
+			name="Exit"
+			refimgid="5eb78138-b925-4054-8779-5da7596f9ded"
+			refpath="/form[@title='Sales Order History']/element[@class='KCMLDlgWndClass_32']/element[@controlid='2']/button[@accessiblename='Exit']"
+			searchtimeout="30000ms">
+				/form[@title='Sales Order History']/?/?/element[@controlid='2']/button[@accessiblename='Exit']
+			</item>
+			<folder
+			addcaps="row,accessible"
+			capname="row"
+			id="f722fdc6-87ff-43d3-8fd5-15fa9661f47f"
+			isrooted="True"
+			name="RowRow"
+			refpath="/form[@title='Sales Order History']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26690']/element[@controlid='100']/table[@accessiblename='']/row[2]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="637101af-4e23-4c66-ac08-22c2ea52c6f3"
+				name="Cell00010967"
+				refimgid="8b6e835c-faaf-4182-9f81-a973ba2f0170"
+				searchtimeout="30000ms">
+					/form[@title='Sales Order History']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[7]
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="79ca22b5-0f9c-4099-b02c-c2c83db66d1f"
+				name="CD723"
+				refimgid="de166771-7dc0-412d-ba7c-f7ab0237da39"
+				searchtimeout="30000ms">
+					/form[@title='Sales Order History']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[8]
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="20b652b4-9a03-4114-9f90-19d30a0653c7"
+				name="D723manager"
+				refimgid="194e3bfe-05e5-45ce-b367-791b65aba328"
+				searchtimeout="30000ms">
+					/form[@title='Sales Order History']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[2]
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="1f5cfd87-864f-49e3-9170-14496dbd2fe5"
+				name="Cell6511"
+				refimgid="ed85bfc2-20a1-489e-be04-d999ef3ec171"
+				searchtimeout="30000ms">
+					/form[@title='Sales Order History']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[9]
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="fd530112-8ac3-4f8a-9754-8c9bd7ee3df8"
+				name="Cell1302"
+				refimgid="b41dc686-d7c6-416b-ab2b-9cf1aec8babd"
+				searchtimeout="30000ms">
+					/form[@title='Sales Order History']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[10]
+				</item>
+				<basepath>
+					/form[@title='Sales Order History']//element[@controlid='100']/table[@accessiblename='']/row[2]
+				</basepath>
+			</folder>
+			<folder
+			addcaps="row,accessible"
+			capname="row"
+			id="33e5fb5c-5bd6-4c88-82fd-8cb109d56e22"
+			isrooted="True"
+			name="RowRow1"
+			refpath="/form[@title='Sales Order History']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26690']/element[@controlid='100']/table[@accessiblename='']/row[3]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="0a9833ef-2524-4108-b750-e7d309186b1c"
+				name="Cell00010968"
+				refimgid="fd504c99-f7b8-4310-8c25-cafbd1c8b791"
+				searchtimeout="30000ms">
+					/form[@title='Sales Order History']//element[@controlid='100']/table[@accessiblename='']/row[3]/cell[7]
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="967f5401-e7c6-4eaa-abd6-bcb625c875cf"
+				name="Cell62116"
+				refimgid="294de441-fe4d-4ed7-9a4c-9be80d000a83"
+				searchtimeout="30000ms">
+					/form[@title='Sales Order History']//element[@controlid='100']/table[@accessiblename='']/row[3]/cell[1]
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="094165a6-8f13-44f8-99fc-03e5d8687fde"
+				name="D723manager"
+				refimgid="48030f7c-0cc4-4551-b62c-d71f96685ec3"
+				searchtimeout="30000ms">
+					/form[@title='Sales Order History']//element[@controlid='100']/table[@accessiblename='']/row[3]/cell[2]
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="05b827e4-02ef-498b-9058-e832d8e36643"
+				name="CD723"
+				refimgid="5f1a1e3a-2f47-443c-8273-f3174a88ac3c"
+				searchtimeout="30000ms">
+					/form[@title='Sales Order History']//element[@controlid='100']/table[@accessiblename='']/row[3]/cell[8]
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="457d9b4f-f4ae-493c-9871-cb9be9a2fca9"
+				name="Cell6511"
+				refimgid="c091d1c9-e640-4c94-b1c6-da02cb3071b8"
+				searchtimeout="30000ms">
+					/form[@title='Sales Order History']//element[@controlid='100']/table[@accessiblename='']/row[3]/cell[9]
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="8f849ec4-0be1-4de4-9dfa-89b8cca2d7e4"
+				name="Cell1302"
+				refimgid="25fea2d3-f8f4-4b47-92a5-d64d090e77d7"
+				searchtimeout="30000ms">
+					/form[@title='Sales Order History']//element[@controlid='100']/table[@accessiblename='']/row[3]/cell[10]
+				</item>
+				<basepath>
+					/form[@title='Sales Order History']//element[@controlid='100']/table[@accessiblename='']/row[3]
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Sales Order History']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="46067133-c839-4996-86cd-52ae854bb5ee"
+		isrooted="True"
+		name="OpenCashDrawer"
+		refpath="/form[@title='Open Cash Drawer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="915d78d2-e725-4d3c-904e-4da4e4eb2267"
+			name="ButtonYes"
+			refimgid="82b15a33-12bb-4cc1-a6e7-22f82cf86de3"
+			refpath="/form[@title='Open Cash Drawer']/button[@text='&amp;Yes']"
+			searchtimeout="30000ms">
+				/form[@title='Open Cash Drawer']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='Open Cash Drawer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d25a76e2-ba7c-40f5-98e3-764281674297"
+		isrooted="True"
+		name="CashbookCloseATill"
+		refpath="/form[@title='Cashbook (Close a Till)']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="3ad302a2-3e53-4e6c-bf51-38daf1fc8310"
+			name="CashTaken"
+			refimgid="ff861242-97c4-4dc6-84e1-0a252ec47e1c"
+			searchtimeout="30000ms">
+				/form[@title='Cashbook (Close a Till)']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[@accessiblename='Cash taken']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="b71e8133-9cc8-4072-be24-352fb0dc2719"
+			name="Reference"
+			refimgid="06e21653-df1e-4b22-a904-899f5a3a99b7"
+			searchtimeout="30000ms">
+				/form[@title='Cashbook (Close a Till)']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/element[@controlid='100']/table[@accessiblename='']/row[1]/cell[@accessiblename='Reference']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="80273905-6424-4bf3-85a1-a4d1cd5b3d6a"
+			name="Quantity"
+			refimgid="83b5a5b2-0fe9-4535-91b3-0161fe5dcfcf"
+			searchtimeout="30000ms">
+				/form[@title='Cashbook (Close a Till)']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//text[@accessiblename='Quantity']
+			</item>
+			<folder
+			addcaps="toolbar,accessible"
+			capname="toolbar"
+			id="bc2eb7b7-f94d-4130-89b8-1e430f449b41"
+			isrooted="True"
+			name="ToolBar"
+			refpath="/form[@title='Cashbook (Close a Till)']/element[@controlid='62']/element[@controlid='66']/toolbar[@accessiblerole='ToolBar']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="17c8a811-348f-428d-83d4-2e9e6870ed0d"
+				name="Close"
+				refimgid="4063d582-9a83-4e4d-9acc-4e422d7410a2"
+				refpath="/form[@title='Cashbook (Close a Till)']/element[@controlid='62']/element[@controlid='66']/toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Close']"
+				searchtimeout="30000ms">
+					/form[@title='Cashbook (Close a Till)']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Close']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="1050fd0a-b49f-43fd-8638-1976d3c89ad3"
+				name="Exit"
+				refimgid="cff177ef-1fd3-4ab5-ae52-286bd73e0cc6"
+				refpath="/form[@title='Cashbook (Close a Till)']/element[@controlid='62']/element[@controlid='66']/toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Exit']"
+				searchtimeout="30000ms">
+					/form[@title='Cashbook (Close a Till)']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Exit']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="5c01f67c-d13f-4149-8602-2c73035c6d1c"
+				name="TillTransfer"
+				refimgid="0840c550-0fb3-4dce-a89c-fcf3f94352be"
+				refpath="/form[@title='Cashbook (Close a Till)']/element[@controlid='62']/element[@controlid='66']/toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Till Transfer']"
+				searchtimeout="30000ms">
+					/form[@title='Cashbook (Close a Till)']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Till Transfer']
+				</item>
+				<basepath>
+					/form[@title='Cashbook (Close a Till)']//toolbar[@accessiblerole='ToolBar']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Cashbook (Close a Till)']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="1d18ee92-271d-4e12-8e86-5dfe35d7eb8f"
+		isrooted="True"
+		name="TillCashTransfer"
+		refpath="/form[@title='Till Cash Transfer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="e410a7b0-2146-4687-b0d5-5ecbc52d1b36"
+			name="TillNumber"
+			refimgid="67496e6d-42bd-4803-9b05-212e7c507301"
+			searchtimeout="30000ms">
+				/form[@title='Till Cash Transfer']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Till number:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="44a72815-9b09-4d21-95e2-7456d8c41f33"
+			name="TillNumber1"
+			refimgid="780b0409-54d9-4985-969c-421aa27395c1"
+			searchtimeout="30000ms">
+				/form[@title='Till Cash Transfer']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Till number:' and @accessiblevalue='0']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="82656d9b-28e3-46b3-ad29-1fd84eab4987"
+			name="Text"
+			refimgid="8c450fd8-6d4b-41b1-9da1-49448ed3881b"
+			searchtimeout="30000ms">
+				/form[@title='Till Cash Transfer']/?/?/element[@controlid~'[d]*']/?/?/text[@accessiblerole='Text' and @accessiblevalue='' and @accessiblestate='Focusable']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="21f13424-a5c5-4923-8394-8a76d8fe1f3c"
+			name="TransferValue"
+			refimgid="505f2344-0937-4c71-944f-b0d6a218bb5a"
+			searchtimeout="30000ms">
+				/form[@title='Till Cash Transfer']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Transfer value:']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="06769f93-eece-451c-97df-fd6f8b000c9d"
+			name="Process"
+			refimgid="f93bf77c-2b3e-466a-8c04-0472bf841c76"
+			refpath="/form[@title='Till Cash Transfer']/element[@class='KCMLDlgWndClass_32']/element[@controlid='1']/button[@accessiblename='Process']"
+			searchtimeout="30000ms">
+				/form[@title='Till Cash Transfer']/?/?/element[@controlid='1']/button[@accessiblename='Process']
+			</item>
+			<basepath>
+				/form[@title='Till Cash Transfer']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="179e5550-8500-45bb-9d30-6f180212e980"
+		isrooted="True"
+		name="CashAnalysis"
+		refpath="/form[@title='Cash Analysis']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="60a541cc-1cff-4755-a9ca-2c6770a50635"
+			name="ButtonYes"
+			refimgid="454073ac-f3ab-4ceb-b0fb-39142ed30889"
+			refpath="/form[@title='Cash Analysis']/button[@text='&amp;Yes']"
+			searchtimeout="30000ms">
+				/form[@title='Cash Analysis']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='Cash Analysis']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="5c38ff1c-ca05-4fc8-af17-554834d07d04"
+		isrooted="True"
+		name="UnderOversForCashTaken"
+		refpath="/form[@title='Under/Overs for Cash Taken']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="e13b4270-fefa-420f-96d5-e93c16cd3663"
+			name="Reason"
+			refimgid="709a3632-c831-42cd-974b-9e2126ef7281"
+			refpath="/form[@title~'^Under/Overs\ for\ Cash\ Take']/element/element[@controlid='26685']/element/table/row[2]/cell[@accessiblename='Reason']"
+			searchtimeout="30000ms">
+				/form[@title~'^Under/Overs\ for\ Cash\ Take']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[@accessiblename='Reason']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="b038f983-dcc6-4dfc-abe6-b2645bc979b5"
+			name="ButtonOK"
+			refimgid="43ccdd9c-70fb-47e1-b646-8d3e85481431"
+			searchtimeout="30000ms">
+				/form[@title~'^Under/Overs\ for\ Cash\ Take']/?/?/element[@controlid~'[d]*']/button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@title~'^Under/Overs\ for\ Cash\ Take']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e074c58b-2e55-44d2-b827-47b712ba9309"
+		isrooted="True"
+		name="K8UKPPD1Sl1071K8UKPPDHowdensK8HJ0"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="c6a7e286-48a5-46c9-b8b7-be3614b8dbcc"
+			name="BranchFiles"
+			refimgid="1be69b73-4279-4f89-bb76-44aeb76d57d7"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Branch Files']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="76d5ac17-3985-4c82-8c2a-9a03e3970531"
+			name="ManagersUtilities"
+			refimgid="e02ce55d-50b7-40be-9565-efe7d590f439"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Branch Files']/treeitem[@accessiblename='Manager''s Utilities']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="5561d1b0-ee9d-441a-b189-dba17f480d33"
+			name="BranchLookupSequence"
+			refimgid="08a1d1f0-a45a-422a-9c77-7f1a7fed076a"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']//treeitem[@accessiblename='Branch Files']/treeitem[@accessiblename='Manager''s Utilities']/treeitem[@accessiblename='Branch Lookup Sequence']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="4b7c887d-eceb-403b-8ec8-8f7b261096d5"
+			name="Exit"
+			refimgid="c5083660-36f4-4aa7-ab3d-988f6918faf2"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Exit']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="85883ba6-1ceb-4d8d-86af-d12fa4f447a5"
+			name="BranchStockFile"
+			refimgid="b70c5271-7962-4aba-8f3f-cfa526ee7c4c"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Branch Files']/treeitem[@accessiblename='Branch Stock File']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="eb6857c4-6524-423b-ae86-5fd9c931f046"
+			name="StockDisplay"
+			refimgid="e7d71a58-a50c-46ef-8aef-565410d038fe"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']//treeitem[@accessiblename='Branch Files']/treeitem[@accessiblename='Branch Stock File']/treeitem[@accessiblename='Stock Display']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="b1995af7-a985-4902-bda5-0b7e6bf93528"
+			name="Text"
+			refimgid="7c6b56e1-217a-4426-af68-c79973fcec88"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="4a68b238-7003-40ca-a5b0-a214ee674fd1"
+			name="Remote"
+			refimgid="979a6068-c433-48b6-b5c3-8223668e5478"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/button[@accessiblename='Remote']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="67d57a7d-2267-4199-992e-4978a05aa842"
+			name="Text1"
+			refimgid="555fb3aa-a1a5-4e76-a549-2fb9b09a6da9"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="a3375514-b699-43b7-a561-996c1f051845"
+			name="CentralMasterFiles"
+			refimgid="7c4b646c-fe72-490b-aba8-69805bbcf563"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Central Master Files']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="2178b3a7-1410-4e85-8348-654759ff2701"
+			name="ProductFile"
+			refimgid="71a87b29-503f-4917-a838-cba358ed1c3c"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Central Master Files']/treeitem[@accessiblename='Product File']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="c830faa2-f299-45cb-a007-8a8978f2ac09"
+			name="SupersedeProducts"
+			refimgid="c919a10a-551a-4111-ba20-ffdfe254d462"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']//treeitem[@accessiblename='Central Master Files']/treeitem[@accessiblename='Product File']/treeitem[@accessiblename='Supersede Products']
+			</item>
+			<item
+			addcaps="radiobutton,accessible"
+			capname="radiobutton"
+			id="8bb4d1a5-3128-403f-8f55-16c072bb3bd5"
+			name="OneToOne"
+			refimgid="af2fedd3-5e34-43dc-b221-eb7ca8d1a110"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/radiobutton[@accessiblename='One-To-One']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="e8d68dd3-25cc-4a16-9392-fae8d20a1667"
+			name="ProductCode"
+			refimgid="c205cee1-f129-423d-944f-da1087f92ac5"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']/?/?/cell[@accessiblename='Product Code' and @accessiblerole='Cell']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="979ac746-cc27-453b-9424-888a6ca5d6e9"
+			name="SalesOrderNumber"
+			refimgid="87a1b061-cf62-4e8b-be8c-1e6133a1ca5d"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26709']/?/?/element[@controlid='26754']/?/?/element[@controlid~'.*']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="63d3278d-43ea-4731-a6a9-1620abbd96e1"
+			name="Text2"
+			refimgid="02db60bc-df87-4430-8847-54cd810d3711"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']//text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="6ff6c34d-1ebf-47e5-a272-7fb481b9b321"
+			name="Text3"
+			refimgid="87a1b061-cf62-4e8b-be8c-1e6133a1ca5d"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']//text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="69f8e88e-516e-40a6-a64e-c0b88b7d6542"
+			name="Save"
+			refimgid="ff4eaa78-7008-4aad-9803-928b7354f96f"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Save']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="d450b3a7-72b2-4518-a18a-151acf568e40"
+			name="ProductCode1"
+			refimgid="c44bd3f5-4f3c-4d95-8def-8ff09d0b9140"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']/?/?/cell[@accessiblename='Product Code' and @accessiblerole='Cell']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="a2b5e104-d3a6-44a1-b234-608f59a11d7b"
+			name="Delete"
+			refimgid="d12ec5e6-7f27-42ba-8c58-03b92c1f518a"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Delete']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="584f39f1-e58d-4fc2-84a3-b4051fba5735"
+			name="AssociatedProducts"
+			refimgid="94660619-0cde-4267-aa86-0e9be5a5a033"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']//treeitem[@accessiblename='Central Master Files']/treeitem[@accessiblename='Product File']/treeitem[@accessiblename='Associated Products']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="289a9ba0-7198-470d-a971-f2fac6233e69"
+			name="Text4"
+			refimgid="75bc694c-7f7c-42ce-b834-217e6334cf86"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="60733330-dacc-4ccf-8644-b60aac2f9116"
+			name="NewProduct"
+			refimgid="fd4cc5a0-5887-400b-9281-21638f0b8e0f"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='New Product']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="4230693e-63d4-4d64-9042-f076c9efe4b1"
+			name="SystemMaintenance"
+			refimgid="650216b6-7bda-45e3-b4d9-59620e3a3cbc"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Central Master Files']/treeitem[@accessiblename='System Maintenance']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="63f739a8-17ea-40bc-b8b0-b8c9878623c4"
+			name="RebuildProductFlags"
+			refimgid="f70daca8-448e-412c-88bc-501a6c6c2a2b"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']//treeitem[@accessiblename='Central Master Files']/treeitem[@accessiblename='System Maintenance']/treeitem[@accessiblename='Rebuild Product Flags']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="9f6e3849-6fd3-4d2e-aa96-8f35cc429661"
+			name="ButtonOK"
+			refimgid="b636cc11-3056-482f-b28d-e85346deacb4"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="113c420e-d6e0-4e34-8c52-9847919a8983"
+			name="CustomerFile"
+			refimgid="c630df95-27eb-457e-8354-462c613e4382"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/tree[@accessiblerole='Outline']/treeitem[@accessiblename='Central Master Files']/treeitem[@accessiblename='Customer File']
+			</item>
+			<item
+			addcaps="treeitem,accessible,accessibletreeitem"
+			capname="treeitem"
+			id="5b9d4d1a-3e58-42fa-919d-0ed55ce0ba6a"
+			name="CustomerMaintenance"
+			refimgid="6f988d41-1381-439a-935c-42c911581b84"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']//treeitem[@accessiblename='Central Master Files']/treeitem[@accessiblename='Customer File']/treeitem[@accessiblename='Customer Maintenance']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="2cee2e21-e939-4a7a-be3b-4afaf17f35de"
+			name="Text5"
+			refimgid="693be457-a59d-471f-b420-7b3323e13625"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="6075dd99-910f-40ff-b2a0-f59be380f531"
+			name="Amend"
+			refimgid="5c9f3707-779a-47f5-b1b1-ab11e66b4dff"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Amend']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="eaff3252-7cf4-42dc-aec6-c19ba335c927"
+			name="Text6"
+			refimgid="899983d3-8fad-45fd-9cf3-afdc279ac6d4"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="6a62eae3-516d-4735-b23c-bda6a144b3ce"
+			name="ProductCode2"
+			refimgid="301e3c0f-87a3-4824-bef3-ac692cac51a4"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[@accessiblename='Product Code']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="6c4bdbac-ed69-4b06-b0c9-500976397bc8"
+			name="Interrupt"
+			refimgid="f55db6a9-04b2-4b77-992f-af4278af3479"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Interrupt']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="cacc1475-cead-4d7c-9b86-de0ecbd34894"
+			name="PushButton"
+			refimgid="5897dbac-6050-4df1-b077-0069911a754f"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/button[@accessiblerole='PushButton']
+			</item>
+			<item
+			addcaps="row,accessible"
+			capname="row"
+			id="75579a7b-d987-4add-982e-e90db00da356"
+			name="RowRow"
+			refimgid="aad1b9a0-1530-4e4a-a998-988dfd690dfc"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']/row[2]
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="2a01d496-4c6a-446f-bb47-34a6c66bbf77"
+			name="HowdensHistory"
+			refimgid="7130019f-3ec0-46e6-bcea-10bbacf4d9d1"
+			refpath="/form[@title='sl1071 K8UKPPD 1    - Howdens K8-HJ09v1 (HJ Ilford) abubakarn']/element[@controlid='62']/element[@controlid='66']/toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Howdens History']"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Howdens History']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="d4da9410-770b-4dfe-b1a1-d7fd8a6231d1"
+			name="PushButton1"
+			refimgid="af95527f-f176-4852-a067-774e1fbf8471"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/button[@accessiblerole='PushButton']
+			</item>
+			<item
+			addcaps="row,accessible"
+			capname="row"
+			id="b6f628bb-7992-407f-9e5b-2339d4bd48f9"
+			name="RowRow1"
+			refimgid="c01c6eae-e0db-4d71-89e6-376d3c4a9e96"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']/row[2]
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="e10064d6-1475-4031-91ce-15060af96bf0"
+			name="TEST"
+			refimgid="3c1ae256-e155-4f47-85d6-5126d4f93633"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']/?/?/cell[@accessiblename='TEST']
+			</item>
+			<folder
+			addcaps="table,accessible"
+			capname="table"
+			id="57000825-c653-41a3-9abd-4c9a50d6e2cb"
+			isrooted="True"
+			name="Table"
+			refpath="/form[@title='sl1071 K8UKPPD 1    - Sales Order Processing - Sales Order (SL) 260574 (HJ Ilford) d961manager']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26709']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26763']/element[@class='KCMLDlgWndClass_32' and @instance='0']/element[@controlid='27260']/element[@controlid='100']/table[@accessiblename='']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="40dc09d4-6c3b-4958-aac8-1464ed2b517f"
+				name="Status"
+				refimgid="d7861042-93c7-40db-a638-e7864364ffa3"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']/row[$SBOStatus_1]/cell[@accessiblename='Status']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="7872511a-534a-46d7-8025-b2f2badc81c7"
+				name="Status1"
+				refimgid="fc23ae18-ce35-495c-b180-56dece506286"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']/row[$SBOStatus_2]/cell[@accessiblename='Status']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="6dee0ade-2ca4-4357-b917-9a46ea35346d"
+				name="Status2"
+				refimgid="2c317fbf-56b1-487b-af9f-83e7e9d0b9e0"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']/row[$SBOStatus_3]/cell[@accessiblename='Status']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="d967cdaa-3fe3-4e2e-b55d-2b4dd138bd16"
+				name="Status3"
+				refimgid="cff26655-a478-41df-b19c-2759eacec78b"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']/row[$SBOStatus_4]/cell[@accessiblename='Status']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="876c44dd-093d-48c1-9981-c1d7d7d837e6"
+				name="Status4"
+				refimgid="b12b5e3a-b75d-4fb4-8f73-5f5588dc9680"
+				refpath="/form[@title='sl1071 K8UKPPD 1    - Sales Order Processing - Sales Order (SL) 260631 (HJ Ilford) d961manager']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26709']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26763']/element[@class='KCMLDlgWndClass_32' and @instance='0']/element[@controlid='27260']/element[@controlid='100']/table[@accessiblename='']/row[4]/cell[@accessiblename='Status']"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']/row[4]/cell[@accessiblename='Status']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="text"
+				id="0bc62348-76ba-4bff-9ffa-b531ad9ff50f"
+				name="StatusText"
+				refimgid="d7861042-93c7-40db-a638-e7864364ffa3"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']/row[$SBOStatus_1]/text[@accessiblename='Status']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="text"
+				id="cce66b40-6b43-4047-b78b-97c913fb7f0d"
+				name="Status1Text"
+				refimgid="fc23ae18-ce35-495c-b180-56dece506286"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']/row[$SBOStatus_2]/text[@accessiblename='Status']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="text"
+				id="0a3427c2-2db4-432f-8c90-027dc5f7e21a"
+				name="Status2Text"
+				refimgid="2c317fbf-56b1-487b-af9f-83e7e9d0b9e0"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']/row[$SBOStatus_3]/text[@accessiblename='Status']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="text"
+				id="dd39adf8-6cb1-4055-baef-417fce8455f7"
+				name="Status3Text"
+				refimgid="cff26655-a478-41df-b19c-2759eacec78b"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']/row[$SBOStatus_4]/text[@accessiblename='Status']
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="text"
+				id="44b5dd92-ff15-4cfe-9dde-cf5dcc785d1c"
+				name="Status4Text"
+				refimgid="b12b5e3a-b75d-4fb4-8f73-5f5588dc9680"
+				searchtimeout="30000ms">
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']/row[4]/text[@accessiblename='Status']
+				</item>
+				<basepath>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid='26709']/?/?/element[@controlid='26763']//element[@controlid='100']/table[@accessiblename='']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="08bb80ae-fa8d-44c3-8530-4aa7531da1e4"
+			name="Open"
+			refimgid="5f5bb754-f277-4a7a-9b49-5f8db74f9df6"
+			refpath="/form[@title='sl1071 K8UKPPD 1    - Purchase Control (HJ Brentwood) abubakarn']/element[@controlid='62']/toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Open']"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Open']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="75da866c-c16f-4248-9975-203f9a022fd6"
+			name="Receipts"
+			refimgid="939c9bc7-3b00-4afc-8206-9b7ec850afb9"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/button[@accessiblename='Receipts']
+			</item>
+			<item
+			addcaps="cell,accessible"
+			capname="cell"
+			id="1c6c8c03-82a3-4657-aba7-a68db962a897"
+			name="BalhamWorktopSpacerRail30mm"
+			refimgid="716b3ca6-6959-436f-be30-17c74c13525c"
+			refpath="/form[@title~'^sl1071\ K8UKPPD\ 1\ \ \ \ -\ Nor']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26931']/element/element[@controlid='26944']/element[@class='KCMLDlgWndClass_32' and @instance='0']/element/element/table/row[2]/cell[@accessiblename~'^Balham\ Worktop\ Spacer\ Rai']"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid='26931']/?/?/element[@controlid='26944']//element[@controlid='100']/table[@accessiblename='']/row[2]/cell[@accessiblename~'^Balham\ Worktop\ Spacer\ Rai']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="8cc8d001-4e08-4898-97ae-c1377a02eebb"
+			name="Status"
+			refimgid="b1733887-13cf-46aa-9838-29595976e8ec"
+			searchtimeout="30000ms">
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'\d']/?/?/element[@controlid~'\d']/?/?/element[@controlid~'\d']//text[@accessiblename='Status']/button[@accessiblename='Status']
+			</item>
+			<basepath>
+				/form[@title~'^sl1071\ K8UKPPD\ 1\    -']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="fdc201a4-1dd2-40e5-bc8c-4d0431dd3d99"
+		isrooted="True"
+		name="SupersedeProducts"
+		refpath="/form[@title='Supersede Products']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="36863e1c-db67-4035-93e6-1c4046ddafee"
+			name="ButtonYes"
+			refimgid="e174dddd-b848-491e-ab37-44c3bcb6ec68"
+			refpath="/form[@title='Supersede Products']/button[@text='&amp;Yes']"
+			searchtimeout="30000ms">
+				/form[@title='Supersede Products']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='Supersede Products']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="6077fddd-9ec7-4795-bb43-cf0c8818e8c6"
+		isrooted="True"
+		name="DeleteSupersession"
+		refpath="/form[@title='Delete Supersession']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="10cb2321-279a-4628-b74d-3123c06da16e"
+			name="ButtonYes"
+			refimgid="31bcc310-b360-4a16-87ed-db9227302f29"
+			refpath="/form[@title='Delete Supersession']/button[@text='&amp;Yes']"
+			searchtimeout="30000ms">
+				/form[@title='Delete Supersession']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='Delete Supersession']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="b908f36d-36b6-4bc2-ae24-5cbd9d43a9e0"
+		isrooted="True"
+		name="AssociatedProducts"
+		refpath="/form[@title='Associated Products']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="20c65e9b-e401-479f-8500-c470ac784083"
+			name="ButtonNo"
+			refimgid="cc34eccb-cb51-4364-b446-ea2797bf75ec"
+			refpath="/form[@title='Associated Products']/button[@text='&amp;No']"
+			searchtimeout="30000ms">
+				/form[@title='Associated Products']/button[@text='&amp;No']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="f1795fac-6b67-4555-930b-8b0727e9f785"
+			name="ButtonOK"
+			refimgid="cf8547eb-c2f8-4e05-8e13-23c546ef135c"
+			refpath="/form[@title='Associated Products']/element[@class='KCMLDlgWndClass_32']/element[@controlid='1']/button[@accessiblename='OK']"
+			searchtimeout="30000ms">
+				/form[@title='Associated Products']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@title='Associated Products']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="f4188796-d638-4144-b8f5-1076493535ad"
+		isrooted="True"
+		name="NewAssociatedProductForProductDCK53"
+		refpath="/form[@title='New Associated Product for Product DCK5341']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="e29ddab0-35b1-4e98-af3f-28bc520fd509"
+			name="Text"
+			refimgid="ffaea9de-c002-47e0-906d-1b8211e73d75"
+			searchtimeout="30000ms">
+				/form[@title~'^New\ Associated\ Product\ fo']/?/?/element[@controlid~'[d]*']/?/?/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="4443f372-1139-4764-9aac-18249e0ee96e"
+			name="Text1"
+			refimgid="6800d78a-e350-440c-b2ed-c48b3a91adaf"
+			searchtimeout="30000ms">
+				/form[@title~'^New\ Associated\ Product\ fo']/?/?/element[@controlid~'[d]*']/text[@accessiblerole='Text']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="354dc170-9835-40d2-b042-575954b4d1ae"
+			name="ButtonOK"
+			refimgid="7aeb4b16-b041-4d13-b72e-d46ea64adc2c"
+			refpath="/form[@title='New Associated Product for Product DCK5341']/element[@class='KCMLDlgWndClass_32']/element[@controlid='1']/button[@accessiblename='OK']"
+			searchtimeout="30000ms">
+				/form[@title~'^New\ Associated\ Product\ fo']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@title~'^New\ Associated\ Product\ fo']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="3a40754b-7c0f-4d02-8046-1aa4b16a2cfd"
+		isrooted="True"
+		name="DeleteCurrentRow"
+		refpath="/form[@title='Delete Current Row']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="f96be49e-fb6d-4153-bf52-dce1f7d60d98"
+			name="ButtonYes"
+			refimgid="c7272adb-763b-41f5-8b8e-1b54d695a2bf"
+			refpath="/form[@title='Delete Current Row']/button[@text='&amp;Yes']"
+			searchtimeout="30000ms">
+				/form[@title='Delete Current Row']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='Delete Current Row']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="41b9a268-365d-468f-8b93-6503824fa368"
+		isrooted="True"
+		name="SupersedeProductsDCK5541"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="723347e8-7463-4077-98c7-a5ebf98a6ca4"
+			name="ButtonOK"
+			refimgid="5fc4bc1a-b213-4735-baeb-32eb4eb757bb"
+			searchtimeout="30000ms">
+				/form[@title~'^Supersede\ Products']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@title~'^Supersede\ Products']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="4da837a9-95eb-4335-9c75-e6e9709276b1"
+		isrooted="True"
+		name="Filter"
+		refpath="/form[@title='Filter']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="30a8e227-c385-46d2-9215-567947afdf0a"
+			name="Between"
+			refimgid="46de6e2f-db1f-4dcc-8c10-45ae5c689110"
+			searchtimeout="30000ms">
+				/form[@title='Filter']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/text[@accessiblename='Between:']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="dcacf68f-ec7b-4633-84bb-cea0174b7675"
+			name="And"
+			refimgid="d88ad364-7ec7-45e3-ac62-50cececaff75"
+			searchtimeout="30000ms">
+				/form[@title='Filter']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/text[@accessiblename='And:']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="1f690406-f25a-45f4-b167-baaba8cb037a"
+			name="ButtonOK"
+			refimgid="b40883d0-cb1a-467d-a683-1de2a86cc894"
+			refpath="/form[@title='Filter']/element[@class='KCMLDlgWndClass_32']/element[@controlid='1']/button[@accessiblename='OK']"
+			searchtimeout="30000ms">
+				/form[@title='Filter']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="35baef81-54b9-4ead-a9cf-001a39120a25"
+			name="Text"
+			refimgid="1525f640-f86f-458a-9a3e-2c5db8294104"
+			searchtimeout="30000ms">
+				/form[@title='Filter']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/text[@accessiblerole='Text']
+			</item>
+			<basepath>
+				/form[@title='Filter']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="41d910b7-0348-4fb4-90f5-54b0d24e7095"
+		isrooted="True"
+		name="SalesOrder193892HJIlford"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="b1063416-1e39-4343-bcae-9be5b600c532"
+			name="DeleteLines"
+			refimgid="2828650c-7d52-4e74-8777-9f2984b0bb58"
+			searchtimeout="30000ms">
+				/form[@title~'^Sales\ Order\ [d]*']/?/?/element[@controlid='1']/button[@accessiblename='Delete lines']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="c1c94811-8ce6-4fbc-b283-17c9a002f8be"
+			name="Text"
+			refimgid="62667ac4-b14d-452b-86b3-7c49f37df1ae"
+			searchtimeout="30000ms">
+				/form[@title~'^Sales\ Order\ [d]*']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//text[@accessiblerole='Text']
+			</item>
+			<basepath>
+				/form[@title~'^Sales\ Order\ [d]*']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="7ad6c562-6df1-4fa0-a930-a3cfc4bf24cc"
+		isrooted="True"
+		name="ActionQuotationQT193923"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="36cadf94-be84-44ed-8a97-0afdf8e21fbc"
+			name="ButtonOK"
+			refimgid="5491d798-606b-481c-91d7-281f86aa2a4c"
+			searchtimeout="30000ms">
+				/form[@title~'^Action\ Quotation\ \(QT\)']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@title~'^Action\ Quotation\ \(QT\)']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="e8c52786-69df-46f5-b510-498999bb06ef"
+		isrooted="True"
+		name="SalesOrder193931HJIlford"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="ec28947f-a094-4af6-9798-57dd83bcdfe9"
+			name="DeleteLines"
+			refimgid="ae76e3e6-4f49-4d55-9251-ec94a733a3bc"
+			searchtimeout="30000ms">
+				/form[@title~'^Sales\ Order\ [d]*']/?/?/element[@controlid='1']/button[@accessiblename='Delete lines']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="43351ec3-81fb-4f2d-b9ad-8f48beae5b19"
+			name="ButtonOK"
+			refimgid="fbe5ee99-0291-4e54-b8d7-60c22f5267cf"
+			refpath="/form[@title='Sales Order History']/element[@class='KCMLDlgWndClass_32']/element[@controlid='1']/button[@accessiblename='OK']"
+			searchtimeout="30000ms">
+				/form[@title~'^Sales\ Order\ [d]*']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="6feb960d-2449-44eb-927d-faf4c199944b"
+			name="ButtonNo"
+			refimgid="7f77e2d7-3c58-4dc9-ada8-795c5ecdbcb2"
+			refpath="/form[@title='Sales Order Processing']/button[@text='&amp;No']"
+			searchtimeout="30000ms">
+				/form[@title~'^Sales\ Order\ [d]*']/button[@text='&amp;No']
+			</item>
+			<folder
+			addcaps="row,accessible"
+			capname="row"
+			id="286a8a84-6dcd-4e05-bcb9-23881319a1a3"
+			isrooted="True"
+			name="RowRow"
+			refpath="/form[@title='Sales Order History']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26710']/element[@controlid='100']/table[@accessiblename='']/row[4]"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="ca3bd274-ecdf-466a-9834-ba1e094a3fb5"
+				name="Cell00131012"
+				refimgid="2fee13d2-e60f-43fc-96b7-42f7722a1edb"
+				searchtimeout="30000ms">
+					/form[@title~'^Sales\ Order\ [d]*']//element[@controlid='100']/table[@accessiblename='']/row[4]/cell[7]
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="31d990c5-6f9e-4376-a6b9-d9a0820f3c1e"
+				name="Cell1101515959"
+				refimgid="39730aaa-cce1-481a-adcd-bd6890657d3e"
+				searchtimeout="30000ms">
+					/form[@title~'^Sales\ Order\ [d]*']//element[@controlid='100']/table[@accessiblename='']/row[4]/cell[8]
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="13378a51-c152-4a60-96cd-769cdecc9b0a"
+				name="D961manager"
+				refimgid="da313631-f587-4675-b25c-09ee3e145b18"
+				searchtimeout="30000ms">
+					/form[@title~'^Sales\ Order\ [d]*']//element[@controlid='100']/table[@accessiblename='']/row[4]/cell[2]
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="dcfe7f78-a52c-4f24-9649-2b79626081e2"
+				name="Cell0"
+				refimgid="33abee45-138d-4dac-b2c7-1ebfc77c0fff"
+				refpath="/form[@title='Sales Order History']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26710']/element[@controlid='100']/table[@accessiblename='']/row[4]/cell[9]"
+				searchtimeout="30000ms">
+					/form[@title~'^Sales\ Order\ [d]*']//element[@controlid='100']/table[@accessiblename='']/row[4]/cell[9]
+				</item>
+				<item
+				addcaps="cell,accessible"
+				capname="cell"
+				id="c24bc7f6-0ede-4826-83a3-328b84cf887e"
+				name="Cell01"
+				refimgid="dd8ec578-ba93-4db7-a9f7-d0f092416e66"
+				refpath="/form[@title='Sales Order History']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26710']/element[@controlid='100']/table[@accessiblename='']/row[4]/cell[10]"
+				searchtimeout="30000ms">
+					/form[@title~'^Sales\ Order\ [d]*']//element[@controlid='100']/table[@accessiblename='']/row[4]/cell[10]
+				</item>
+				<basepath>
+					/form[@title~'^Sales\ Order\ [d]*']//element[@controlid='100']/table[@accessiblename='']/row[4]
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^Sales\ Order\ [d]*']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="12474dcf-cc2d-42a3-9333-6a22b09e891a"
+		isrooted="True"
+		name="CashTransactionDisplay"
+		refpath="/form[@title='Cash Transaction Display']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="b2f0339f-5c02-47f3-a797-a695b6f9d827"
+			name="Close"
+			refimgid="9199569d-4294-40b5-be6d-312f207ed388"
+			refpath="/form[@title='Cash Transaction Display']/element[@class='KCMLDlgWndClass_32']/element[@controlid='2']/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title='Cash Transaction Display']/?/?/element[@controlid='2']/button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title='Cash Transaction Display']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="5bdf7a50-0d23-4b45-9bf2-4f8302b19f18"
+		isrooted="True"
+		name="SearchResults"
+		refpath="/form[@title='Search Results']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="row,accessible"
+			capname="row"
+			id="627e5bde-13db-4721-9731-785d981335c5"
+			name="RowRow"
+			refimgid="f1b3d56e-c28b-4f74-b633-1bbd9a0d0092"
+			searchtimeout="30000ms">
+				/form[@title='Search Results']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']/row[2]
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="b2789894-9c5c-4bd5-a298-1edd91203fc9"
+			name="Finish"
+			refimgid="0ec6dd97-afef-4ef9-9baf-41aeacb99d08"
+			refpath="/form[@title='Search Results']/element/element[@controlid='1']/button[@accessiblename='Finish']"
+			searchtimeout="30000ms">
+				/form[@title='Search Results']/?/?/element[@controlid='1']/button[@accessiblename='Finish']
+			</item>
+			<basepath>
+				/form[@title='Search Results']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="63d1eccc-5728-4785-a01d-63f8c8ead42a"
+		isrooted="True"
+		name="ReceiptReversal"
+		refpath="/form[@title='Receipt Reversal']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="feed7e5a-97b6-438b-841b-a03221a4cd86"
+			name="ButtonYes"
+			refimgid="2c9531ac-0406-4afa-97cb-fe0c6ce111b2"
+			refpath="/form[@title='Receipt Reversal']/button[@text='&amp;Yes']"
+			searchtimeout="30000ms">
+				/form[@title='Receipt Reversal']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='Receipt Reversal']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="569c7cd8-df01-4cc5-81aa-aaf8a9a41f23"
+		isrooted="True"
+		name="ChangeTill"
+		refpath="/form[@title='Change Till']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="e5c6feff-4ae9-481c-a262-6d428b2c829d"
+			name="ButtonYes"
+			refimgid="ba047bfe-a08b-4087-b3e6-2b6023adb69a"
+			refpath="/form[@title='Change Till']/button[@text='&amp;Yes']"
+			searchtimeout="30000ms">
+				/form[@title='Change Till']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='Change Till']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJOSURBVDhPrZNdSJNhGIYHUzFCHR1ouJFMIUwa
+I9oStB+TLErMpoWkbkh2YDCXkUZ2NDoQjMHYTlYKLQnchosUCjU1RcVgG42skDyxcKwfQ8NMi+C7
+cp9DsRyedMPF+x48zwXvzyP5L0lKSmqQy+UolcpNZGRkkJKSUhAtix2tVovFYsHlcq3jdrtxOp2k
+pqYSLds6CQkJw1arlbGxMQKBgIjf78fn84mrQqHYVkBFRQVtbW14vV6Rjo4OjEYj5eXlrB6PuLi4
+LZFKpQWioLS0FLPZTFNTEyaTCb2+kdzcfrKzJ5HLJ0hPH/+HtLRuEhNzWBe0tLRgt9ux2WzU1plo
+uPOY5vZATOotvSiyVGsCnU4nNkaO4XA4qG40Uuhzkj87QP7MIEe/9nE6/Iwz7wco+TBIyfwAR6Y7
+kWmy1wRlZWViY+TmIy9Q3XyVfT0udhyfQ5q+zMGeAJ4rs3iVc0xrvzP5YoGLoafsPBQVVJ4opL/y
+Ak/a79HV1YX+VgMn/R46A4uMjgpc+hxk6HWYqUchlsd/8fHbMjWhvg3BeV0x9+03ePjgrvj2VTdN
+nHvr4R2LRHJNCNL9ZYrW1lbC4TCfWNkQxMfHU3SqiKrLVRhqDBgMBorrDJx942ZSWOCH8Jt64SW9
+P2d5NT3F/MoSM8IS+lDvmiCS5ORkZDLZOrvUe8masHJMeE6RMIJa6OewMCTuIxQKw+SEOjcEf2d3
+5p5gre025iF3TK57HGQe2B+MtmzO6hAVqFQq8vLyYqLRaFCr1TEHTRb5ptshkUhkfwDOrr/i7+5U
+BQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="ad97b33d-9a2b-46d2-90fd-ba6c5b39bc47"
+		isrooted="True"
+		name="ActionBranchTransferBT260598"
+		refpath="/form[@title='Action Branch Transfer (BT) 260598']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="93dc3a23-9c72-4c8d-b065-cb5ee2223113"
+			name="ButtonOK"
+			refimgid="144bf382-eeee-4543-a97e-0dd00a644427"
+			refpath="/form[@title='Action Branch Transfer (BT) 260598']/element[@class='KCMLDlgWndClass_32']/element[@controlid='1']/button[@accessiblename='OK']"
+			searchtimeout="30000ms">
+				/form[@title~'^Action\ Branch\ Transfer\ \(B']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@title~'^Action\ Branch\ Transfer\ \(B']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJOSURBVDhPrZNdSJNhGIYHUzFCHR1ouJFMIUwa
+I9oStB+TLErMpoWkbkh2YDCXkUZ2NDoQjMHYTlYKLQnchosUCjU1RcVgG42skDyxcKwfQ8NMi+C7
+cp9DsRyedMPF+x48zwXvzyP5L0lKSmqQy+UolcpNZGRkkJKSUhAtix2tVovFYsHlcq3jdrtxOp2k
+pqYSLds6CQkJw1arlbGxMQKBgIjf78fn84mrQqHYVkBFRQVtbW14vV6Rjo4OjEYj5eXlrB6PuLi4
+LZFKpQWioLS0FLPZTFNTEyaTCb2+kdzcfrKzJ5HLJ0hPH/+HtLRuEhNzWBe0tLRgt9ux2WzU1plo
+uPOY5vZATOotvSiyVGsCnU4nNkaO4XA4qG40Uuhzkj87QP7MIEe/9nE6/Iwz7wco+TBIyfwAR6Y7
+kWmy1wRlZWViY+TmIy9Q3XyVfT0udhyfQ5q+zMGeAJ4rs3iVc0xrvzP5YoGLoafsPBQVVJ4opL/y
+Ak/a79HV1YX+VgMn/R46A4uMjgpc+hxk6HWYqUchlsd/8fHbMjWhvg3BeV0x9+03ePjgrvj2VTdN
+nHvr4R2LRHJNCNL9ZYrW1lbC4TCfWNkQxMfHU3SqiKrLVRhqDBgMBorrDJx942ZSWOCH8Jt64SW9
+P2d5NT3F/MoSM8IS+lDvmiCS5ORkZDLZOrvUe8masHJMeE6RMIJa6OewMCTuIxQKw+SEOjcEf2d3
+5p5gre025iF3TK57HGQe2B+MtmzO6hAVqFQq8vLyYqLRaFCr1TEHTRb5ptshkUhkfwDOrr/i7+5U
+BQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="31ae0c53-f065-4d72-9921-4c6dffca267b"
+		isrooted="True"
+		name="PurchaseOrderSearch"
+		refpath="/form[@title='Purchase Order Search']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="83d8e346-b2ba-41a4-8019-0866e39b5bf5"
+			name="Text"
+			refimgid="e21d9557-32f1-4371-ae0f-730e731450eb"
+			refpath="/form[@title='Purchase Order Search']/element[@class='KCMLDlgWndClass_32']/element[@controlid='26714']/element[@class='KCMLEdit32']/text[@accessiblerole='Text']"
+			searchtimeout="30000ms">
+				/form[@title='Purchase Order Search']/?/?/element[@controlid='26714']/?/?/text[@accessiblerole='Text']
+			</item>
+			<basepath>
+				/form[@title='Purchase Order Search']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJOSURBVDhPrZNdSJNhGIYHUzFCHR1ouJFMIUwa
+I9oStB+TLErMpoWkbkh2YDCXkUZ2NDoQjMHYTlYKLQnchosUCjU1RcVgG42skDyxcKwfQ8NMi+C7
+cp9DsRyedMPF+x48zwXvzyP5L0lKSmqQy+UolcpNZGRkkJKSUhAtix2tVovFYsHlcq3jdrtxOp2k
+pqYSLds6CQkJw1arlbGxMQKBgIjf78fn84mrQqHYVkBFRQVtbW14vV6Rjo4OjEYj5eXlrB6PuLi4
+LZFKpQWioLS0FLPZTFNTEyaTCb2+kdzcfrKzJ5HLJ0hPH/+HtLRuEhNzWBe0tLRgt9ux2WzU1plo
+uPOY5vZATOotvSiyVGsCnU4nNkaO4XA4qG40Uuhzkj87QP7MIEe/9nE6/Iwz7wco+TBIyfwAR6Y7
+kWmy1wRlZWViY+TmIy9Q3XyVfT0udhyfQ5q+zMGeAJ4rs3iVc0xrvzP5YoGLoafsPBQVVJ4opL/y
+Ak/a79HV1YX+VgMn/R46A4uMjgpc+hxk6HWYqUchlsd/8fHbMjWhvg3BeV0x9+03ePjgrvj2VTdN
+nHvr4R2LRHJNCNL9ZYrW1lbC4TCfWNkQxMfHU3SqiKrLVRhqDBgMBorrDJx942ZSWOCH8Jt64SW9
+P2d5NT3F/MoSM8IS+lDvmiCS5ORkZDLZOrvUe8masHJMeE6RMIJa6OewMCTuIxQKw+SEOjcEf2d3
+5p5gre025iF3TK57HGQe2B+MtmzO6hAVqFQq8vLyYqLRaFCr1TEHTRb5ptshkUhkfwDOrr/i7+5U
+BQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="6123be3d-9ff0-4f9e-b424-aa236b46be14"
+		isrooted="True"
+		name="PurchaseOrder"
+		refpath="/form[@title='Purchase Order']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="fb43302b-9923-4416-9d42-3ec8d6dfcc8c"
+			name="ButtonYes"
+			refimgid="933a1aad-a9d6-42ba-a84a-79f2cc49a8ed"
+			refpath="/form[@title='Purchase Order']/button[@text='&amp;Yes']"
+			searchtimeout="30000ms">
+				/form[@title='Purchase Order']/button[@text='&amp;Yes']
+			</item>
+			<basepath>
+				/form[@title='Purchase Order']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJOSURBVDhPrZNdSJNhGIYHUzFCHR1ouJFMIUwa
+I9oStB+TLErMpoWkbkh2YDCXkUZ2NDoQjMHYTlYKLQnchosUCjU1RcVgG42skDyxcKwfQ8NMi+C7
+cp9DsRyedMPF+x48zwXvzyP5L0lKSmqQy+UolcpNZGRkkJKSUhAtix2tVovFYsHlcq3jdrtxOp2k
+pqYSLds6CQkJw1arlbGxMQKBgIjf78fn84mrQqHYVkBFRQVtbW14vV6Rjo4OjEYj5eXlrB6PuLi4
+LZFKpQWioLS0FLPZTFNTEyaTCb2+kdzcfrKzJ5HLJ0hPH/+HtLRuEhNzWBe0tLRgt9ux2WzU1plo
+uPOY5vZATOotvSiyVGsCnU4nNkaO4XA4qG40Uuhzkj87QP7MIEe/9nE6/Iwz7wco+TBIyfwAR6Y7
+kWmy1wRlZWViY+TmIy9Q3XyVfT0udhyfQ5q+zMGeAJ4rs3iVc0xrvzP5YoGLoafsPBQVVJ4opL/y
+Ak/a79HV1YX+VgMn/R46A4uMjgpc+hxk6HWYqUchlsd/8fHbMjWhvg3BeV0x9+03ePjgrvj2VTdN
+nHvr4R2LRHJNCNL9ZYrW1lbC4TCfWNkQxMfHU3SqiKrLVRhqDBgMBorrDJx942ZSWOCH8Jt64SW9
+P2d5NT3F/MoSM8IS+lDvmiCS5ORkZDLZOrvUe8masHJMeE6RMIJa6OewMCTuIxQKw+SEOjcEf2d3
+5p5gre025iF3TK57HGQe2B+MtmzO6hAVqFQq8vLyYqLRaFCr1TEHTRb5ptshkUhkfwDOrr/i7+5U
+BQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="1630ba32-78ec-4183-82de-6f4765dffca7"
+		isrooted="True"
+		name="ActionBookInStockBI260604"
+		refpath="/form[@title='Action Book in Stock (BI) 260604']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="d318d84d-3368-40b8-9fae-808b8ee75cc2"
+			name="ButtonOK"
+			refimgid="17cd165d-cd1a-48f0-ae68-9a5baec6247c"
+			refpath="/form[@title='Action Book in Stock (BI) 260604']/element[@class='KCMLDlgWndClass_32']/element[@controlid='1']/button[@accessiblename='OK']"
+			searchtimeout="30000ms">
+				/form[@title~'^Action\ Book\ in\ Stock\ \(BI\)']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<basepath>
+				/form[@title~'^Action\ Book\ in\ Stock\ \(BI\)']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJOSURBVDhPrZNdSJNhGIYHUzFCHR1ouJFMIUwa
+I9oStB+TLErMpoWkbkh2YDCXkUZ2NDoQjMHYTlYKLQnchosUCjU1RcVgG42skDyxcKwfQ8NMi+C7
+cp9DsRyedMPF+x48zwXvzyP5L0lKSmqQy+UolcpNZGRkkJKSUhAtix2tVovFYsHlcq3jdrtxOp2k
+pqYSLds6CQkJw1arlbGxMQKBgIjf78fn84mrQqHYVkBFRQVtbW14vV6Rjo4OjEYj5eXlrB6PuLi4
+LZFKpQWioLS0FLPZTFNTEyaTCb2+kdzcfrKzJ5HLJ0hPH/+HtLRuEhNzWBe0tLRgt9ux2WzU1plo
+uPOY5vZATOotvSiyVGsCnU4nNkaO4XA4qG40Uuhzkj87QP7MIEe/9nE6/Iwz7wco+TBIyfwAR6Y7
+kWmy1wRlZWViY+TmIy9Q3XyVfT0udhyfQ5q+zMGeAJ4rs3iVc0xrvzP5YoGLoafsPBQVVJ4opL/y
+Ak/a79HV1YX+VgMn/R46A4uMjgpc+hxk6HWYqUchlsd/8fHbMjWhvg3BeV0x9+03ePjgrvj2VTdN
+nHvr4R2LRHJNCNL9ZYrW1lbC4TCfWNkQxMfHU3SqiKrLVRhqDBgMBorrDJx942ZSWOCH8Jt64SW9
+P2d5NT3F/MoSM8IS+lDvmiCS5ORkZDLZOrvUe8masHJMeE6RMIJa6OewMCTuIxQKw+SEOjcEf2d3
+5p5gre025iF3TK57HGQe2B+MtmzO6hAVqFQq8vLyYqLRaFCr1TEHTRb5ptshkUhkfwDOrr/i7+5U
+BQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="0082f52b-4da9-4a78-90af-8a9b0bb01f21"
+		isrooted="True"
+		name="SplitOrder260606"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="e1e091c2-5fb2-4088-add0-b15d6f736e06"
+			name="Status"
+			refimgid="76afbb0d-ef41-4905-9fb3-b67e2652980e"
+			searchtimeout="30000ms">
+				/form[@title~'^\Split\ Order']/?/?/text[@accessiblename='Status:']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="3508b5b7-af9a-4520-b31e-2b4395982faf"
+			name="ButtonOK"
+			refimgid="5ae0c816-201b-4b95-9873-b66de1b7cade"
+			refpath="/form[@title='Split Order 260606']/element[@class='KCMLDlgWndClass_32']/element[@controlid='1']/button[@accessiblename='OK']"
+			searchtimeout="30000ms">
+				/form[@title~'^\Split\ Order']/?/?/element[@controlid='1']/button[@accessiblename='OK']
+			</item>
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="3ea5db7f-7175-41b4-a75a-2e1ee78a8f68"
+			name="SupplyNow"
+			refimgid="6f5f1279-0ffa-47cd-a104-fdad67fde1ab"
+			searchtimeout="30000ms">
+				/form[@title~'^\Split\ Order']/?/?/element[@controlid~'\d']/text[@accessiblename='Supply now:']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="6e1e6930-ac8f-479d-95c0-bd40448b18e7"
+			name="StatusDropdown"
+			refimgid="4310cb8b-96e6-4298-9ae4-926374ad5ba1"
+			searchtimeout="30000ms">
+				/form[@title~'^\Split\ Order']//?/button[@accessiblename='Status:']
+			</item>
+			<basepath>
+				/form[@title~'^\Split\ Order']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJOSURBVDhPrZNdSJNhGIYHUzFCHR1ouJFMIUwa
+I9oStB+TLErMpoWkbkh2YDCXkUZ2NDoQjMHYTlYKLQnchosUCjU1RcVgG42skDyxcKwfQ8NMi+C7
+cp9DsRyedMPF+x48zwXvzyP5L0lKSmqQy+UolcpNZGRkkJKSUhAtix2tVovFYsHlcq3jdrtxOp2k
+pqYSLds6CQkJw1arlbGxMQKBgIjf78fn84mrQqHYVkBFRQVtbW14vV6Rjo4OjEYj5eXlrB6PuLi4
+LZFKpQWioLS0FLPZTFNTEyaTCb2+kdzcfrKzJ5HLJ0hPH/+HtLRuEhNzWBe0tLRgt9ux2WzU1plo
+uPOY5vZATOotvSiyVGsCnU4nNkaO4XA4qG40Uuhzkj87QP7MIEe/9nE6/Iwz7wco+TBIyfwAR6Y7
+kWmy1wRlZWViY+TmIy9Q3XyVfT0udhyfQ5q+zMGeAJ4rs3iVc0xrvzP5YoGLoafsPBQVVJ4opL/y
+Ak/a79HV1YX+VgMn/R46A4uMjgpc+hxk6HWYqUchlsd/8fHbMjWhvg3BeV0x9+03ePjgrvj2VTdN
+nHvr4R2LRHJNCNL9ZYrW1lbC4TCfWNkQxMfHU3SqiKrLVRhqDBgMBorrDJx942ZSWOCH8Jt64SW9
+P2d5NT3F/MoSM8IS+lDvmiCS5ORkZDLZOrvUe8masHJMeE6RMIJa6OewMCTuIxQKw+SEOjcEf2d3
+5p5gre025iF3TK57HGQe2B+MtmzO6hAVqFQq8vLyYqLRaFCr1TEHTRb5ptshkUhkfwDOrr/i7+5U
+BQAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="aebfab44-cf9d-456a-a13d-89b9295c92b0"
+		isrooted="True"
+		name="SupplyServiceSelector"
+		refpath="/form[@title='Supply Service Selector']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="ad5b41e6-8efd-4583-8a2b-71d3b723d036"
+			name="ButtonNo"
+			refimgid="5332c2b7-be97-4ffe-a7be-c144ec75f5e3"
+			refpath="/form[@title='Supply Service Selector']/button[@text='&amp;No']"
+			searchtimeout="30000ms">
+				/form[@title='Supply Service Selector']/button[@text='&amp;No']
+			</item>
+			<basepath>
+				/form[@title='Supply Service Selector']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="4ec6308a-732c-4daf-be9b-77b98f212812"
+		isrooted="True"
+		name="Form106"
+		refpath="/form[@controlid='106']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="5b481b89-950f-4e62-9c35-a19eb392836a"
+			name="BRKBreakOrderLine"
+			refimgid="4e257aa1-db56-48f2-be67-e9f2d33a7244"
+			refpath="/form[@controlid='106']/list[@accessiblerole='List']/listitem[@accessiblename='BRKBreak order line']"
+			searchtimeout="30000ms">
+				/form[@controlid='106']/?/?/listitem[@accessiblename='BRKBreak order line']
+			</item>
+			<item
+			addcaps="listitem,accessible"
+			capname="listitem"
+			id="ef0aec10-05ee-4569-9a7d-28e2647e983e"
+			name="ADIPreInvoice"
+			refimgid="eeca70d8-e326-4c6c-8e51-bae68851811f"
+			refpath="/form[@controlid='106']/list[@accessiblerole='List']/listitem[@accessiblename='ADIPre-invoice']"
+			searchtimeout="30000ms">
+				/form[@controlid='106']/?/?/listitem[@accessiblename='ADIPre-invoice']
+			</item>
+			<basepath>
+				/form[@controlid='106']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACiSURBVDhPrZHBDcMgDEV9YpJOxGiMUa5RzszA
+JNnAzUdxZAzBldofvQSFz4ul0N8SQuAZ1/Y6KNZap7iS1WHkK0GMkXPOHXgHsP9EJ0gp3YcAEbs0
+iRbor5dSXDoBDkIik7x4dxkEegIUZFSszxu/6WhPZBCgaQUSvZYMgu28PAG6kkFgmQl0boH8SgsK
+Hug1gQ02Zr/N8ihAZJIVV/WXEH0AbX++W1T1I4oAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="5f38ffb6-4ecf-4081-9716-91076fe85434"
+		name="Row_1">
+			2
+		</var>
+		<var
+		id="a6705a2f-9bcb-42b1-9e80-860f745cf56c"
+		name="Row_2">
+			7
+		</var>
+		<var
+		id="32930b53-e2f4-4b8d-86dd-048ed3d0e180"
+		name="Row_3">
+			13
+		</var>
+		<var
+		id="89272b96-7990-4c49-a8a6-99882faa617e"
+		name="Row_4">
+			14
+		</var>
+		<var
+		id="6f2b0f85-a393-4081-b3a8-376018dc26ce"
+		name="RefundRow_1">
+			2
+		</var>
+		<var
+		id="7ff1d649-078d-4466-b260-50a51c74ac70"
+		name="RefundRow_2">
+			8
+		</var>
+		<var
+		id="8896e7ea-2aab-479a-9f0d-9a3b69a813d5"
+		name="RefundRow_4">
+			13
+		</var>
+		<var
+		id="13e25b04-d544-4cf6-9b1f-a7b25021c5b1"
+		name="RefundRow_3">
+			11
+		</var>
+		<var
+		id="ed9c3fa6-ac3c-4a8d-af65-0ff006e8c6d2"
+		name="NewVariable">
+			^Delivery\ Address\ .*\ \(D
+		</var>
+		<var
+		id="5994bfd1-d1b3-46ff-a9f7-f2c2b045d7fd"
+		name="SalesInvoiceNum">
+		</var>
+		<var
+		id="6ddf93ac-8960-48e8-984d-c65d9d9a7fe8"
+		name="Reference">
+			Reference
+		</var>
+		<var
+		id="507ea350-f885-42d7-a452-65039a69762c"
+		name="SBOStatus_1">
+			2
+		</var>
+		<var
+		id="de53037e-4ae9-4e63-9c2c-68bcf03b36d8"
+		name="SBOStatus_2">
+			3
+		</var>
+		<var
+		id="454cd857-9be1-44cf-8dc3-3d10da0d1562"
+		name="SBOStatus_3">
+			4
+		</var>
+		<var
+		id="a061b182-2669-4777-aa76-1f503a5136e2"
+		name="SBOStatus_4">
+			5
+		</var>
+		<var
+		id="14dcd365-c5e8-492b-be6c-03122308316d"
+		name="PROStatus_1">
+			2
+		</var>
+		<var
+		id="f70c5818-c99a-4c7b-9c6e-9e0bf6b777bd"
+		name="PROStatus_2">
+			3
+		</var>
+		<var
+		id="ca00e50b-0767-42a7-bb0f-19c37638cd33"
+		name="PROStatus_3">
+			4
+		</var>
+		<var
+		id="bfe1cdd7-dbc3-4d4b-b026-ffa0ca888a5c"
+		name="PROStatus_4">
+			5
+		</var>
+		<var
+		id="75f44624-fbaf-45aa-b415-5f7491463b68"
+		name="DonorDepot">
+			IBD961
+		</var>
+	</variables>
+</repository>

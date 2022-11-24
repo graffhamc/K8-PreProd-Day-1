@@ -1,0 +1,1163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2d16614f-982c-4643-a6ae-485d001c8415"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="K8RaiseSTN_PP"
+	namespace="K8_UK_PP_Regression">
+	</codegen>
+	<variables>
+		<var
+		id="9fcd76f9-c289-4f23-ae9d-97e889b83bbd"
+		name="ReceivingDepot">
+			IBDD02
+		</var>
+		<var
+		id="e60682ad-20da-440f-a10a-ac5dab88ce71"
+		name="Product">
+			RKC0070
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3a98c5c4-7e00-4a8b-a2e7-7d3b0d697e4b">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="06e20e19-dd42-4bf3-aed8-2e79739766e9"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27095']/text[@accessiblename='Order number:']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="DoubleClick"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="23;9"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="51d79883-6092-4c8c-ade9-886b5ad91084"
+		sx="1824"
+		sy="117"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="06e20e19-dd42-4bf3-aed8-2e79739766e9"
+			sourcename="Recorder">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="1801,108,203,21"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+						0
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Order number:
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						0
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27095']/text[@accessiblename='Order number:']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="a90cd7a3-6fff-4758-8844-2c4a4e8065fb">
+				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
+DOB2qFtLDLHuaF2VBGWeENwOmMng/n9KSUO4E7Xifao4Y8ks5VjtOOATwemas1VS0dJkIlHlI5dU
+2c5IPfPue1WqmVugxlwxS3kdeCqEj8qi8lRwXlJ9fMb/ABqS5Ba2lVRklCAPwqm0ysxKzxAHGASM
++/epAmZfLdNrPhiVILFgflJ7/SqEP/Ibn/65j/2WrSOHkQB1chix2dhg9fzFVYf+Q3P/ANcx/wCy
+1hV3OijtL0/yNCiiisTIKKKKAIQ8zksuwIGIwQcnBwee35U4zxhQxbhhuHB5HH+IqE+ersESTyyx
+PRc/gd39KPsrlQpkUhV2qDHnjjrk89KuyEPW7jZnHO1VBztPrjHSlN1CBksR1/hORjrnjimLasAR
+5vUD+HoQcjv09qU2pbeWkyzqwJC8c4/wo90NR/2mLGcsecYCHP5YzTkmjkYqhJI9AcfnUMloHcvl
+Cc5w6bh0A6fhUsMIiVgDkE+mOwH9KWlg1BJ43YhWOR7EZ+nrRTI7cqRufcFXao24wPf16CipfkNE
+9FFFABRRSKwYsAeVODQAtFFFABRRRQAUUUUAFZt75sepRTRwvKFTHyg+/f8AGtKig0pz5HexR/tK
+6/58pvzP+FH9pXX/AD5Tfmf8K1fLX0o8tfStvZy7j9pT/k/FmV/aV1/z5Tfmf8KP7Suv+fKb8z/h
+Wr5a+lHlr6Uezl3D2lP+T8WZX9pXX/PlN+Z/wo/tK6/58pvzP+Favlr6UeWvpR7OXcPaU/5PxZlf
+2ldf8+U35n/Cj+0rr/nym/M/4Vq+WvpR5a+lHs5dw9pT/k/FmV/aV1/z5Tfmf8KP7Suv+fKb8z/h
+Wr5a+lHlr6Uezl3D2lP+T8WZX9pXX/PlN+Z/wo/tK6/58pvzP+Favlr6UeWvpR7OXcPaU/5PxZlf
+2ldf8+U35n/Cj+0rr/nym/M/4Vq+WvpR5a+lHs5dw9pT/k/FmV/aV1/z5Tfmf8KP7Suv+fKb8z/h
+Wr5a+lHlr6Uezl3D2lP+T8WZX9pXX/PlN+Z/wo/tK6/58pvzP+Favlr6UeWvpR7OXcPaU/5PxZlf
+2ldf8+U35n/Cj+0rr/nym/M/4Vq+WvpR5a+lHs5dw9pT/k/FmV/aV1/z5Tfmf8KP7Suv+fKb8z/h
+Wr5a+lHlr6Uezl3D2lP+T8WZX9pXX/PlN+Z/wo/tK6/58pvzP+Fajqiozbc4GetM2N3K/kf8aPZy
+7h7Sn/J+LM3+0rr/AJ8ZvzP+FMsvNk1KWaSF4gyY+YH27/hWoQVIztIORxkY4+tNqJRcdxqrGzUY
+2uFFFFQYhRRRQAUVF5/zkCN2UHBYDgH+dS0AFFJuAcLn5iMgUtABRSBgXK55ABIpaACiiigCoISH
++aDceNrbvuD0z1piwSAAiLaVxu5H7whgc/oevrV6iq5mKxTWAyzs8sPynOA2D2X/AANPs4miVw0e
+1jj5uOeB/XNWaKOZ2sFil9lZY0CRgHy8OAR8xyOD+tTQR7F5i2gvlV4+Tj/9fT1qeihybCwUUUVI
+wooooAKKKKALNFRea3oKPNb0FdPtIk2JaKi81vQUea3oKPaRCxLRUXmt6CjzW9BR7SIWJaKi81vQ
+Uea3oKPaRCxLRUXmt6CjzW9BR7SIWJaKi81vQUea3oKPaRCxLRUXmt6CjzW9BR7SIWJaKi81vQUe
+a3oKPaRCxLRUXmt6CjzW9BR7SIWJaKi81vQUea3oKPaRCxLRUXmt6CjzW9BR7SIWHTf6l/8AdNIS
+QT8pP5U0ykjBAxTBgDjP/fR/xo9pELD3OdvBHJ6/Q0ylyM5xk4xySaSsqklJ6DSCiiisxhRRRQBT
+FykLNFujJ3k58xQBk9+c/pTRbOQB5W3oHOR853A5/n19avUVXN2FYpfZyk7MkK4wwTgYHA/TrTY7
+d13fuWMeVJQ7Bu69hx6dav0UczCxWt4tk7N5HlhlGOQccnj+XtTfs7KAyRr5m5ySe4OcZ9ulW6KO
+ZjsZUtnM0ZWOJgMg4O0euenHpRWrRVqq0TyhRVISTMhdnKkMq7Qo7gZ/nURuGjtotkwGIwfmZQD7
+Djn9KnkY7mlRVCeQtHKDPtfDDygAeP5/jVyMg4xJv+Udx+dS1Ydx9FFFIAooooAKKKKACiiigB+1
+PM2eau/+73/KneT/ALX6VBuHnbMjzPOzjvjHX8qt11ezj2JuyPyf9r9KPJ/2v0qSij2cewXZH5P+
+1+lHk/7X6VJRR7OPYLsj8n/a/Sjyf9r9Kkoo9nHsF2R+T/tfpR5P+1+lSUUezj2C7I/J/wBr9KPJ
+/wBr9Kkoo9nHsF2R+T/tfpR5P+1+lSUUezj2C7I/J/2v0o8n/a/SpKKPZx7Bdkfk/wC1+lHk/wC1
++lSUUezj2C7I/J/2v0o8n/a/SpKKPZx7Bdkfk/7X6UeT/tfpUlFHs49guyIxhQSW4HPSmYP91v0/
+xqWb/Uv/ALppCygkFgD9aPZx7BdkeOcEMM9Mgc/rSU9yDtwQeT/I0ysakUnoNBRRRWYwooooAjae
+FX2NKgb0LDNSVTkEmLkhl2Z+YbeSNozg5/pTPtE3mPhlON2I85OAODjGfTvV8t9hXL9FUkuNsw/0
+kSRcZY7cDIPcfQU1JpJJgFkwGONygZx83+ApcrC5fpAQScEHHB9qoJcTlWLSL0+YA5MfPpjjHPXN
+T2rKTIRNvBk4bj5vlH+ePShxsFyzRRRUjCiiigAooooAKKKKACiiigAooooAKKKKAJvNX0NHmr6G
+o/Lb0o8tvStuafYVkSeavoaPNX0NR+W3pR5belHNPsFkSeavoaPNX0NR+W3pR5belHNPsFkSeavo
+aPNX0NR+W3pR5belHNPsFkSeavoaPNX0NR+W3pR5belHNPsFkSeavoaPNX0NR+W3pR5belHNPsFk
+SeavoaPNX0NR+W3pR5belHNPsFkSeavoaPNX0NR+W3pR5belHNPsFkSeavoaPNX0NR+W3pR5belH
+NPsFkSeavoaPNX0NR+W3pR5belHNPsFkSeavoaPNX0NR+W3pR5belHNPsFkPaRWUqQcEYpm5v7wP
+/Af/AK9IylRkjikyf7rf98mjmn2CyHZycsc46ADH9abSZx1DD6qaWok29xoKKKKgAooooAKQjIIO
+eeODilooAjjgSNy679xGCWcn+ZqSiigAooooAKKKKAP/2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="bt"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="2ea03e2b-fb84-4c41-b66f-794b6fb3ce73">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="06e20e19-dd42-4bf3-aed8-2e79739766e9"
+			sourcename="Recorder">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27095']/text[@accessiblename='Order number:']
+				</path>
+			</info>
+		</keysequenceitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="9f68f3f5-fd4f-4f48-86d4-972fac55d9be">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="75965fd6-c085-4e59-a50e-52e7889b3bcc"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27095']/?/?/text[@accessiblerole='Text']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<keysequenceitem
+		KeySequence="{Tab}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="2e0276d9-debd-40a6-bef6-4feb4fb98d67">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="75965fd6-c085-4e59-a50e-52e7889b3bcc"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^pl1139\ K8UPGRD\ -\ Sales\ Orde']/?/?/element[@controlid='26683']/?/?/element[@controlid='26716']/?/?/element[@controlid='27095']/?/?/text[@accessiblerole='Text']
+				</path>
+			</info>
+		</keysequenceitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="061cecf1-b635-4ca7-b20c-43fb0ed90b81">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a22b8675-6395-41fd-96f3-1c6001042d14"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="1"
+				prefcap="unknown"
+				rect="264,150,236,26"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						KCMLDBEdit_32
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						27153
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						265508
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						11216
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						kclient
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, ClientEdge
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@accessiblename='Account no:']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="899a3df6-0e3a-4a2d-864b-42c54fdf7490"
+		sx="382"
+		sy="163"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a22b8675-6395-41fd-96f3-1c6001042d14"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="1"
+				prefcap="unknown"
+				rect="264,150,236,26"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						KCMLDBEdit_32
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						27153
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						265508
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						11216
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						kclient
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, ClientEdge
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@accessiblename='Account no:']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="IBDD02"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="6c6be24b-9171-47e3-93d0-e15ab961d099">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="ReceivingDepot">
+				</binding>
+			</bindings>
+			<info
+			id="a22b8675-6395-41fd-96f3-1c6001042d14"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="1"
+				prefcap="unknown"
+				rect="264,150,236,26"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						KCMLDBEdit_32
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						27153
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						265508
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						11216
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						kclient
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, ClientEdge
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@accessiblename='Account no:']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Tab}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="cb4c817f-35de-40ce-9a20-cec8e2d3b08d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a22b8675-6395-41fd-96f3-1c6001042d14"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="1"
+				prefcap="unknown"
+				rect="264,150,236,26"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						KCMLDBEdit_32
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						27153
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						265508
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						1
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						11216
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						kclient
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, ClientEdge
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@accessiblename='Account no:']
+				</path>
+			</info>
+		</keysequenceitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="c144ec0e-34b7-415e-916b-70a01104be04">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d367ea14-6a47-4a7f-82ae-a1b9c04de3cb"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="1"
+				prefcap="cell"
+				rect="138,353,92,19"
+				role="cell"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="isheader"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Product Code
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Cell
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						ReadOnly, Focusable, Selectable
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_1]/cell[@accessiblename='Product Code']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8f4a5d6e-da44-4b31-bff2-b88e4a4a228a"
+		sx="184"
+		sy="362"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d367ea14-6a47-4a7f-82ae-a1b9c04de3cb"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="1"
+				prefcap="cell"
+				rect="138,353,92,19"
+				role="cell"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="isheader"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Product Code
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Cell
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						ReadOnly, Focusable, Selectable
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//element[@controlid='100']/table[@accessiblename='']/row[$Row_1]/cell[@accessiblename='Product Code']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="a2566739-b85c-41e2-9c40-47a8aef3c2f0">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4d56d79f-d07a-4d3a-a43a-4e54992c888e"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="1"
+				prefcap="text"
+				rect="139,355,70,17"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//text[@accessiblerole='Text']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<keysequenceitem
+		KeySequence="RKC0070"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="f1dee016-09dd-4e27-b13b-e2c10a029417">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="Product">
+				</binding>
+			</bindings>
+			<info
+			id="4d56d79f-d07a-4d3a-a43a-4e54992c888e"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="1"
+				prefcap="text"
+				rect="139,355,70,17"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//text[@accessiblerole='Text']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Tab}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="3bc632a4-99a9-43ef-b256-2726a4138aeb">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="4d56d79f-d07a-4d3a-a43a-4e54992c888e"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="1"
+				prefcap="text"
+				rect="139,355,70,17"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -\ Sales\ Order']/element[@class='KCMLDlgWndClass_32']/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']//text[@accessiblerole='Text']
+				</path>
+			</info>
+		</keysequenceitem>
+	</recorditems>
+	<repository
+	id="1adcd73d-acba-446e-a5d5-c5a16120c7ec"
+	name="K8_UK_SOP_RegressionRepository"
+	relativepath="K8_UK_SOP_RegressionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="K8_UK_SOP_RegressionRepository"
+		namespace="K8_UK_PP_Regression">
+		</codegen>
+		<rootfolder
+		id="2b5dd7ef-5e90-4f11-a335-72c4f1a3e29d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		K8RaiseSTN_PP.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

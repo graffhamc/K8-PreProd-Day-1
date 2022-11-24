@@ -1,0 +1,1702 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="52cd503c-e354-4f03-9db5-b2c071400568"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="K8ReceiveSTN_PP"
+	namespace="K8_UK_PP_Regression">
+	</codegen>
+	<variables>
+		<var
+		id="63b9c467-003e-4529-9027-3dd6d277180d"
+		name="DonorDepot">
+			IBD961
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="6c52301e-d9bb-4363-9cdb-2f2b8be31400">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="08bb80ae-fa8d-44c3-8530-4aa7531da1e4"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="2"
+				prefcap="button"
+				rect="112,54,44,44"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Open
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						press
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						CTRL+O
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Open
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Open']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Open
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="4a16d6e8-528c-4c15-80d5-fae731a0400a"
+		sx="134"
+		sy="76"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="08bb80ae-fa8d-44c3-8530-4aa7531da1e4"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="2"
+				prefcap="button"
+				rect="112,54,44,44"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Open
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						press
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						CTRL+O
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Open
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Open']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="57f7f2b4-608d-4bca-919a-456b2b6129b9">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="83d8e346-b2ba-41a4-8019-0866e39b5bf5"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="899,390,247,21"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Purchase Order Search']/?/?/element[@controlid='26714']/?/?/text[@accessiblerole='Text']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="278b3a2c-15a8-4e74-b9e9-316b5ebda4c6"
+		sx="1022"
+		sy="400"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="83d8e346-b2ba-41a4-8019-0866e39b5bf5"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="899,390,247,21"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Purchase Order Search']/?/?/element[@controlid='26714']/?/?/text[@accessiblerole='Text']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="87e8d189-2efe-4c28-9845-ae4a55e4ad70">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="DonorDepot">
+				</binding>
+			</bindings>
+			<info
+			id="83d8e346-b2ba-41a4-8019-0866e39b5bf5"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="899,390,247,21"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Purchase Order Search']/?/?/element[@controlid='26714']/?/?/text[@accessiblerole='Text']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="{Tab}"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="d332790e-7a1f-4a37-850c-ffd969fb1e64">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="83d8e346-b2ba-41a4-8019-0866e39b5bf5"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="text"
+				rect="899,390,247,21"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+						IBD961
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Text
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+						IBD961
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Purchase Order Search']/?/?/element[@controlid='26714']/?/?/text[@accessiblerole='Text']
+				</path>
+			</info>
+		</keysequenceitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="615e0a00-6950-439d-8c9b-74a73926e05a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="627e5bde-13db-4721-9731-785d981335c5"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="1"
+				prefcap="row"
+				rect="604,395,687,19"
+				role="row"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Row
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Search Results']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']/row[2]
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9e984d73-58d1-47fa-9f69-1cb650594148"
+		sx="947"
+		sy="404"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="627e5bde-13db-4721-9731-785d981335c5"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="1"
+				prefcap="row"
+				rect="604,395,687,19"
+				role="row"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Row
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Search Results']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']/row[2]
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="068f1ba2-9f21-41f3-8e2c-0c638ee9cc45">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b2789894-9c5c-4bd5-a298-1edd91203fc9"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="1084,744,112,28"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Finish
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Press
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						Alt+f
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Finish
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Default, Focusable
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Search Results']/?/?/element[@controlid='1']/button[@accessiblename='Finish']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Finish
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="fc052147-bbd9-4b8e-b695-51d249421901"
+		sx="1140"
+		sy="758"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b2789894-9c5c-4bd5-a298-1edd91203fc9"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="1084,744,112,28"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Finish
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Press
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						Alt+f
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Finish
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Default, Focusable
+					</attribute>
+				</element>
+				<path>
+					/form[@title='Search Results']/?/?/element[@controlid='1']/button[@accessiblename='Finish']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="4b107afd-6b26-4e66-bd34-d3e72fca292d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="75da866c-c16f-4248-9975-203f9a022fd6"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="44"
+				prefcap="button"
+				rect="18,538,74,66"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Receipts
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Press
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						Alt+r
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Receipts
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid='26931']/?/?/button[@accessiblename='Receipts']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Receipts
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="8efc7b98-1348-41a5-ac8d-0ec8a0cd2193"
+		sx="55"
+		sy="571"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="75da866c-c16f-4248-9975-203f9a022fd6"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="44"
+				prefcap="button"
+				rect="18,538,74,66"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Receipts
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Press
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						Alt+r
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Receipts
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focusable
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid='26931']/?/?/button[@accessiblename='Receipts']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3cb770a1-24ec-49ef-9068-2caec349aa6d">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="75579a7b-d987-4add-982e-e90db00da356"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="1"
+				prefcap="row"
+				rect="112,353,1791,19"
+				role="row"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Row
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']/row[2]
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Right"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="7364016f-7b0f-4f1e-b67a-e71d12b4ad64"
+		sx="1007"
+		sy="362"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="75579a7b-d987-4add-982e-e90db00da356"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="1"
+				prefcap="row"
+				rect="112,353,1791,19"
+				role="row"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="selected"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Row
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblevalue"
+					type="System.String">
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']/?/?/element[@controlid~'[d]*']/?/?/element[@controlid~'[d]*']/?/?/table[@accessiblename='']/row[2]
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="4c8a3d7c-87cb-42a5-bef2-30eacaae594a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a6dfff1e-965d-4921-a8a6-02dcb81fc313"
+			sourcename="ElementTree">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="True"
+				index="16"
+				prefcap="menuitem"
+				rect="980,685,255,24"
+				role="menuitem"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Confirm all lines
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						Execute
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						c
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Confirm all lines
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						MenuItem
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Focused, HotTracked
+					</attribute>
+				</element>
+				<path>
+					/contextmenu[@processname='kclient']/?/?/menuitem[@accessiblename='Confirm all lines']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="2fe05582-5823-402d-9399-76b073f9c3c0">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAHUAdQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDbooor
+jLCiiigAooooAKKKKACiiigAooooAKdD/qI/90fyptOh/wBRH/uj+VbUupLH0UUVsID0NB6nrQeh
+pssixI0kh2qvJNADvzo/OoIbhpWANvNGpGQzgYP4ZyPxFT0AH50fnRRQAfnR+dFFAB+dH50UUAH5
+0fnRRQAfnR+dFFAB+dH50UUAH50fnRRQAfnR+dFFAB+dH50UUAH50fnRRQAfnR+dFFAB+dH50UUA
+H51T1D78H+8auVT1D78H+8amWwE46UUDpRXKWFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABR
+RRQAUUUUAFFFFABRRRQAUUUUAFOh/wBRH/uj+VNp0P8AqI/90fyral1JY+iiithAehqtqKM9sdil
+trq5UdSAwJH6VZPQ0p6mgClLeRz2sospkkm8slVU5IOPTt+NQQi0+0W5sdm/J83b124P3++c4685
+rTooAxIPs5ggEWPtnmjH98Ddz77cZ9qsxIftgtCp2QuZenBB+6PzJ/75q/DEsESxqSQvrTYYBEzu
+XZ3c8s2M47DjtQgJaKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAq
+nqH34P8AeNXKp6h9+D/eNTLYCcdKKB0orlLCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACnQ/6iP8A3R/Km06H/UR/7o/lW1LqSx9FFFbCA9DTZZFiRpJDtVeS
+acehqtqKM9sdiltrq5UdSAwJH6UAOhuGlYA280akZDOBg/hnI/EVPVOW8jntZRZTJJN5ZKqpyQce
+nb8aghFp9otzY7N+T5u3rtwfv985x15zQBp0ViQfZzBAIsfbPNGP74G7n324z7VZiQ/bBaFTshcy
+9OCD90fmT/3zQgLV3dfZU3mGR0AyWTbx+ZFSxOzplonjOfusRn9Car6p/wAg6b6D+Ypl95f2mH7V
+t+zYbO/7u7jGe3r1oAvUVRs5Iot4UgQPLiDA4Py5OPbINWYbmKcgRPuyofoRweh/SgCWiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACqeoffg/3jVyqeoffg/3jUy2AnHSigdKK5Swo
+oooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAp0P8AqI/90fyp
+tOh/1Ef+6P5VtS6ksfRRRWwgPQ0p6mkPQ0HqetABRR+dH50AMhiWCJY1JIX1psMAiZ3Ls7ueWbGc
+dhx2qX86PzoAKKPzo/OgAoo/Oj86ACij86PzoAKKPzo/OgAoo/Oj86ACij86PzoAKKPzo/OgAoo/
+Oj86ACij86PzoAKKPzo/OgAoo/Oj86ACqeoffg/3jVz86p6h9+D/AHjUy2AnHSigdKK5SwooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAp0P+oj/wB0fyptOh/1
+Ef8Auj+VbUupLH0UUVsID0NNmkESM5BIHpTj0NQ3v/HtJ/nvQA5JdzlCjI2M4bHI/CpKqvvjaRdx
+aRkPlsev0qNF+VmgkjL7D8qLgn689aAL1IxIUkAt7CqjeV9nb7OV3YG4gZOM85703aohlMckbDAy
+I1wBz9TQBeoqq4PnmHHyyEOfp3/kPzqMLulO+SNZd/GV+bGeMHPTFAFx3Cbc5+ZgoxSkkEDaTnv6
+VDdEKsZYgASDJNBdHniKMrD5uQc9qAJ6KpRIES3dQN7Egn14NJbKC8ZMkYlB+YBfnPqDzQBeoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACqeoffg/3jVyqeoffg/wB41MtgJx0ooHSiuUsK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKdD/qI/8AdH8q
+bTof9RH/ALo/lW1LqSx9FFFbCA9DSnqaQ9DTZXEas7ZwPSgB1FISRjCk89qWgAoopGYIAWOMkCgB
+aKKRm2qWPQDNAC0UyOQyDPlsoxkFsc/kaczbVLHoBmgBaKYsgZgoByV3fhT6ACiiigAooooAKKKK
+ACiiigAooooAKKKKACiiigAooooAKp6h9+D/AHjVyqeoffg/3jUy2AnHSigdKK5SwooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAp0P+oj/AN0fyptOh/1Ef+6P
+5VtS6ksfRRRWwgPQ1De/8e0n+e9THoaU9TQBWlkSTy9jq2JBnac1EUUI0mPnE3B9Pmq7RQBRC7pT
+vkjWXzOMr83XjBz0xU94qGNS4UgOuSR0GanooApnyN8nn7O3l5/u4/h/+tUw3fY/nzu8vnP0qaig
+CqyutoPndgQuenA74wPSk/dbm+z7dnltu2dM9vx61booAqHf/wAs/veRx9aFELPGINued+OuMd/x
+x1q3RQBQDMgEhyfI+Q+/b/CrkKbIlU9QOfrT6KACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AqnqH34P941cqnqH34P941MtgJx0ooHSiuUsKKKKACiiigAooooAKKKKACiiigAooooAKKKKACii
+igAooooAKKKKACiiigAooooAKdD/AKiP/dH8qbTof9RH/uj+VbUupLH0UUVsID0NI7BAzMcAck0p
+6GorpS0Z2gnDAkDuAaAFSQuf9U6g9Ccf41JUJuImjYowchSdqnn/AOtVVdoMmwx4MJJ8sYH/ANc0
+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
+AUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
+			</helperscreenshot>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				Confirm all lines
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="cabf192e-80d9-482f-887b-34933c0dfb0a"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a6dfff1e-965d-4921-a8a6-02dcb81fc313"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="16"
+				prefcap="menuitem"
+				rect="0,0,0,0"
+				role="menuitem"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="checked"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/contextmenu[@processname='kclient']/?/?/menuitem[@accessiblename='Confirm all lines']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<validationitem
+		action="Exists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="5c948864-a7c4-4c8a-ab8d-40b3e6b64650">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="69f8e88e-516e-40a6-a64e-c0b88b7d6542"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Save']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a1296c1d-d80d-4b5f-9a63-e0c1d9f52c59"
+		sx="178"
+		sy="76"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="69f8e88e-516e-40a6-a64e-c0b88b7d6542"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="accessible"
+				dontcache="False"
+				enabled="True"
+				flavor="msaa"
+				hasfocus="False"
+				index="3"
+				prefcap="button"
+				rect="156,54,44,44"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						Save
+					</attribute>
+					<attribute
+					name="accessibledefaultaction"
+					type="System.String">
+						press
+					</attribute>
+					<attribute
+					name="accessiblekeyboardshortcut"
+					type="System.String">
+						CTRL+S
+					</attribute>
+					<attribute
+					name="accessiblename"
+					type="System.String">
+						Save
+					</attribute>
+					<attribute
+					name="accessiblerole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						PushButton
+					</attribute>
+					<attribute
+					name="accessiblestate"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						None
+					</attribute>
+				</element>
+				<path>
+					/form[@title~'^sl1071\ K8UKPPD\ 1\    -']//toolbar[@accessiblerole='ToolBar']/button[@accessiblename='Save']
+				</path>
+			</info>
+		</mouseitem>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="False"
+		searchpropertyid="e7001eff-2541-4f01-974f-6c4647ec5ddb">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fb43302b-9923-4416-9d42-3ec8d6dfcc8c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="971,565,100,35"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&amp;Yes
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						6
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						4131414
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						11564
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						kclient
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Group, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						&amp;Yes
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Purchase Order']/button[@text='&amp;Yes']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				&amp;Yes
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="55b8d3f7-148b-4344-a90f-0a9a7b1a2900"
+		sx="1021"
+		sy="582"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fb43302b-9923-4416-9d42-3ec8d6dfcc8c"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="nativewindow"
+				dontcache="False"
+				enabled="True"
+				flavor="win32"
+				hasfocus="False"
+				index="0"
+				prefcap="button"
+				rect="971,565,100,35"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="pressed"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="text"
+					type="System.String">
+						&amp;Yes
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						Button
+					</attribute>
+					<attribute
+					name="controlid"
+					type="System.Int32">
+						6
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						4131414
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						11564
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						kclient
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral">
+						RightScrollBar, Left, NoParentNotify
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral">
+						Tiled, MaximizeBox, Group, Visible, ChildWindow
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						&amp;Yes
+					</attribute>
+					<dynamicattribute
+					description="The default action of the accessible object."
+					name="AccessibleDefaultAction"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The description of the accessible object."
+					name="AccessibleDescription"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The help string of the accessible object."
+					name="AccessibleHelp"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The filename and topic identifier of the associated WinHelp file for the accessible object."
+					name="AccessibleHelpTopic"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The keyboard shortcut of the accessible object."
+					name="AccessibleKeyboardShortcut"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The name of the accessible object."
+					name="AccessibleName"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The role of the accessible object."
+					name="AccessibleRole"
+					type="System.Windows.Forms.AccessibleRole, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The state of the accessible object."
+					name="AccessibleState"
+					type="System.Windows.Forms.AccessibleStates, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+					</dynamicattribute>
+					<dynamicattribute
+					description="The value of the accessible object."
+					name="AccessibleValue"
+					readonly="False"
+					truncationlength="-1"
+					type="System.String">
+					</dynamicattribute>
+					<dynamicaction
+					description="Invokes the default action of the accessible object."
+					displayName="AccessibleDoDefaultAction">
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@title='Purchase Order']/button[@text='&amp;Yes']
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="5000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="1adcd73d-acba-446e-a5d5-c5a16120c7ec"
+	name="K8_UK_SOP_RegressionRepository"
+	relativepath="K8_UK_SOP_RegressionRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="K8_UK_SOP_RegressionRepository"
+		namespace="K8_UK_PP_Regression">
+		</codegen>
+		<rootfolder
+		id="2b5dd7ef-5e90-4f11-a335-72c4f1a3e29d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		K8ReceiveSTN_PP.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
